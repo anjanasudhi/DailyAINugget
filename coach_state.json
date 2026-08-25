@@ -1,12 +1,12 @@
 {
   "cursors": {
-    "interview_category": 1,
-    "swe": 1,
-    "fde_snippet": 1
+    "interview_category": 2,
+    "swe": 2,
+    "fde_snippet": 2
   },
   "pending_interview": {
-    "category": "Coding/DS&A (rusty-but-senior level: reasoning about complexity and clean logic, not LeetCode grinding)",
-    "question": "You have a list of intervals representing calendar events, each as a [start, end] pair (integers, end exclusive). Given a new meeting request [s, e], write a function that returns the merged list of intervals after inserting the new event \u2014 handling all overlap cases correctly. Then: what is the time complexity of your solution, and is there a scenario where you could do better than O(n)?"
+    "category": "System design \u2014 general (e.g. a URL shortener, a rate limiter, a notification system)",
+    "question": "Design a real-time collaborative document editing system (think Google Docs) that supports concurrent edits from thousands of simultaneous users on the same document. Walk through your architecture end to end: how you handle conflict resolution between concurrent edits, how you propagate changes to all connected clients with low latency, how you persist state durably without losing edits, and where your main scalability bottlenecks are."
   },
   "history": [
     {
@@ -14,6 +14,12 @@
       "day_name": "Tuesday",
       "pillar_label": "Software & systems engineering",
       "concept_summary": "CAP theorem, consensus algorithms, and replication tradeoffs in distributed systems production failures."
+    },
+    {
+      "date": "2026-08-25",
+      "day_name": "Tuesday",
+      "pillar_label": "Software & systems engineering",
+      "concept_summary": "REST/GraphQL/gRPC tradeoffs: boundary-based protocol selection and production failure modes."
     }
   ]
 }
