@@ -1,0 +1,19 @@
+{
+  "cursors": {
+    "interview_category": 1,
+    "swe": 1,
+    "fde_snippet": 1
+  },
+  "pending_interview": {
+    "category": "Coding/DS&A (rusty-but-senior level: reasoning about complexity and clean logic, not LeetCode grinding)",
+    "question": "You have a list of intervals representing calendar events, each as a [start, end] pair (integers, end exclusive). Given a new meeting request [s, e], write a function that returns the merged list of intervals after inserting the new event \u2014 handling all overlap cases correctly. Then: what is the time complexity of your solution, and is there a scenario where you could do better than O(n)?"
+  },
+  "history": [
+    {
+      "date": "2026-08-25",
+      "day_name": "Tuesday",
+      "pillar_label": "Software & systems engineering",
+      "concept_summary": "CAP theorem, consensus algorithms, and replication tradeoffs in distributed systems production failures."
+    }
+  ]
+}
