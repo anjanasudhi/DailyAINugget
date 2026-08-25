@@ -63,7 +63,7 @@ import re
 import sys
 import json
 import argparse
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, date, timezone, timedelta
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -82,6 +82,14 @@ IST = timezone(timedelta(hours=5, minutes=30))
 
 def now_ist() -> datetime:
     return datetime.now(IST)
+
+
+# While today is before this date, every section is written at a 101/foundations
+# level (define building-block terms before any comparison/tradeoff, prioritize
+# beginner-level video links). After this date, it reverts to the senior/staff-level
+# calibration. Extend this (or set it further out) if more ramp-up time is needed;
+# set it to today or the past to switch back to advanced immediately.
+FOUNDATIONS_MODE_UNTIL = date(2026, 12, 25)
 
 
 # Day-of-week (datetime.weekday(): Monday=0 ... Sunday=6) -> deep-dive pillar.
@@ -230,6 +238,7 @@ def build_plan(state: dict, run_date: datetime, pillar_override: str = None) -> 
         "pillar": pillar,
         "pillar_label": PILLAR_LABELS[pillar],
         "next_pillar_label": PILLAR_LABELS[next_pillar],
+        "foundations_mode": run_date.date() < FOUNDATIONS_MODE_UNTIL,
         "topic": None,
         "fde_snippet_topic": None,
         "interview_category": _next_from_list(state, "interview_category", INTERVIEW_CATEGORIES),
@@ -249,14 +258,22 @@ def build_plan(state: dict, run_date: datetime, pillar_override: str = None) -> 
 
 
 def _build_prompt(plan: dict) -> str:
+    foundations = plan["foundations_mode"]
+
     if plan["pending_interview"]:
+        answer_style = (
+            "Write the model answer in plain, foundational language — define any technical "
+            "term the first time you use it, don't assume unexplained jargon."
+            if foundations else
+            "Keep it concise and technical, staff-engineer level."
+        )
         pending_block = f"""
 0. YESTERDAY'S ANSWER (open with this, before anything else): Yesterday's interview
    question was, in category "{plan['pending_interview']['category']}":
    "{plan['pending_interview']['question']}"
    Assume I likely didn't get to attempt it. Give a concise (4-6 sentence) model answer
    to THIS EXACT question under a clear label (e.g. "↩️ Yesterday's Answer"), then move
-   straight on to today's content."""
+   straight on to today's content. {answer_style}"""
     else:
         pending_block = ""
 
@@ -273,23 +290,55 @@ def _build_prompt(plan: dict) -> str:
         history_context = "No prior material recorded yet (this is the first session)."
         recall_instruction = "RECALL CHECK: Skip it — say in one short line that recall material is still building up this week."
 
+    plain_language_note = (
+        " Write in plain, jargon-light language — define any technical term the first time "
+        "you use it, as if for someone technical but new to this specific topic."
+        if foundations else ""
+    )
+
     if plan["pillar"] == "news_roundup":
-        concept_block = """CONCEPT SLOT — DEEP NEWS ROUNDUP: Today's pillar is the news roundup. Search the web
+        concept_block = f"""CONCEPT SLOT — DEEP NEWS ROUNDUP: Today's pillar is the news roundup. Search the web
    for 3-4 genuinely recent (last 3-5 days), dated AI/engineering developments relevant
    to a senior AI/engineering leader. For each: a 1-2 sentence summary plus why it
-   matters for someone doing AI/eng leadership or FDE work. No learn-more link needed
-   for this slot."""
+   matters for someone doing AI/eng leadership or FDE work.{plain_language_note} No
+   learn-more link needed for this slot."""
     elif plan["pillar"] == "review_quiz":
-        concept_block = """CONCEPT SLOT — WEEKLY RECAP & QUIZ: No new teaching today. Using the material listed
+        concept_block = f"""CONCEPT SLOT — WEEKLY RECAP & QUIZ: No new teaching today. Using the material listed
    above under "covered earlier this week", write one line per concept recapping what
    was covered Monday-Saturday, then turn 2-3 of them into quick recall questions
-   (don't answer them). No learn-more link needed for this slot."""
+   (don't answer them).{plain_language_note} No learn-more link needed for this slot."""
     elif plan["pillar"] == "fde_case":
         concept_block = f"""CONCEPT SLOT — DEEP FDE CASE DIVE: Today's deep dive is the FDE case pillar. Write an
    applied scenario around "{plan['topic']}" — set the scene (2-3 sentences), the
    ambiguity or tension in it, then walk through a framework for reasoning through it
    and a concrete example resolution. This is the deep-dive version, so a full page is
-   fine here. No learn-more link needed for this slot."""
+   fine here.{plain_language_note} No learn-more link needed for this slot."""
+    elif foundations:
+        concept_block = f"""CONCEPT OF THE DAY: The topic is "{plan['topic']}". Assume I'm technical and
+   experienced generally, but NEW to this specific topic — I'm deliberately spending the
+   next few months building 101-level foundations before going deep, so don't skip basics
+   here even though you would for other senior-level topics. Structure it in two clearly
+   labeled parts:
+   PART 1 — THE BASICS: If this topic is really a comparison of multiple building-block
+   ideas (e.g. "REST vs GraphQL vs gRPC" or "fine-tuning vs prompting vs RAG"), first
+   explain EACH one on its own in plain language with a simple analogy — what it is and
+   what problem it solves — before any comparison. If it's a single concept, just explain
+   what it is, why it exists, and the simplest possible mental model for it.
+   PART 2 — HOW THEY COMPARE / WHY IT MATTERS: Only after part 1 is done, get into the
+   tradeoffs, when to use which, a real-world failure mode, and one line on how this shows
+   up in an FDE/leadership context. Keep this part shorter than part 1.
+   Define any technical term the first time you use it — don't assume unexplained jargon.
+   Then give 1-2 "watch/learn more" recommendations: prioritize a genuinely 101/beginner
+   level intro resource (one per building-block concept if there are several, e.g. a
+   "what is REST" video and a "what is GraphQL" video), optionally followed by ONE
+   slightly deeper resource if you want to build up further on the same topic. Pick from
+   this preferred list where it fits (don't force 3Blue1Brown into everything, and prefer
+   videos explicitly aimed at beginners/explainers over deep technical talks):
+{PREFERRED_RESOURCES}
+   Only give a URL you found via web search and are sure is correct/live. If you're not
+   sure of the exact URL, name the channel/video and give a precise search phrase
+   instead (e.g. "search YouTube: what is REST API for beginners") rather than guessing a
+   link."""
     else:
         concept_block = f"""CONCEPT OF THE DAY: Explain "{plan['topic']}" the way you'd explain it to a strong
    staff engineer — skip 101-level basics, go straight to the mechanism, why it matters,
@@ -306,7 +355,7 @@ def _build_prompt(plan: dict) -> str:
     if plan["fde_snippet_topic"]:
         fde_snippet_block = f"""FDE CASE SNIPPET: Write a short applied scenario (2-4 sentences) around
    "{plan['fde_snippet_topic']}" that I have to reason through — end on an open question,
-   don't give the answer, keep it brief."""
+   don't give the answer, keep it brief.{plain_language_note}"""
     else:
         fde_snippet_block = ""
 
@@ -321,11 +370,23 @@ def _build_prompt(plan: dict) -> str:
         "like \"reply X\" — this is a one-way message, not a live chat)"
     )
 
+    if foundations:
+        calibration = """I'm senior in my actual job (management/stakeholder work), but genuinely NEW to a lot
+of the hands-on AI/engineering material this session covers — I'm deliberately spending
+the next few months building 101-level foundations before ramping back up to advanced
+material. So across EVERY section below (not just the concept of the day): explain things
+plainly, define technical terms and acronyms the first time you use them, don't assume
+unexplained jargon, and don't rush past the basics to get to the "interesting" tradeoff
+part. It's fine for an explanation to spend most of its length on fundamentals."""
+    else:
+        calibration = """I'm senior, not a beginner. Skip 101-level definitions unless I ask for them. Go
+straight to the mechanism, the tradeoff, or the "here's what actually breaks in
+production" angle."""
+
     return f"""You are my daily learning coach. I'm a senior manager leading AI/engineering
-teams and working toward an FDE (Forward Deployed Engineer) Lead role. I'm senior, not a
-beginner — skip 101-level definitions, go straight to mechanism/tradeoffs/what-breaks-in-
-production. This is maintenance, not cramming: keep the tone like a smart peer doing a
-daily sync. Optimize for retention over coverage.
+teams and working toward an FDE (Forward Deployed Engineer) Lead role. {calibration} This
+is maintenance, not cramming: keep the tone like a smart peer doing a daily sync. Optimize
+for retention over coverage.
 
 Today is {plan['day_name']}, {plan['date']}. Today's deep-dive pillar is: {plan['pillar_label']}.
 
