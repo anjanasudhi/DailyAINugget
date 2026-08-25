@@ -265,6 +265,29 @@ def send_email(subject: str, message: str) -> None:
     print(f"Sent email to {to_address}. Resend id: {result.get('id')}")
 
 
+TELEGRAM_MAX_LEN = 4000  # Telegram's hard limit is 4096 chars; leave some headroom
+
+
+def _chunk_message(message: str, max_len: int) -> list[str]:
+    """Split into chunks <= max_len, breaking on blank lines/newlines where possible."""
+    if len(message) <= max_len:
+        return [message]
+
+    chunks = []
+    remaining = message
+    while len(remaining) > max_len:
+        split_at = remaining.rfind("\n\n", 0, max_len)
+        if split_at == -1:
+            split_at = remaining.rfind("\n", 0, max_len)
+        if split_at == -1:
+            split_at = max_len
+        chunks.append(remaining[:split_at].strip())
+        remaining = remaining[split_at:].strip()
+    if remaining:
+        chunks.append(remaining)
+    return chunks
+
+
 def send_telegram(message: str) -> None:
     import urllib.request
     import urllib.error
@@ -272,27 +295,28 @@ def send_telegram(message: str) -> None:
     bot_token = os.environ["TELEGRAM_BOT_TOKEN"]
     chat_id = os.environ["TELEGRAM_CHAT_ID"]
 
-    payload = json.dumps({
-        "chat_id": chat_id,
-        "text": message,
-    }).encode("utf-8")
+    for chunk in _chunk_message(message, TELEGRAM_MAX_LEN):
+        payload = json.dumps({
+            "chat_id": chat_id,
+            "text": chunk,
+        }).encode("utf-8")
 
-    request = urllib.request.Request(
-        f"https://api.telegram.org/bot{bot_token}/sendMessage",
-        data=payload,
-        headers={
-            "Content-Type": "application/json",
-            "User-Agent": "Mozilla/5.0 (compatible; daily-ai-nugget/1.0)",
-        },
-        method="POST",
-    )
-    try:
-        with urllib.request.urlopen(request) as response:
-            result = json.loads(response.read())
-    except urllib.error.HTTPError as e:
-        raise RuntimeError(f"Telegram API error {e.code}: {e.read().decode()}") from e
+        request = urllib.request.Request(
+            f"https://api.telegram.org/bot{bot_token}/sendMessage",
+            data=payload,
+            headers={
+                "Content-Type": "application/json",
+                "User-Agent": "Mozilla/5.0 (compatible; daily-ai-nugget/1.0)",
+            },
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(request) as response:
+                result = json.loads(response.read())
+        except urllib.error.HTTPError as e:
+            raise RuntimeError(f"Telegram API error {e.code}: {e.read().decode()}") from e
 
-    print(f"Sent Telegram message. Message id: {result['result']['message_id']}")
+        print(f"Sent Telegram message. Message id: {result['result']['message_id']}")
 
 
 def main():
