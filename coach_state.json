@@ -1,31 +1,5 @@
 {
-  "cursors": {
-    "interview_category": 3,
-    "swe": 3,
-    "fde_snippet": 3
-  },
-  "pending_interview": {
-    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
-    "question": "You are designing a feature store \u2014 a centralized system that stores and serves pre-computed features (inputs) to machine learning models \u2014 for a company running 50+ ML models in production across recommendation, fraud detection, and personalization use cases. The models need features served with under 10ms latency online (for real-time inference), and the same features must be available in batch for model training to avoid training/serving skew (the problem where a model is trained on different data than it later sees in production). Walk through your architecture. How do you handle the dual online/offline serving requirement? How do you prevent training/serving skew? How would you design the system to support feature reuse across 50 different models without creating tight coupling or versioning chaos?"
-  },
-  "history": [
-    {
-      "date": "2026-08-25",
-      "day_name": "Tuesday",
-      "pillar_label": "Software & systems engineering",
-      "concept_summary": "CAP theorem, consensus algorithms, and replication tradeoffs in distributed systems production failures."
-    },
-    {
-      "date": "2026-08-25",
-      "day_name": "Tuesday",
-      "pillar_label": "Software & systems engineering",
-      "concept_summary": "REST/GraphQL/gRPC tradeoffs: boundary-based protocol selection and production failure modes."
-    },
-    {
-      "date": "2026-08-25",
-      "day_name": "Tuesday",
-      "pillar_label": "Software & systems engineering",
-      "concept_summary": "Replication copies data across machines for fault tolerance; partitioning splits data across machines for scale."
-    }
-  ]
+  "cursors": {},
+  "pending_interview": null,
+  "history": []
 }
