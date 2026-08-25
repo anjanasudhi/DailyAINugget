@@ -1,5 +1,19 @@
 {
-  "cursors": {},
-  "pending_interview": null,
-  "history": []
+  "cursors": {
+    "interview_category": 1,
+    "swe": 1,
+    "fde_snippet": 1
+  },
+  "pending_interview": {
+    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "question": "You are given a list of log entries, where each entry is a string in the format \"user_id action timestamp\" (e.g., \"u42 login 1001\"). Write a function that, given this list and a time window of length W, returns the user ID who performed the most distinct actions within any contiguous window of time of length W. If there is a tie, return any one of the tied users. Describe your approach, its time complexity (Big-O notation for how runtime scales with input size), and any tradeoffs you made."
+  },
+  "history": [
+    {
+      "date": "2026-08-25",
+      "day_name": "Tuesday",
+      "pillar_label": "Software & systems engineering",
+      "concept_summary": "CAP theorem: distributed systems can guarantee only two of consistency, availability, partition tolerance."
+    }
+  ]
 }
