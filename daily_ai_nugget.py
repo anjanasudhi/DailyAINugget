@@ -115,80 +115,178 @@ PILLAR_LABELS = {
 
 # Rotating subtopic banks per pillar (pillars without a bank, like
 # news_roundup/review_quiz, are driven by search/history instead).
+# "math_stats" has no weekday of its own — it's paired with Monday's ai_ml
+# session (see build_plan) so both get dedicated coverage without adding an
+# 8th weekday, per the "cover more than one topic in a day" allowance.
 TOPIC_BANKS = {
+    "math_stats": [
+        # Linear algebra
+        "vectors & vector spaces",
+        "matrix operations (multiplication, transpose, inverse)",
+        "dot product & cross product",
+        "eigenvalues & eigenvectors",
+        "singular value decomposition (SVD)",
+        "norms (L1/L2) and intuition for high-dimensional space",
+        # Calculus
+        "derivatives & rate of change",
+        "partial derivatives and gradients",
+        "the chain rule (why backprop needs it)",
+        "Jacobians & Hessians (light intuition)",
+        "Taylor series (light intuition)",
+        # Probability & statistics
+        "probability distributions (Gaussian, Bernoulli, Poisson)",
+        "conditional probability & Bayes' theorem",
+        "expectation & variance",
+        "covariance & correlation",
+        "sampling & the central limit theorem",
+        "hypothesis testing & p-values",
+        "bias-variance tradeoff",
+        "MLE vs. MAP estimation",
+        # Optimization
+        "loss/objective functions",
+        "gradient descent and variants (SGD, momentum, Adam, RMSProp)",
+        "convexity & local minima",
+        "learning rate & schedules",
+        "regularization (L1/L2, dropout)",
+        "constrained optimization (light intuition)",
+        # Information theory
+        "entropy & cross-entropy",
+        "KL divergence",
+        "mutual information",
+        "perplexity",
+    ],
     "ai_ml": [
-        "LLM architecture & attention mechanics",
-        "embeddings & vector search",
-        "RAG design patterns and failure modes",
-        "fine-tuning vs. prompting vs. RAG: when each wins",
-        "evals & benchmarking for LLM systems",
-        "agents & tool use",
+        # Classical ML
+        "linear & logistic regression",
+        "decision trees & random forests",
+        "gradient boosting (XGBoost/LightGBM)",
+        "support vector machines (SVMs)",
+        "k-means & clustering",
+        "dimensionality reduction (PCA, t-SNE, UMAP)",
+        "ensemble methods",
+        # Deep learning foundations
+        "perceptrons & MLPs",
+        "activation functions",
+        "backpropagation",
+        "CNNs",
+        "RNNs & LSTMs (historical context, still shows up in interviews)",
+        "regularization techniques for deep nets",
+        "batch/layer normalization",
+        "transfer learning",
+        # LLMs & generative AI
+        "transformer architecture",
+        "self-attention & multi-head attention",
+        "tokenization",
+        "embeddings",
+        "positional encoding",
+        "pretraining vs. fine-tuning",
+        "RLHF vs. DPO",
+        "in-context learning",
+        "prompt engineering",
         "context window management",
-        "hallucination mitigation",
-        "guardrails & safety layers",
-        "model routing/orchestration",
-        "quantization & inference cost tradeoffs",
-        "classic ML (trees, regression, clustering) refreshers",
-        "MLOps & model lifecycle",
-        "prompt engineering patterns",
+        "RAG architecture & retrieval strategies",
+        "agentic systems & tool use",
         "multimodal models",
+        "diffusion models",
         "reasoning models & test-time compute",
+        # Evaluation & governance
+        "eval design & benchmarks",
+        "error analysis",
+        "hallucination detection & mitigation",
+        "guardrails & safety layers",
+        "red-teaming",
+        "bias & fairness metrics",
+        "interpretability/explainability (SHAP, LIME)",
+        # MLOps & production
+        "model versioning",
+        "feature stores",
+        "data/model drift monitoring",
+        "A/B testing for ML",
+        "model serving & inference optimization",
+        "quantization & distillation",
+        "cost/latency tradeoffs",
+        "CI/CD for ML pipelines",
     ],
     "swe": [
-        "distributed systems fundamentals (CAP, consensus, replication)",
-        "API design (REST/GraphQL/gRPC tradeoffs)",
-        "database internals & indexing",
-        "caching strategies",
+        # Distributed systems
+        "CAP theorem",
+        "consensus basics (Paxos/Raft)",
+        "replication & partitioning",
+        "load balancing",
+        "eventual vs. strong consistency",
+        # APIs & interfaces
+        "REST vs. GraphQL vs. gRPC",
+        "API versioning",
+        "idempotency",
+        "webhooks",
+        # Data systems
+        "relational vs. NoSQL databases",
+        "indexing strategies",
+        "transactions & ACID",
+        "data warehouses vs. data lakes",
+        "streaming systems (Kafka-style)",
+        # Architecture patterns
+        "microservices vs. monolith",
         "event-driven architecture",
-        "microservices vs. monolith tradeoffs",
-        "observability (logging/tracing/metrics)",
-        "CI/CD & deployment strategies",
-        "security fundamentals (authN/authZ, secrets, least privilege)",
-        "cloud architecture (AWS/GCP/Azure core services)",
-        "performance & scalability",
-        "data pipeline design",
+        "caching layers",
+        "message queues",
+        # Reliability & operations
+        "observability (logs/metrics/traces)",
+        "SRE fundamentals",
+        "incident response",
+        "CI/CD pipelines",
         "infrastructure-as-code",
-        "containers & orchestration (Docker/Kubernetes basics an FDE needs)",
+        # Security
+        "authentication & authorization",
+        "encryption basics",
+        "least privilege",
+        "secrets management",
+        "common vulnerability classes (OWASP basics)",
+        # Cloud & infrastructure
+        "core AWS/GCP/Azure services",
+        "containers & Kubernetes basics",
+        "serverless tradeoffs",
     ],
     "fde_case": [
-        "scoping an ambiguous client ask into a shippable v1",
-        "integrating with a client's messy legacy systems/data",
-        "building trust with a skeptical technical stakeholder",
-        'balancing "custom for this client" vs. "reusable platform"',
-        "handling data privacy/compliance constraints in a client environment",
-        "debugging a production issue on-site under time pressure",
+        "discovery & scoping ambiguous client requirements",
+        "legacy system integration & data migration",
+        "client stakeholder management & trust-building",
+        "custom-for-this-client vs. reusable-platform tradeoffs",
+        "on-site debugging & production incident handling under time pressure",
+        "compliance & data privacy constraints in client environments",
         "translating a business KPI into a technical solution",
-        "managing scope creep mid-deployment",
+        "managing scope creep while shipping under deadline pressure",
+        "post-deployment support, handoff, and knowledge transfer models",
     ],
     "martech": [
-        "AI-driven personalization engines",
-        "marketing attribution & measurement in a cookieless/privacy-first world",
-        "generative AI in content/creative production",
+        "personalization & recommendation engines",
+        "attribution modeling & measurement (including cookieless/privacy-first approaches)",
+        "generative AI in content & creative production",
         "martech stack architecture (CDPs, CRMs, campaign orchestration)",
-        "AI agents for marketing ops",
-        "data clean rooms",
-        "AI in marketing analytics/forecasting",
-        "ethical/regulatory issues in AI marketing (consent, disclosure, bias)",
+        "AI agents for marketing operations",
+        "data clean rooms & first-party data strategy",
+        "marketing analytics & forecasting with AI",
+        "ethics & regulation — consent, disclosure, bias in targeting",
     ],
     "leadership": [
-        "hiring and evaluating AI/ML engineers",
-        "structuring teams around AI product work",
-        "balancing research vs. shipping",
+        "hiring & evaluating AI/ML engineers",
+        "structuring teams around AI product work (research vs. applied split)",
         "managing technical debt in fast-moving AI codebases",
-        "communicating AI limitations/risk to non-technical stakeholders",
-        "roadmap planning under model/tooling churn",
-        "build-vs-buy decisions for AI infra",
+        "communicating AI risk & limitations to non-technical stakeholders",
+        "roadmap planning under constant model/tooling churn",
+        "build-vs-buy decisions for AI infrastructure",
         "org design for FDE-style client-facing engineering teams",
+        "change management for AI-driven workflow shifts",
     ],
 }
 
 INTERVIEW_CATEGORIES = [
-    "Coding/DS&A (rusty-but-senior level: reasoning about complexity and clean logic, not LeetCode grinding)",
-    "System design — general (e.g. a URL shortener, a rate limiter, a notification system)",
-    "System design — ML/AI specific (e.g. a RAG system at scale, an eval pipeline, a recommendation system, an agent platform)",
-    "Behavioral/leadership (conflict resolution, prioritization under ambiguity, influencing without authority, managing a team through a pivot, giving hard feedback)",
-    "FDE/case/product-sense (client scoping, tradeoff articulation, walking through how you'd approach a deployment)",
-    "Martech/AI-product (personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints)",
+    "Coding/DS&A — arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "System design (general) — scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
+    "System design (ML/AI-specific) — RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
+    "Behavioral/leadership — conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
+    "Case/product sense — client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "Martech/AI-product — personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
 ]
 
 PREFERRED_RESOURCES = """\
@@ -240,6 +338,7 @@ def build_plan(state: dict, run_date: datetime, pillar_override: str = None) -> 
         "next_pillar_label": PILLAR_LABELS[next_pillar],
         "foundations_mode": run_date.date() < FOUNDATIONS_MODE_UNTIL,
         "topic": None,
+        "math_topic": None,
         "fde_snippet_topic": None,
         "interview_category": _next_from_list(state, "interview_category", INTERVIEW_CATEGORIES),
         "pending_interview": state.get("pending_interview"),
@@ -248,6 +347,11 @@ def build_plan(state: dict, run_date: datetime, pillar_override: str = None) -> 
 
     if pillar in TOPIC_BANKS:
         plan["topic"] = _next_from_list(state, pillar, TOPIC_BANKS[pillar])
+
+    # Monday's AI/ML session also carries a paired math/stats foundation topic —
+    # the two are taught together (math first, brief, then the AI/ML concept).
+    if pillar == "ai_ml":
+        plan["math_topic"] = _next_from_list(state, "math_stats", TOPIC_BANKS["math_stats"])
 
     # A short FDE case snippet runs every day except Thursday, where the
     # deep-dive slot itself already is the FDE case study.
@@ -313,39 +417,55 @@ def _build_prompt(plan: dict) -> str:
    ambiguity or tension in it, then walk through a framework for reasoning through it
    and a concrete example resolution. This is the deep-dive version, so a full page is
    fine here.{plain_language_note} No learn-more link needed for this slot."""
-    elif foundations:
-        concept_block = f"""CONCEPT OF THE DAY: The topic is "{plan['topic']}". Assume I'm technical and
-   experienced generally, but NEW to this specific topic — I'm deliberately spending the
-   next few months building 101-level foundations before going deep, so don't skip basics
-   here even though you would for other senior-level topics. Structure it in two clearly
-   labeled parts:
-   PART 1 — THE BASICS: If this topic is really a comparison of multiple building-block
-   ideas (e.g. "REST vs GraphQL vs gRPC" or "fine-tuning vs prompting vs RAG"), first
-   explain EACH one on its own in plain language with a simple analogy — what it is and
-   what problem it solves — before any comparison. If it's a single concept, just explain
-   what it is, why it exists, and the simplest possible mental model for it.
-   PART 2 — HOW THEY COMPARE / WHY IT MATTERS: Only after part 1 is done, get into the
-   tradeoffs, when to use which, a real-world failure mode, and one line on how this shows
-   up in an FDE/leadership context. Keep this part shorter than part 1.
+    else:
+        # Monday's AI/ML session pairs a math/stats foundation with the main
+        # concept — cover both instead of just the one topic.
+        if plan["pillar"] == "ai_ml" and plan.get("math_topic"):
+            topic_line = (
+                f'Today covers TWO linked topics: a math/stats foundation, "{plan["math_topic"]}", '
+                f'and an AI/ML concept built on it, "{plan["topic"]}". Cover BOTH — a shorter section '
+                f'on "{plan["math_topic"]}" first (just enough to build real intuition), then spend '
+                f'most of the space on "{plan["topic"]}" as the main event. If there\'s a natural '
+                "connection between the two, point it out explicitly; don't force one if there isn't."
+            )
+            video_ask = (
+                'Then give a "watch/learn more" recommendation for EACH of the two topics '
+                "(one resource for the math topic, one for the AI/ML topic)."
+            )
+        else:
+            topic_line = f'The topic is "{plan["topic"]}".'
+            video_ask = 'Then give ONE "watch/learn more" recommendation for the topic.'
+
+        if foundations:
+            concept_block = f"""CONCEPT OF THE DAY: {topic_line} Assume I'm technical and experienced
+   generally, but NEW to this specific material — I'm deliberately spending the next few
+   months building 101-level foundations before going deep, so don't skip basics here even
+   though you would for other senior-level topics. For each topic covered today, structure
+   it in two parts:
+   THE BASICS: If it's really a comparison of multiple building-block ideas (e.g. "REST vs
+   GraphQL vs gRPC" or "fine-tuning vs prompting vs RAG"), first explain EACH one on its
+   own in plain language with a simple analogy — what it is and what problem it solves —
+   before any comparison. If it's a single concept, just explain what it is, why it exists,
+   and the simplest possible mental model for it.
+   HOW IT'S USED / WHY IT MATTERS: Only after the basics, get into the tradeoffs, when to
+   use which, a real-world failure mode, and one line on how this shows up in an
+   FDE/leadership context. Keep this part shorter than the basics.
    Define any technical term the first time you use it — don't assume unexplained jargon.
-   Then give 1-2 "watch/learn more" recommendations: prioritize a genuinely 101/beginner
-   level intro resource (one per building-block concept if there are several, e.g. a
-   "what is REST" video and a "what is GraphQL" video), optionally followed by ONE
-   slightly deeper resource if you want to build up further on the same topic. Pick from
-   this preferred list where it fits (don't force 3Blue1Brown into everything, and prefer
-   videos explicitly aimed at beginners/explainers over deep technical talks):
+   {video_ask} Prioritize a genuinely 101/beginner-level intro resource (one per
+   building-block concept if there are several, e.g. a "what is REST" video and a "what is
+   GraphQL" video) over deep technical talks. Pick from this preferred list where it fits
+   (don't force 3Blue1Brown into everything):
 {PREFERRED_RESOURCES}
    Only give a URL you found via web search and are sure is correct/live. If you're not
    sure of the exact URL, name the channel/video and give a precise search phrase
    instead (e.g. "search YouTube: what is REST API for beginners") rather than guessing a
    link."""
-    else:
-        concept_block = f"""CONCEPT OF THE DAY: Explain "{plan['topic']}" the way you'd explain it to a strong
-   staff engineer — skip 101-level basics, go straight to the mechanism, why it matters,
-   and a real tradeoff or production failure mode. Close with one line on how this shows
-   up in an FDE/leadership context. Then give ONE "watch/learn more" recommendation —
-   whichever fits the topic best from this preferred list (don't force 3Blue1Brown into
-   everything):
+        else:
+            concept_block = f"""CONCEPT OF THE DAY: {topic_line} Explain it the way you'd explain it to a
+   strong staff engineer — skip 101-level basics, go straight to the mechanism, why it
+   matters, and a real tradeoff or production failure mode. Close with one line on how this
+   shows up in an FDE/leadership context. {video_ask} Pick whichever fits best from this
+   preferred list (don't force 3Blue1Brown into everything):
 {PREFERRED_RESOURCES}
    Only give a URL you found via web search and are sure is correct/live. If you're not
    sure of the exact URL, name the channel/video and give a precise search phrase
