@@ -1,12 +1,12 @@
 {
   "cursors": {
-    "interview_category": 1,
+    "interview_category": 2,
     "swe": 1,
-    "fde_snippet": 1
+    "fde_snippet": 2
   },
   "pending_interview": {
-    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
-    "question": "You are given a list of log entries, where each entry is a string in the format \"user_id action timestamp\" (e.g., \"u42 login 1001\"). Write a function that, given this list and a time window of length W, returns the user ID who performed the most distinct actions within any contiguous window of time of length W. If there is a tie, return any one of the tied users. Describe your approach, its time complexity (Big-O notation for how runtime scales with input size), and any tradeoffs you made."
+    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
+    "question": "You are designing a rate limiter \u2014 a system that controls how many requests a single user is allowed to make to an API within a given time window (for example, no more than 100 requests per minute per user). The system needs to work correctly even when your API is served by dozens of servers running in parallel, and it needs to handle tens of thousands of users concurrently. Walk through how you would design this system. Cover the data structures and storage layer you would use, how you ensure the limit is enforced correctly across multiple servers, how you handle edge cases like users who send requests at exactly the boundary of a time window, and what tradeoffs you made in your design."
   },
   "history": [
     {
@@ -14,6 +14,12 @@
       "day_name": "Tuesday",
       "pillar_label": "Software & systems engineering",
       "concept_summary": "CAP theorem: distributed systems can guarantee only two of consistency, availability, partition tolerance."
+    },
+    {
+      "date": "2026-08-26",
+      "day_name": "Wednesday",
+      "pillar_label": "AI + engineering news roundup",
+      "concept_summary": "AI/eng news roundup: Vera CPU, agent protocol standards, agent security governance, Codex limits"
     }
   ]
 }
