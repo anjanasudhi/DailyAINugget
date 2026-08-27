@@ -1,12 +1,13 @@
 {
   "cursors": {
-    "interview_category": 2,
+    "interview_category": 3,
     "swe": 1,
-    "fde_snippet": 2
+    "fde_snippet": 2,
+    "fde_case": 1
   },
   "pending_interview": {
-    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
-    "question": "You are designing a rate limiter \u2014 a system that controls how many requests a single user is allowed to make to an API within a given time window (for example, no more than 100 requests per minute per user). The system needs to work correctly even when your API is served by dozens of servers running in parallel, and it needs to handle tens of thousands of users concurrently. Walk through how you would design this system. Cover the data structures and storage layer you would use, how you ensure the limit is enforced correctly across multiple servers, how you handle edge cases like users who send requests at exactly the boundary of a time window, and what tradeoffs you made in your design."
+    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
+    "question": "You are designing an evaluation pipeline \u2014 a system that automatically measures whether an AI assistant's responses are good \u2014 for a RAG system. \"RAG\" stands for Retrieval-Augmented Generation: the AI retrieves relevant documents from a database and uses them to answer a user's question. Your company handles roughly 500,000 user queries per day. Walk through how you would design this evaluation pipeline end to end. Specifically: what signals or metrics would you measure, how would you collect ground-truth labels at scale when human review of every response is not feasible, how would you detect when response quality is degrading before users explicitly complain, and what tradeoffs did you make?"
   },
   "history": [
     {
@@ -20,6 +21,12 @@
       "day_name": "Wednesday",
       "pillar_label": "AI + engineering news roundup",
       "concept_summary": "AI/eng news roundup: Vera CPU, agent protocol standards, agent security governance, Codex limits"
+    },
+    {
+      "date": "2026-08-27",
+      "day_name": "Thursday",
+      "pillar_label": "FDE case study / client scenario",
+      "concept_summary": "FDE discovery framework: turning ambiguous client AI requests into scoped, measurable pilots."
     }
   ]
 }
