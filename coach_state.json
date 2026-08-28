@@ -1,13 +1,14 @@
 {
   "cursors": {
-    "interview_category": 3,
+    "interview_category": 4,
     "swe": 1,
-    "fde_snippet": 2,
-    "fde_case": 1
+    "fde_snippet": 3,
+    "fde_case": 1,
+    "martech": 1
   },
   "pending_interview": {
-    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
-    "question": "You are designing an evaluation pipeline \u2014 a system that automatically measures whether an AI assistant's responses are good \u2014 for a RAG system. \"RAG\" stands for Retrieval-Augmented Generation: the AI retrieves relevant documents from a database and uses them to answer a user's question. Your company handles roughly 500,000 user queries per day. Walk through how you would design this evaluation pipeline end to end. Specifically: what signals or metrics would you measure, how would you collect ground-truth labels at scale when human review of every response is not feasible, how would you detect when response quality is degrading before users explicitly complain, and what tradeoffs did you make?"
+    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
+    "question": "You are leading an AI engineering team that is midway through a high-visibility project. Midway through, you receive strong signals \u2014 from your own engineers, not from leadership \u2014 that the project's core technical assumption is flawed and the timeline is not recoverable without a significant scope change. Leadership has publicly committed to the original timeline. Walk me through exactly how you would handle this situation, from the moment you confirm the problem to the moment a decision is made."
   },
   "history": [
     {
@@ -27,6 +28,12 @@
       "day_name": "Thursday",
       "pillar_label": "FDE case study / client scenario",
       "concept_summary": "FDE discovery framework: turning ambiguous client AI requests into scoped, measurable pilots."
+    },
+    {
+      "date": "2026-08-28",
+      "day_name": "Friday",
+      "pillar_label": "Martech & AI-in-marketing",
+      "concept_summary": "Personalization and recommendation engines: content-based, collaborative filtering, hybrid, cold start."
     }
   ]
 }
