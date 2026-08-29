@@ -1,14 +1,15 @@
 {
   "cursors": {
-    "interview_category": 4,
+    "interview_category": 5,
     "swe": 1,
-    "fde_snippet": 3,
+    "fde_snippet": 4,
     "fde_case": 1,
-    "martech": 1
+    "martech": 1,
+    "leadership": 1
   },
   "pending_interview": {
-    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
-    "question": "You are leading an AI engineering team that is midway through a high-visibility project. Midway through, you receive strong signals \u2014 from your own engineers, not from leadership \u2014 that the project's core technical assumption is flawed and the timeline is not recoverable without a significant scope change. Leadership has publicly committed to the original timeline. Walk me through exactly how you would handle this situation, from the moment you confirm the problem to the moment a decision is made."
+    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "question": "A large regional hospital network comes to you saying they want to \"use AI to reduce patient no-shows.\" They have appointment scheduling data going back five years, basic EHR (electronic health record) data, and a small internal IT team. They have no existing AI infrastructure. How would you scope and structure a first engagement with them \u2014 and how would you decide whether to recommend building a custom solution, buying an off-the-shelf tool, or starting with something even simpler?"
   },
   "history": [
     {
@@ -34,6 +35,12 @@
       "day_name": "Friday",
       "pillar_label": "Martech & AI-in-marketing",
       "concept_summary": "Personalization and recommendation engines: content-based, collaborative filtering, hybrid, cold start."
+    },
+    {
+      "date": "2026-08-29",
+      "day_name": "Saturday",
+      "pillar_label": "Engineering leadership / EM-for-AI-teams",
+      "concept_summary": "How to define, source, interview, and evaluate AI/ML engineers across key role archetypes."
     }
   ]
 }
