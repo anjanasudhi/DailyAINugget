@@ -1,15 +1,17 @@
 {
   "cursors": {
-    "interview_category": 0,
+    "interview_category": 1,
     "swe": 1,
-    "fde_snippet": 5,
+    "fde_snippet": 6,
     "fde_case": 1,
     "martech": 1,
-    "leadership": 1
+    "leadership": 1,
+    "ai_ml": 1,
+    "math_stats": 1
   },
   "pending_interview": {
-    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
-    "question": "A B2C retailer has a robust email personalization engine that uses collaborative filtering to drive product recommendations. They now want to layer in a generative AI component to write individualized email copy for each customer segment \u2014 but they're also facing tightening privacy regulations that are limiting the customer data signals they're allowed to use. How would you design a personalization and measurement architecture that delivers meaningfully better outcomes than their current system, while respecting those data constraints? Walk through your approach to both the content generation pipeline and how you'd attribute revenue impact to the new AI-driven copy."
+    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "question": "You are given the root of a binary tree in which each node contains an integer value. Write a function that returns the number of paths in the tree where the values along the path sum to a given target. A path does not need to start at the root or end at a leaf, but it must go downward (from parent to child). What is the time complexity of your approach, and can you do better than the naive O(n^2) solution? Explain your reasoning before writing any code."
   },
   "history": [
     {
@@ -47,6 +49,12 @@
       "day_name": "Sunday",
       "pillar_label": "Review & spaced-repetition quiz",
       "concept_summary": "Weekly spaced-repetition recap and quiz across CAP, FDE, recommendations, hiring."
+    },
+    {
+      "date": "2026-08-31",
+      "day_name": "Monday",
+      "pillar_label": "AI/ML core concepts",
+      "concept_summary": "Vectors as lists with direction; linear regression predicts numbers, logistic regression predicts yes/no probabilities."
     }
   ]
 }
