@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 1,
-    "swe": 1,
-    "fde_snippet": 6,
+    "interview_category": 2,
+    "swe": 2,
+    "fde_snippet": 7,
     "fde_case": 1,
     "martech": 1,
     "leadership": 1,
@@ -10,8 +10,8 @@
     "math_stats": 1
   },
   "pending_interview": {
-    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
-    "question": "You are given the root of a binary tree in which each node contains an integer value. Write a function that returns the number of paths in the tree where the values along the path sum to a given target. A path does not need to start at the root or end at a leaf, but it must go downward (from parent to child). What is the time complexity of your approach, and can you do better than the naive O(n^2) solution? Explain your reasoning before writing any code."
+    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
+    "question": "You are asked to design a distributed rate limiter \u2014 a system that enforces a rule like \"each user can make at most 1,000 API requests per minute\" across a backend with hundreds of servers, where any server might handle any request from any user. Walk through your high-level design: what data store would you use, where would you enforce the limit, how would you handle the fact that requests for the same user can arrive at different servers simultaneously, and what failure modes does your design introduce? How does your design change if the requirement tightens to \"no more than 1,000 requests per minute, ever, with no exceptions\" vs. \"approximately 1,000 requests per minute is fine\"?"
   },
   "history": [
     {
@@ -55,6 +55,12 @@
       "day_name": "Monday",
       "pillar_label": "AI/ML core concepts",
       "concept_summary": "Vectors as lists with direction; linear regression predicts numbers, logistic regression predicts yes/no probabilities."
+    },
+    {
+      "date": "2026-09-01",
+      "day_name": "Tuesday",
+      "pillar_label": "Software & systems engineering",
+      "concept_summary": "Paxos and Raft solve distributed consensus: how multiple servers agree on shared state despite failures."
     }
   ]
 }
