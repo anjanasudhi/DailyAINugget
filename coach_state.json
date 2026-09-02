@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 2,
+    "interview_category": 3,
     "swe": 2,
-    "fde_snippet": 7,
+    "fde_snippet": 8,
     "fde_case": 1,
     "martech": 1,
     "leadership": 1,
@@ -10,16 +10,10 @@
     "math_stats": 1
   },
   "pending_interview": {
-    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
-    "question": "You are asked to design a distributed rate limiter \u2014 a system that enforces a rule like \"each user can make at most 1,000 API requests per minute\" across a backend with hundreds of servers, where any server might handle any request from any user. Walk through your high-level design: what data store would you use, where would you enforce the limit, how would you handle the fact that requests for the same user can arrive at different servers simultaneously, and what failure modes does your design introduce? How does your design change if the requirement tightens to \"no more than 1,000 requests per minute, ever, with no exceptions\" vs. \"approximately 1,000 requests per minute is fine\"?"
+    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
+    "question": "You are building a RAG system \u2014 Retrieval-Augmented Generation, meaning an AI system that answers questions by first retrieving relevant documents from a knowledge base, then passing those documents to a language model to generate a response \u2014 for a large enterprise with roughly 10 million internal documents spanning legal contracts, HR policies, product specs, and engineering runbooks. Users are asking highly varied questions, and early tests show that retrieval quality (finding the right documents before the model even sees them) is the main bottleneck, not the language model itself. Walk through how you would design the retrieval layer at this scale: what would your indexing strategy look like, how would you handle the fact that different document types may need very different retrieval approaches, how would you measure whether retrieval is actually getting better or worse over time, and what failure modes in retrieval would be hardest to detect in production?"
   },
   "history": [
-    {
-      "date": "2026-08-25",
-      "day_name": "Tuesday",
-      "pillar_label": "Software & systems engineering",
-      "concept_summary": "CAP theorem: distributed systems can guarantee only two of consistency, availability, partition tolerance."
-    },
     {
       "date": "2026-08-26",
       "day_name": "Wednesday",
@@ -61,6 +55,12 @@
       "day_name": "Tuesday",
       "pillar_label": "Software & systems engineering",
       "concept_summary": "Paxos and Raft solve distributed consensus: how multiple servers agree on shared state despite failures."
+    },
+    {
+      "date": "2026-09-02",
+      "day_name": "Wednesday",
+      "pillar_label": "AI + engineering news roundup",
+      "concept_summary": "EU regulates ChatGPT as search engine; Pentagon deploys AI to 3M personnel; Anthropic's $35B compute deal; McKinsey build-vs-buy shift."
     }
   ]
 }
