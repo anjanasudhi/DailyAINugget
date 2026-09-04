@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 4,
+    "interview_category": 5,
     "swe": 2,
-    "fde_snippet": 8,
+    "fde_snippet": 0,
     "fde_case": 2,
-    "martech": 1,
+    "martech": 2,
     "leadership": 1,
     "ai_ml": 1,
     "math_stats": 1
   },
   "pending_interview": {
-    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
-    "question": "You've been told by your own manager that a senior stakeholder \u2014 someone you rely on for budget approval and executive air cover \u2014 has privately complained that your team is \"hard to work with\" and \"doesn't communicate proactively.\" You believe your team's communication is actually quite strong, and you have some evidence to support that. How do you handle this?"
+    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "question": "A regional retail bank approaches you. They want to personalize the offers shown to customers in their mobile app \u2014 things like loan refinancing suggestions, savings account upgrades, and credit card offers. Their current setup shows the same offer to every customer. They have two years of transaction history, a CRM with basic demographic data, and a small data team of four people. A vendor is pitching them a turnkey AI personalization platform for $400K/year. You're the FDE helping them scope the decision. Walk me through how you'd evaluate whether to build, buy, or start somewhere else entirely \u2014 and what the first 90 days looks like under whichever path you'd recommend."
   },
   "history": [
-    {
-      "date": "2026-08-27",
-      "day_name": "Thursday",
-      "pillar_label": "FDE case study / client scenario",
-      "concept_summary": "FDE discovery framework: turning ambiguous client AI requests into scoped, measurable pilots."
-    },
     {
       "date": "2026-08-28",
       "day_name": "Friday",
@@ -61,6 +55,12 @@
       "day_name": "Thursday",
       "pillar_label": "FDE case study / client scenario",
       "concept_summary": "FDE case study: legacy system integration and data migration at a regulated enterprise."
+    },
+    {
+      "date": "2026-09-04",
+      "day_name": "Friday",
+      "pillar_label": "Martech & AI-in-marketing",
+      "concept_summary": "Attribution modeling assigns marketing credit across touchpoints; cookieless approaches replace user tracking with privacy-safe methods."
     }
   ]
 }
