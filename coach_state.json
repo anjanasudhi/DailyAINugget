@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 5,
+    "interview_category": 0,
     "swe": 2,
-    "fde_snippet": 0,
+    "fde_snippet": 1,
     "fde_case": 2,
     "martech": 2,
-    "leadership": 1,
+    "leadership": 2,
     "ai_ml": 1,
     "math_stats": 1
   },
   "pending_interview": {
-    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
-    "question": "A regional retail bank approaches you. They want to personalize the offers shown to customers in their mobile app \u2014 things like loan refinancing suggestions, savings account upgrades, and credit card offers. Their current setup shows the same offer to every customer. They have two years of transaction history, a CRM with basic demographic data, and a small data team of four people. A vendor is pitching them a turnkey AI personalization platform for $400K/year. You're the FDE helping them scope the decision. Walk me through how you'd evaluate whether to build, buy, or start somewhere else entirely \u2014 and what the first 90 days looks like under whichever path you'd recommend."
+    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
+    "question": "You are advising a direct-to-consumer retail brand that runs personalized email campaigns at scale \u2014 roughly 8 million subscribers, three sends per week. They currently use a third-party email platform that handles segmentation and send-time optimization. They want to move toward a generative AI content pipeline: dynamically generated subject lines, body copy, and product recommendations tailored to each individual subscriber at the moment of send. Their data team has open-loop click and purchase data, but no identity graph beyond email address. Their head of marketing is concerned about two things: (1) measuring whether the generated content is actually driving incremental revenue, not just clicks, and (2) maintaining compliance with inbox provider deliverability rules as volume and content variation increase. Walk me through how you would design the measurement framework and the content generation architecture to address both concerns \u2014 and where you would draw the line between what generative AI handles versus what needs human review."
   },
   "history": [
-    {
-      "date": "2026-08-28",
-      "day_name": "Friday",
-      "pillar_label": "Martech & AI-in-marketing",
-      "concept_summary": "Personalization and recommendation engines: content-based, collaborative filtering, hybrid, cold start."
-    },
     {
       "date": "2026-08-29",
       "day_name": "Saturday",
@@ -61,6 +55,12 @@
       "day_name": "Friday",
       "pillar_label": "Martech & AI-in-marketing",
       "concept_summary": "Attribution modeling assigns marketing credit across touchpoints; cookieless approaches replace user tracking with privacy-safe methods."
+    },
+    {
+      "date": "2026-09-05",
+      "day_name": "Saturday",
+      "pillar_label": "Engineering leadership / EM-for-AI-teams",
+      "concept_summary": "Research teams explore; applied teams ship \u2014 sequence and split matter for AI org design."
     }
   ]
 }
