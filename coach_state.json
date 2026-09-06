@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 0,
+    "interview_category": 1,
     "swe": 2,
-    "fde_snippet": 1,
+    "fde_snippet": 2,
     "fde_case": 2,
     "martech": 2,
     "leadership": 2,
@@ -10,16 +10,10 @@
     "math_stats": 1
   },
   "pending_interview": {
-    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
-    "question": "You are advising a direct-to-consumer retail brand that runs personalized email campaigns at scale \u2014 roughly 8 million subscribers, three sends per week. They currently use a third-party email platform that handles segmentation and send-time optimization. They want to move toward a generative AI content pipeline: dynamically generated subject lines, body copy, and product recommendations tailored to each individual subscriber at the moment of send. Their data team has open-loop click and purchase data, but no identity graph beyond email address. Their head of marketing is concerned about two things: (1) measuring whether the generated content is actually driving incremental revenue, not just clicks, and (2) maintaining compliance with inbox provider deliverability rules as volume and content variation increase. Walk me through how you would design the measurement framework and the content generation architecture to address both concerns \u2014 and where you would draw the line between what generative AI handles versus what needs human review."
+    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "question": "You have a list of log entries from a distributed system. Each entry is a string in the format \"timestamp:server_id:event_type\" \u2014 for example, \"1042:server3:ERROR\". You need to find all server IDs that produced more than one distinct event type within any 60-second window. Walk me through your approach: what data structure or structures would you use, how would you handle the time-window logic, and what is the time and space complexity \u2014 using Big O notation, which describes how your algorithm's resource usage grows as the input size grows \u2014 of your solution?"
   },
   "history": [
-    {
-      "date": "2026-08-29",
-      "day_name": "Saturday",
-      "pillar_label": "Engineering leadership / EM-for-AI-teams",
-      "concept_summary": "How to define, source, interview, and evaluate AI/ML engineers across key role archetypes."
-    },
     {
       "date": "2026-08-30",
       "day_name": "Sunday",
@@ -61,6 +55,12 @@
       "day_name": "Saturday",
       "pillar_label": "Engineering leadership / EM-for-AI-teams",
       "concept_summary": "Research teams explore; applied teams ship \u2014 sequence and split matter for AI org design."
+    },
+    {
+      "date": "2026-09-06",
+      "day_name": "Sunday",
+      "pillar_label": "Review & spaced-repetition quiz",
+      "concept_summary": "Weekly spaced-repetition recap and quiz across Monday\u2013Saturday material."
     }
   ]
 }
