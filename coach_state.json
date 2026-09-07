@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 1,
+    "interview_category": 2,
     "swe": 2,
-    "fde_snippet": 2,
+    "fde_snippet": 3,
     "fde_case": 2,
     "martech": 2,
     "leadership": 2,
-    "ai_ml": 1,
-    "math_stats": 1
+    "ai_ml": 2,
+    "math_stats": 2
   },
   "pending_interview": {
-    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
-    "question": "You have a list of log entries from a distributed system. Each entry is a string in the format \"timestamp:server_id:event_type\" \u2014 for example, \"1042:server3:ERROR\". You need to find all server IDs that produced more than one distinct event type within any 60-second window. Walk me through your approach: what data structure or structures would you use, how would you handle the time-window logic, and what is the time and space complexity \u2014 using Big O notation, which describes how your algorithm's resource usage grows as the input size grows \u2014 of your solution?"
+    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
+    "question": "You are asked to design a real-time notification system for a large consumer platform \u2014 think the scale of a major social network or e-commerce app. The system needs to deliver notifications (push, email, and in-app) to hundreds of millions of users, with support for different delivery priorities: some notifications must arrive within seconds (for example, a payment confirmation), while others can tolerate delays of minutes or hours (for example, a weekly digest). Walk through your high-level architecture: how you'd handle ingestion, fan-out, delivery, and reliability. How would you ensure that high-priority notifications are not delayed by high-volume low-priority ones, and how would you handle failures and retries without causing duplicate deliveries?"
   },
   "history": [
-    {
-      "date": "2026-08-30",
-      "day_name": "Sunday",
-      "pillar_label": "Review & spaced-repetition quiz",
-      "concept_summary": "Weekly spaced-repetition recap and quiz across CAP, FDE, recommendations, hiring."
-    },
     {
       "date": "2026-08-31",
       "day_name": "Monday",
@@ -61,6 +55,12 @@
       "day_name": "Sunday",
       "pillar_label": "Review & spaced-repetition quiz",
       "concept_summary": "Weekly spaced-repetition recap and quiz across Monday\u2013Saturday material."
+    },
+    {
+      "date": "2026-09-07",
+      "day_name": "Monday",
+      "pillar_label": "AI/ML core concepts",
+      "concept_summary": "Matrix operations build intuition for transformations; decision trees and random forests predict via rules and voting."
     }
   ]
 }
