@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 3,
+    "interview_category": 4,
     "swe": 3,
-    "fde_snippet": 4,
+    "fde_snippet": 5,
     "fde_case": 2,
     "martech": 2,
     "leadership": 2,
@@ -10,16 +10,10 @@
     "math_stats": 2
   },
   "pending_interview": {
-    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
-    "question": "You are designing a feature store \u2014 a centralized system that computes, stores, and serves the input signals (called \"features\") that machine learning models use to make predictions \u2014 for a large financial services company. The company runs dozens of ML models across fraud detection, credit scoring, and customer churn prediction. Some models need features in real time at the moment a transaction happens (sub-100ms latency). Others are batch models that retrain nightly and just need features to be accurate and available by a certain time each morning. Walk through your high-level architecture for this feature store. How would you handle the difference between real-time and batch feature serving? How would you ensure that the features a model sees during training are the same ones it sees at inference time (a problem sometimes called \"training-serving skew\")? And how would you handle a situation where a feature pipeline fails partway through \u2014 what does the downstream model see, and how do you protect against that?"
+    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
+    "question": "You are leading an AI platform team whose roadmap is heavily subscribed \u2014 you have more high-priority requests from internal business stakeholders than your team can realistically deliver in the next two quarters. Two senior stakeholders, each with genuine executive backing, each believe their initiative is the most important one and should come first. Both have escalated to your manager, who has asked you to resolve this without her having to make the call. Walk me through how you would handle it, from the moment you get that request to the point where a decision is made and communicated."
   },
   "history": [
-    {
-      "date": "2026-09-01",
-      "day_name": "Tuesday",
-      "pillar_label": "Software & systems engineering",
-      "concept_summary": "Paxos and Raft solve distributed consensus: how multiple servers agree on shared state despite failures."
-    },
     {
       "date": "2026-09-02",
       "day_name": "Wednesday",
@@ -61,6 +55,12 @@
       "day_name": "Tuesday",
       "pillar_label": "Software & systems engineering",
       "concept_summary": "Replication copies data for resilience; partitioning splits data across machines for scale."
+    },
+    {
+      "date": "2026-09-09",
+      "day_name": "Wednesday",
+      "pillar_label": "AI + engineering news roundup",
+      "concept_summary": "AI agent swarms, model distillation espionage, Nvidia-Hugging Face acquisition, model release fatigue"
     }
   ]
 }
