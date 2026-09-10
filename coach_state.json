@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 4,
+    "interview_category": 5,
     "swe": 3,
     "fde_snippet": 5,
-    "fde_case": 2,
+    "fde_case": 3,
     "martech": 2,
     "leadership": 2,
     "ai_ml": 2,
     "math_stats": 2
   },
   "pending_interview": {
-    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
-    "question": "You are leading an AI platform team whose roadmap is heavily subscribed \u2014 you have more high-priority requests from internal business stakeholders than your team can realistically deliver in the next two quarters. Two senior stakeholders, each with genuine executive backing, each believe their initiative is the most important one and should come first. Both have escalated to your manager, who has asked you to resolve this without her having to make the call. Walk me through how you would handle it, from the moment you get that request to the point where a decision is made and communicated."
+    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "question": "You are in an early scoping conversation with a new enterprise client. They are a logistics company with about 4,000 employees. Their head of operations tells you they want to \"use AI to improve their routing and dispatch process\" \u2014 the system that assigns drivers to deliveries and plans the most efficient routes. They currently use a legacy software tool from a vendor, and their contract with that vendor expires in eight months. They have a small internal data team of three analysts, no ML engineers, and a moderate but not unlimited budget. Walk me through how you would scope this engagement: what questions you would ask, what information you would need before recommending any technical direction, and how you would think through whether to build a custom AI solution, extend or replace the existing vendor tool, or recommend something else entirely. What are the key tradeoffs you would be weighing out loud?"
   },
   "history": [
-    {
-      "date": "2026-09-02",
-      "day_name": "Wednesday",
-      "pillar_label": "AI + engineering news roundup",
-      "concept_summary": "EU regulates ChatGPT as search engine; Pentagon deploys AI to 3M personnel; Anthropic's $35B compute deal; McKinsey build-vs-buy shift."
-    },
     {
       "date": "2026-09-03",
       "day_name": "Thursday",
@@ -61,6 +55,12 @@
       "day_name": "Wednesday",
       "pillar_label": "AI + engineering news roundup",
       "concept_summary": "AI agent swarms, model distillation espionage, Nvidia-Hugging Face acquisition, model release fatigue"
+    },
+    {
+      "date": "2026-09-10",
+      "day_name": "Thursday",
+      "pillar_label": "FDE case study / client scenario",
+      "concept_summary": "FDE client stakeholder management: navigating split client trust to reach shared technical outcomes."
     }
   ]
 }
