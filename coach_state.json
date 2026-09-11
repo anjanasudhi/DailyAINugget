@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 5,
+    "interview_category": 0,
     "swe": 3,
-    "fde_snippet": 5,
+    "fde_snippet": 6,
     "fde_case": 3,
-    "martech": 2,
+    "martech": 3,
     "leadership": 2,
     "ai_ml": 2,
     "math_stats": 2
   },
   "pending_interview": {
-    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
-    "question": "You are in an early scoping conversation with a new enterprise client. They are a logistics company with about 4,000 employees. Their head of operations tells you they want to \"use AI to improve their routing and dispatch process\" \u2014 the system that assigns drivers to deliveries and plans the most efficient routes. They currently use a legacy software tool from a vendor, and their contract with that vendor expires in eight months. They have a small internal data team of three analysts, no ML engineers, and a moderate but not unlimited budget. Walk me through how you would scope this engagement: what questions you would ask, what information you would need before recommending any technical direction, and how you would think through whether to build a custom AI solution, extend or replace the existing vendor tool, or recommend something else entirely. What are the key tradeoffs you would be weighing out loud?"
+    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
+    "question": "You are advising a mid-market e-commerce company that wants to build a GenAI-powered content pipeline to produce personalized product recommendation emails at scale \u2014 different copy for different customer segments, generated automatically and sent daily. They have a solid first-party data asset (purchase history, browse behavior, email engagement) and a small but capable engineering team. They use a major cloud email platform and want to stay within it where possible. Walk me through how you would design this pipeline end to end: what the key components are, how you would handle personalization at the content-generation layer, how you would measure whether the AI-generated content is actually performing better than their current templated emails, and what guardrails you would put in place to protect the brand and avoid compliance risk. Where are the hardest tradeoffs in this design?"
   },
   "history": [
-    {
-      "date": "2026-09-03",
-      "day_name": "Thursday",
-      "pillar_label": "FDE case study / client scenario",
-      "concept_summary": "FDE case study: legacy system integration and data migration at a regulated enterprise."
-    },
     {
       "date": "2026-09-04",
       "day_name": "Friday",
@@ -61,6 +55,12 @@
       "day_name": "Thursday",
       "pillar_label": "FDE case study / client scenario",
       "concept_summary": "FDE client stakeholder management: navigating split client trust to reach shared technical outcomes."
+    },
+    {
+      "date": "2026-09-11",
+      "day_name": "Friday",
+      "pillar_label": "Martech & AI-in-marketing",
+      "concept_summary": "Generative AI produces text, images, and video for marketing via pipeline workflows requiring human oversight."
     }
   ]
 }
