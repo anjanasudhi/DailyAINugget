@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 0,
+    "interview_category": 1,
     "swe": 3,
-    "fde_snippet": 6,
+    "fde_snippet": 7,
     "fde_case": 3,
     "martech": 3,
-    "leadership": 2,
+    "leadership": 3,
     "ai_ml": 2,
     "math_stats": 2
   },
   "pending_interview": {
-    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
-    "question": "You are advising a mid-market e-commerce company that wants to build a GenAI-powered content pipeline to produce personalized product recommendation emails at scale \u2014 different copy for different customer segments, generated automatically and sent daily. They have a solid first-party data asset (purchase history, browse behavior, email engagement) and a small but capable engineering team. They use a major cloud email platform and want to stay within it where possible. Walk me through how you would design this pipeline end to end: what the key components are, how you would handle personalization at the content-generation layer, how you would measure whether the AI-generated content is actually performing better than their current templated emails, and what guardrails you would put in place to protect the brand and avoid compliance risk. Where are the hardest tradeoffs in this design?"
+    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "question": "You are given an array of integers and a target sum. Write a function that returns all unique pairs of numbers in the array that add up to the target. The array may contain duplicates. Explain your approach, state its time and space complexity (time complexity is roughly \"how much longer does this take as the input grows?\", space complexity is \"how much extra memory does it use?\"), and walk through what changes if the input array is guaranteed to be sorted versus unsorted."
   },
   "history": [
-    {
-      "date": "2026-09-04",
-      "day_name": "Friday",
-      "pillar_label": "Martech & AI-in-marketing",
-      "concept_summary": "Attribution modeling assigns marketing credit across touchpoints; cookieless approaches replace user tracking with privacy-safe methods."
-    },
     {
       "date": "2026-09-05",
       "day_name": "Saturday",
@@ -61,6 +55,12 @@
       "day_name": "Friday",
       "pillar_label": "Martech & AI-in-marketing",
       "concept_summary": "Generative AI produces text, images, and video for marketing via pipeline workflows requiring human oversight."
+    },
+    {
+      "date": "2026-09-12",
+      "day_name": "Saturday",
+      "pillar_label": "Engineering leadership / EM-for-AI-teams",
+      "concept_summary": "Technical debt in AI codebases: causes, AI-specific risks, and management strategies."
     }
   ]
 }
