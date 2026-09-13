@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 1,
+    "interview_category": 2,
     "swe": 3,
-    "fde_snippet": 7,
+    "fde_snippet": 8,
     "fde_case": 3,
     "martech": 3,
     "leadership": 3,
@@ -10,16 +10,10 @@
     "math_stats": 2
   },
   "pending_interview": {
-    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
-    "question": "You are given an array of integers and a target sum. Write a function that returns all unique pairs of numbers in the array that add up to the target. The array may contain duplicates. Explain your approach, state its time and space complexity (time complexity is roughly \"how much longer does this take as the input grows?\", space complexity is \"how much extra memory does it use?\"), and walk through what changes if the input array is guaranteed to be sorted versus unsorted."
+    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
+    "question": "You are asked to design a rate limiter \u2014 a system that prevents any single user or client from making too many requests to an API in a given time window. Walk through your design. How does the system know how many requests a given user has made recently? Where does that state live, and why? How does your design behave when the system is under extremely high traffic? What are the tradeoffs between being strict (never allowing a single extra request) versus approximate (allowing slightly over the limit occasionally in exchange for better performance and simpler design)?"
   },
   "history": [
-    {
-      "date": "2026-09-05",
-      "day_name": "Saturday",
-      "pillar_label": "Engineering leadership / EM-for-AI-teams",
-      "concept_summary": "Research teams explore; applied teams ship \u2014 sequence and split matter for AI org design."
-    },
     {
       "date": "2026-09-06",
       "day_name": "Sunday",
@@ -61,6 +55,12 @@
       "day_name": "Saturday",
       "pillar_label": "Engineering leadership / EM-for-AI-teams",
       "concept_summary": "Technical debt in AI codebases: causes, AI-specific risks, and management strategies."
+    },
+    {
+      "date": "2026-09-13",
+      "day_name": "Sunday",
+      "pillar_label": "Review & spaced-repetition quiz",
+      "concept_summary": "Weekly spaced-repetition recap covering AI/ML, systems, news, FDE, martech, and engineering leadership."
     }
   ]
 }
