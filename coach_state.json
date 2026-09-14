@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 2,
+    "interview_category": 3,
     "swe": 3,
-    "fde_snippet": 8,
+    "fde_snippet": 0,
     "fde_case": 3,
     "martech": 3,
     "leadership": 3,
-    "ai_ml": 2,
-    "math_stats": 2
+    "ai_ml": 3,
+    "math_stats": 3
   },
   "pending_interview": {
-    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
-    "question": "You are asked to design a rate limiter \u2014 a system that prevents any single user or client from making too many requests to an API in a given time window. Walk through your design. How does the system know how many requests a given user has made recently? Where does that state live, and why? How does your design behave when the system is under extremely high traffic? What are the tradeoffs between being strict (never allowing a single extra request) versus approximate (allowing slightly over the limit occasionally in exchange for better performance and simpler design)?"
+    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
+    "question": "You are tasked with designing a feature store for a large e-commerce company. A feature store is a centralized system that computes, stores, and serves input variables (called \"features\") that machine learning models need both during training and at prediction time. The company has dozens of models in production \u2014 fraud detection, product recommendations, search ranking, and inventory forecasting \u2014 all with different latency requirements and data freshness needs. Walk through your design. How do you handle the difference between features that need to be computed in real time versus those that can be precomputed in batch? How do you ensure a model trained on historical features sees the same values at serving time? What happens when a feature's definition changes \u2014 how do you manage that without breaking live models?"
   },
   "history": [
-    {
-      "date": "2026-09-06",
-      "day_name": "Sunday",
-      "pillar_label": "Review & spaced-repetition quiz",
-      "concept_summary": "Weekly spaced-repetition recap and quiz across Monday\u2013Saturday material."
-    },
     {
       "date": "2026-09-07",
       "day_name": "Monday",
@@ -61,6 +55,12 @@
       "day_name": "Sunday",
       "pillar_label": "Review & spaced-repetition quiz",
       "concept_summary": "Weekly spaced-repetition recap covering AI/ML, systems, news, FDE, martech, and engineering leadership."
+    },
+    {
+      "date": "2026-09-14",
+      "day_name": "Monday",
+      "pillar_label": "AI/ML core concepts",
+      "concept_summary": "Dot product measures vector alignment; gradient boosting chains weak trees to correct errors sequentially."
     }
   ]
 }
