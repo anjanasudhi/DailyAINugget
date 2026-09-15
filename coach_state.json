@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 3,
-    "swe": 3,
-    "fde_snippet": 0,
+    "interview_category": 4,
+    "swe": 4,
+    "fde_snippet": 1,
     "fde_case": 3,
     "martech": 3,
     "leadership": 3,
@@ -10,16 +10,10 @@
     "math_stats": 3
   },
   "pending_interview": {
-    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
-    "question": "You are tasked with designing a feature store for a large e-commerce company. A feature store is a centralized system that computes, stores, and serves input variables (called \"features\") that machine learning models need both during training and at prediction time. The company has dozens of models in production \u2014 fraud detection, product recommendations, search ranking, and inventory forecasting \u2014 all with different latency requirements and data freshness needs. Walk through your design. How do you handle the difference between features that need to be computed in real time versus those that can be precomputed in batch? How do you ensure a model trained on historical features sees the same values at serving time? What happens when a feature's definition changes \u2014 how do you manage that without breaking live models?"
+    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
+    "question": "You joined a team six months ago as a senior manager. You recently discovered that one of your strongest technical leads has been consistently dismissing ideas from two newer team members in public settings \u2014 cutting them off, attributing their ideas to others, and subtly undermining their credibility with stakeholders. The technical lead is well-liked by senior leadership and delivers excellent work. Both newer team members have come to you separately and described feeling sidelined. How do you handle this?"
   },
   "history": [
-    {
-      "date": "2026-09-07",
-      "day_name": "Monday",
-      "pillar_label": "AI/ML core concepts",
-      "concept_summary": "Matrix operations build intuition for transformations; decision trees and random forests predict via rules and voting."
-    },
     {
       "date": "2026-09-08",
       "day_name": "Tuesday",
@@ -61,6 +55,12 @@
       "day_name": "Monday",
       "pillar_label": "AI/ML core concepts",
       "concept_summary": "Dot product measures vector alignment; gradient boosting chains weak trees to correct errors sequentially."
+    },
+    {
+      "date": "2026-09-15",
+      "day_name": "Tuesday",
+      "pillar_label": "Software & systems engineering",
+      "concept_summary": "Load balancing distributes traffic across servers for reliability, scalability, and uptime."
     }
   ]
 }
