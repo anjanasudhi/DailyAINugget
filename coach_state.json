@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 4,
+    "interview_category": 5,
     "swe": 4,
-    "fde_snippet": 1,
+    "fde_snippet": 2,
     "fde_case": 3,
     "martech": 3,
     "leadership": 3,
@@ -10,16 +10,10 @@
     "math_stats": 3
   },
   "pending_interview": {
-    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
-    "question": "You joined a team six months ago as a senior manager. You recently discovered that one of your strongest technical leads has been consistently dismissing ideas from two newer team members in public settings \u2014 cutting them off, attributing their ideas to others, and subtly undermining their credibility with stakeholders. The technical lead is well-liked by senior leadership and delivers excellent work. Both newer team members have come to you separately and described feeling sidelined. How do you handle this?"
+    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "question": "A mid-sized financial services firm comes to you in your FDE capacity. They process thousands of customer support tickets per day and want to use AI to auto-resolve the most common ones. Their CTO says they want to build their own fine-tuned model in-house because they're worried about sending customer financial data to a third-party AI provider. They have a small ML team (3 engineers), a 90-day deadline to show results to the board, and a compliance team that has not yet been involved. Walk me through how you would scope this engagement, what tradeoffs you'd surface in the first week, and what recommendation you'd make on the build-vs-buy question."
   },
   "history": [
-    {
-      "date": "2026-09-08",
-      "day_name": "Tuesday",
-      "pillar_label": "Software & systems engineering",
-      "concept_summary": "Replication copies data for resilience; partitioning splits data across machines for scale."
-    },
     {
       "date": "2026-09-09",
       "day_name": "Wednesday",
@@ -61,6 +55,12 @@
       "day_name": "Tuesday",
       "pillar_label": "Software & systems engineering",
       "concept_summary": "Load balancing distributes traffic across servers for reliability, scalability, and uptime."
+    },
+    {
+      "date": "2026-09-16",
+      "day_name": "Wednesday",
+      "pillar_label": "AI + engineering news roundup",
+      "concept_summary": "AI cyberattacks, coding agent CI strain, ChatGPT privacy, and AI networking competition."
     }
   ]
 }
