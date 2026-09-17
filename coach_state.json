@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 5,
+    "interview_category": 0,
     "swe": 4,
     "fde_snippet": 2,
-    "fde_case": 3,
+    "fde_case": 4,
     "martech": 3,
     "leadership": 3,
     "ai_ml": 3,
     "math_stats": 3
   },
   "pending_interview": {
-    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
-    "question": "A mid-sized financial services firm comes to you in your FDE capacity. They process thousands of customer support tickets per day and want to use AI to auto-resolve the most common ones. Their CTO says they want to build their own fine-tuned model in-house because they're worried about sending customer financial data to a third-party AI provider. They have a small ML team (3 engineers), a 90-day deadline to show results to the board, and a compliance team that has not yet been involved. Walk me through how you would scope this engagement, what tradeoffs you'd surface in the first week, and what recommendation you'd make on the build-vs-buy question."
+    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
+    "question": "You're advising a direct-to-consumer brand that has been using a third-party identity graph to power personalized email and paid media campaigns. New privacy regulations have sharply limited cross-site tracking, and their third-party data provider has told them their match rates (the percentage of users the provider can actually identify and connect to behavioral data) are down 40% year-over-year. The brand still wants to run personalized campaigns and measure whether those campaigns actually caused purchases \u2014 not just correlated with them. Walk me through how you would redesign their personalization and attribution architecture for a privacy-constrained environment. What data assets would you prioritize building, what measurement approaches would you rely on, and what are the key tradeoffs you'd flag for their marketing leadership?"
   },
   "history": [
-    {
-      "date": "2026-09-09",
-      "day_name": "Wednesday",
-      "pillar_label": "AI + engineering news roundup",
-      "concept_summary": "AI agent swarms, model distillation espionage, Nvidia-Hugging Face acquisition, model release fatigue"
-    },
     {
       "date": "2026-09-10",
       "day_name": "Thursday",
@@ -61,6 +55,12 @@
       "day_name": "Wednesday",
       "pillar_label": "AI + engineering news roundup",
       "concept_summary": "AI cyberattacks, coding agent CI strain, ChatGPT privacy, and AI networking competition."
+    },
+    {
+      "date": "2026-09-17",
+      "day_name": "Thursday",
+      "pillar_label": "FDE case study / client scenario",
+      "concept_summary": "Custom-for-client vs. reusable-platform tradeoffs in FDE engagements, with decomposition framework."
     }
   ]
 }
