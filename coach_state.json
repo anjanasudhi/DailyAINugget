@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 0,
+    "interview_category": 1,
     "swe": 4,
-    "fde_snippet": 2,
+    "fde_snippet": 3,
     "fde_case": 4,
-    "martech": 3,
+    "martech": 4,
     "leadership": 3,
     "ai_ml": 3,
     "math_stats": 3
   },
   "pending_interview": {
-    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
-    "question": "You're advising a direct-to-consumer brand that has been using a third-party identity graph to power personalized email and paid media campaigns. New privacy regulations have sharply limited cross-site tracking, and their third-party data provider has told them their match rates (the percentage of users the provider can actually identify and connect to behavioral data) are down 40% year-over-year. The brand still wants to run personalized campaigns and measure whether those campaigns actually caused purchases \u2014 not just correlated with them. Walk me through how you would redesign their personalization and attribution architecture for a privacy-constrained environment. What data assets would you prioritize building, what measurement approaches would you rely on, and what are the key tradeoffs you'd flag for their marketing leadership?"
+    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "question": "You are given a list of integers representing the daily prices of a stock. You want to find the length of the longest subsequence of prices such that every element in the subsequence is strictly greater than the one before it (this is called a \"longest increasing subsequence\" or LIS). The subsequence does not need to be made of consecutive elements \u2014 you can skip prices. For example, given [10, 9, 2, 5, 3, 7, 101, 18], one valid answer is [2, 3, 7, 101], which has length 4. What is the most efficient algorithm you know for solving this, what is its time complexity (Big-O \u2014 a notation for expressing how an algorithm's runtime grows with input size), and how would you explain the core insight that makes the efficient solution faster than a naive approach? Walk through your reasoning out loud as you would in an interview."
   },
   "history": [
-    {
-      "date": "2026-09-10",
-      "day_name": "Thursday",
-      "pillar_label": "FDE case study / client scenario",
-      "concept_summary": "FDE client stakeholder management: navigating split client trust to reach shared technical outcomes."
-    },
     {
       "date": "2026-09-11",
       "day_name": "Friday",
@@ -61,6 +55,12 @@
       "day_name": "Thursday",
       "pillar_label": "FDE case study / client scenario",
       "concept_summary": "Custom-for-client vs. reusable-platform tradeoffs in FDE engagements, with decomposition framework."
+    },
+    {
+      "date": "2026-09-18",
+      "day_name": "Friday",
+      "pillar_label": "Martech & AI-in-marketing",
+      "concept_summary": "Martech stack: CRM stores contacts, CDP unifies behavioral profiles, orchestration automates cross-channel campaigns."
     }
   ]
 }
