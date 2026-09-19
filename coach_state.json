@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 1,
+    "interview_category": 2,
     "swe": 4,
-    "fde_snippet": 3,
+    "fde_snippet": 4,
     "fde_case": 4,
     "martech": 4,
-    "leadership": 3,
+    "leadership": 4,
     "ai_ml": 3,
     "math_stats": 3
   },
   "pending_interview": {
-    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
-    "question": "You are given a list of integers representing the daily prices of a stock. You want to find the length of the longest subsequence of prices such that every element in the subsequence is strictly greater than the one before it (this is called a \"longest increasing subsequence\" or LIS). The subsequence does not need to be made of consecutive elements \u2014 you can skip prices. For example, given [10, 9, 2, 5, 3, 7, 101, 18], one valid answer is [2, 3, 7, 101], which has length 4. What is the most efficient algorithm you know for solving this, what is its time complexity (Big-O \u2014 a notation for expressing how an algorithm's runtime grows with input size), and how would you explain the core insight that makes the efficient solution faster than a naive approach? Walk through your reasoning out loud as you would in an interview."
+    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
+    "question": "You are asked to design a rate limiter \u2014 a component that controls how many requests a client (identified by API key or IP address) can make to a service within a given time window, rejecting excess requests rather than letting them through. Walk through how you would design this system to work correctly at scale, across multiple servers, with low added latency. Cover the data structures or storage layer you'd use, the specific algorithm or strategy you'd choose for counting/tracking requests, and the tradeoffs involved. What breaks at scale if you get this wrong, and how would you handle it?"
   },
   "history": [
-    {
-      "date": "2026-09-11",
-      "day_name": "Friday",
-      "pillar_label": "Martech & AI-in-marketing",
-      "concept_summary": "Generative AI produces text, images, and video for marketing via pipeline workflows requiring human oversight."
-    },
     {
       "date": "2026-09-12",
       "day_name": "Saturday",
@@ -61,6 +55,12 @@
       "day_name": "Friday",
       "pillar_label": "Martech & AI-in-marketing",
       "concept_summary": "Martech stack: CRM stores contacts, CDP unifies behavioral profiles, orchestration automates cross-channel campaigns."
+    },
+    {
+      "date": "2026-09-19",
+      "day_name": "Saturday",
+      "pillar_label": "Engineering leadership / EM-for-AI-teams",
+      "concept_summary": "Communicating AI risk and limitations clearly to non-technical stakeholders builds calibrated trust."
     }
   ]
 }
