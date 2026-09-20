@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 2,
+    "interview_category": 3,
     "swe": 4,
-    "fde_snippet": 4,
+    "fde_snippet": 5,
     "fde_case": 4,
     "martech": 4,
     "leadership": 4,
@@ -10,16 +10,10 @@
     "math_stats": 3
   },
   "pending_interview": {
-    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
-    "question": "You are asked to design a rate limiter \u2014 a component that controls how many requests a client (identified by API key or IP address) can make to a service within a given time window, rejecting excess requests rather than letting them through. Walk through how you would design this system to work correctly at scale, across multiple servers, with low added latency. Cover the data structures or storage layer you'd use, the specific algorithm or strategy you'd choose for counting/tracking requests, and the tradeoffs involved. What breaks at scale if you get this wrong, and how would you handle it?"
+    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
+    "question": "You are asked to design a recommendation system for a large e-commerce platform that serves personalized product rankings to hundreds of millions of users. The system must return results in under 100 milliseconds at the point a user loads their homepage. Walk through the full architecture: how you generate candidate items to consider, how you rank them, where machine learning fits in versus simpler rules, how you keep recommendations fresh as user behavior changes, and how you store and serve the features (pieces of user and item data) the model needs at serving time. What are the main failure modes, and how would you design the system to degrade gracefully rather than break completely when individual components go down?"
   },
   "history": [
-    {
-      "date": "2026-09-12",
-      "day_name": "Saturday",
-      "pillar_label": "Engineering leadership / EM-for-AI-teams",
-      "concept_summary": "Technical debt in AI codebases: causes, AI-specific risks, and management strategies."
-    },
     {
       "date": "2026-09-13",
       "day_name": "Sunday",
@@ -61,6 +55,12 @@
       "day_name": "Saturday",
       "pillar_label": "Engineering leadership / EM-for-AI-teams",
       "concept_summary": "Communicating AI risk and limitations clearly to non-technical stakeholders builds calibrated trust."
+    },
+    {
+      "date": "2026-09-20",
+      "day_name": "Sunday",
+      "pillar_label": "Review & spaced-repetition quiz",
+      "concept_summary": "Sunday spaced-repetition review of Monday\u2013Saturday AI, systems, FDE, martech, and leadership concepts."
     }
   ]
 }
