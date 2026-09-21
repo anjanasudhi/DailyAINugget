@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 3,
+    "interview_category": 4,
     "swe": 4,
-    "fde_snippet": 5,
+    "fde_snippet": 6,
     "fde_case": 4,
     "martech": 4,
     "leadership": 4,
-    "ai_ml": 3,
-    "math_stats": 3
+    "ai_ml": 4,
+    "math_stats": 4
   },
   "pending_interview": {
-    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
-    "question": "You are asked to design a recommendation system for a large e-commerce platform that serves personalized product rankings to hundreds of millions of users. The system must return results in under 100 milliseconds at the point a user loads their homepage. Walk through the full architecture: how you generate candidate items to consider, how you rank them, where machine learning fits in versus simpler rules, how you keep recommendations fresh as user behavior changes, and how you store and serve the features (pieces of user and item data) the model needs at serving time. What are the main failure modes, and how would you design the system to degrade gracefully rather than break completely when individual components go down?"
+    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
+    "question": "Tell me about a time when two senior stakeholders you depended on had directly conflicting priorities for the same project or initiative, and you didn't have the authority to resolve it by escalating above them. What did you do, how did you navigate the conflict, and what would you do differently in hindsight?"
   },
   "history": [
-    {
-      "date": "2026-09-13",
-      "day_name": "Sunday",
-      "pillar_label": "Review & spaced-repetition quiz",
-      "concept_summary": "Weekly spaced-repetition recap covering AI/ML, systems, news, FDE, martech, and engineering leadership."
-    },
     {
       "date": "2026-09-14",
       "day_name": "Monday",
@@ -61,6 +55,12 @@
       "day_name": "Sunday",
       "pillar_label": "Review & spaced-repetition quiz",
       "concept_summary": "Sunday spaced-repetition review of Monday\u2013Saturday AI, systems, FDE, martech, and leadership concepts."
+    },
+    {
+      "date": "2026-09-21",
+      "day_name": "Monday",
+      "pillar_label": "AI/ML core concepts",
+      "concept_summary": "Eigenvalues/eigenvectors as linear algebra foundation; SVMs find maximum-margin decision boundaries using support vectors and kernels."
     }
   ]
 }
