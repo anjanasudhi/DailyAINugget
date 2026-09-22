@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 4,
-    "swe": 4,
-    "fde_snippet": 6,
+    "interview_category": 5,
+    "swe": 5,
+    "fde_snippet": 7,
     "fde_case": 4,
     "martech": 4,
     "leadership": 4,
@@ -10,16 +10,10 @@
     "math_stats": 4
   },
   "pending_interview": {
-    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
-    "question": "Tell me about a time when two senior stakeholders you depended on had directly conflicting priorities for the same project or initiative, and you didn't have the authority to resolve it by escalating above them. What did you do, how did you navigate the conflict, and what would you do differently in hindsight?"
+    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "question": "A mid-sized logistics company comes to you wanting to replace their manual shipment-tracking process with an AI-powered system. They want customers to get real-time updates on where their shipments are, and they want internal ops teams to get automated alerts when a shipment is likely to be delayed. They have a small engineering team of four people, no existing ML infrastructure, and a six-month timeline. Walk me through how you would scope this engagement \u2014 what you'd need to learn, what you'd build versus buy, and what tradeoffs you'd make explicit to the client before writing a single line of code."
   },
   "history": [
-    {
-      "date": "2026-09-14",
-      "day_name": "Monday",
-      "pillar_label": "AI/ML core concepts",
-      "concept_summary": "Dot product measures vector alignment; gradient boosting chains weak trees to correct errors sequentially."
-    },
     {
       "date": "2026-09-15",
       "day_name": "Tuesday",
@@ -61,6 +55,12 @@
       "day_name": "Monday",
       "pillar_label": "AI/ML core concepts",
       "concept_summary": "Eigenvalues/eigenvectors as linear algebra foundation; SVMs find maximum-margin decision boundaries using support vectors and kernels."
+    },
+    {
+      "date": "2026-09-22",
+      "day_name": "Tuesday",
+      "pillar_label": "Software & systems engineering",
+      "concept_summary": "Strong consistency guarantees instant data agreement; eventual consistency trades freshness for speed and availability."
     }
   ]
 }
