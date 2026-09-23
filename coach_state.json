@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 5,
+    "interview_category": 0,
     "swe": 5,
-    "fde_snippet": 7,
+    "fde_snippet": 8,
     "fde_case": 4,
     "martech": 4,
     "leadership": 4,
@@ -10,16 +10,10 @@
     "math_stats": 4
   },
   "pending_interview": {
-    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
-    "question": "A mid-sized logistics company comes to you wanting to replace their manual shipment-tracking process with an AI-powered system. They want customers to get real-time updates on where their shipments are, and they want internal ops teams to get automated alerts when a shipment is likely to be delayed. They have a small engineering team of four people, no existing ML infrastructure, and a six-month timeline. Walk me through how you would scope this engagement \u2014 what you'd need to learn, what you'd build versus buy, and what tradeoffs you'd make explicit to the client before writing a single line of code."
+    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
+    "question": "You're brought in to redesign the personalization engine for a mid-size e-commerce company. They have three years of purchase history, a CDP (customer data platform) that unifies behavioral signals across web and email, and they've just integrated a generative AI content layer that dynamically rewrites product descriptions for each user segment. Meanwhile, their ad team is under pressure because third-party cookies have been deprecated and their attribution model (the system that gives credit to the marketing touchpoints that led to a purchase) is now largely broken. Walk me through how you would architect a personalization and measurement system that works within these privacy constraints \u2014 what data assets you'd prioritize, how you'd handle attribution without third-party cookies, and what role the generative AI content layer plays in the overall measurement story."
   },
   "history": [
-    {
-      "date": "2026-09-15",
-      "day_name": "Tuesday",
-      "pillar_label": "Software & systems engineering",
-      "concept_summary": "Load balancing distributes traffic across servers for reliability, scalability, and uptime."
-    },
     {
       "date": "2026-09-16",
       "day_name": "Wednesday",
@@ -61,6 +55,12 @@
       "day_name": "Tuesday",
       "pillar_label": "Software & systems engineering",
       "concept_summary": "Strong consistency guarantees instant data agreement; eventual consistency trades freshness for speed and availability."
+    },
+    {
+      "date": "2026-09-23",
+      "day_name": "Wednesday",
+      "pillar_label": "AI + engineering news roundup",
+      "concept_summary": "AI agent safety incidents, frontier slowdown calls, self-improving AI funding, and edge AI trends."
     }
   ]
 }
