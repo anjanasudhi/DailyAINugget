@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 0,
+    "interview_category": 1,
     "swe": 5,
     "fde_snippet": 8,
-    "fde_case": 4,
+    "fde_case": 5,
     "martech": 4,
     "leadership": 4,
     "ai_ml": 4,
     "math_stats": 4
   },
   "pending_interview": {
-    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
-    "question": "You're brought in to redesign the personalization engine for a mid-size e-commerce company. They have three years of purchase history, a CDP (customer data platform) that unifies behavioral signals across web and email, and they've just integrated a generative AI content layer that dynamically rewrites product descriptions for each user segment. Meanwhile, their ad team is under pressure because third-party cookies have been deprecated and their attribution model (the system that gives credit to the marketing touchpoints that led to a purchase) is now largely broken. Walk me through how you would architect a personalization and measurement system that works within these privacy constraints \u2014 what data assets you'd prioritize, how you'd handle attribution without third-party cookies, and what role the generative AI content layer plays in the overall measurement story."
+    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "question": "You have a list of log entries, each represented as a pair: a string server ID and an integer timestamp. The logs are not sorted. You want to find the server that has the longest gap between any two consecutive events on that server (where \"consecutive\" means consecutive in time for that server, not in the list). Describe the approach you'd take, analyze the time and space complexity of your solution, and explain what data structures you'd use and why."
   },
   "history": [
-    {
-      "date": "2026-09-16",
-      "day_name": "Wednesday",
-      "pillar_label": "AI + engineering news roundup",
-      "concept_summary": "AI cyberattacks, coding agent CI strain, ChatGPT privacy, and AI networking competition."
-    },
     {
       "date": "2026-09-17",
       "day_name": "Thursday",
@@ -61,6 +55,12 @@
       "day_name": "Wednesday",
       "pillar_label": "AI + engineering news roundup",
       "concept_summary": "AI agent safety incidents, frontier slowdown calls, self-improving AI funding, and edge AI trends."
+    },
+    {
+      "date": "2026-09-24",
+      "day_name": "Thursday",
+      "pillar_label": "FDE case study / client scenario",
+      "concept_summary": "On-site production incident handling: stabilize, scope, localize, fix, communicate under time pressure."
     }
   ]
 }
