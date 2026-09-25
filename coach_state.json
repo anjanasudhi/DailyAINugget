@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 1,
+    "interview_category": 2,
     "swe": 5,
-    "fde_snippet": 8,
+    "fde_snippet": 0,
     "fde_case": 5,
-    "martech": 4,
+    "martech": 5,
     "leadership": 4,
     "ai_ml": 4,
     "math_stats": 4
   },
   "pending_interview": {
-    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
-    "question": "You have a list of log entries, each represented as a pair: a string server ID and an integer timestamp. The logs are not sorted. You want to find the server that has the longest gap between any two consecutive events on that server (where \"consecutive\" means consecutive in time for that server, not in the list). Describe the approach you'd take, analyze the time and space complexity of your solution, and explain what data structures you'd use and why."
+    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
+    "question": "You are designing a notification delivery system for a large consumer platform. The system needs to send notifications across multiple channels \u2014 push, SMS, and email \u2014 to hundreds of millions of users. Notifications vary widely in urgency: some are time-critical (like a one-time login code), others are low-priority (like a weekly digest). Walk through your high-level architecture. How do you ensure high-priority messages are never delayed by a backlog of low-priority ones? How do you handle retries when a downstream channel (e.g., an SMS provider) is temporarily down? And how does the system scale to handle a sudden spike \u2014 say, a major platform event that triggers notifications to 50 million users within 60 seconds?"
   },
   "history": [
-    {
-      "date": "2026-09-17",
-      "day_name": "Thursday",
-      "pillar_label": "FDE case study / client scenario",
-      "concept_summary": "Custom-for-client vs. reusable-platform tradeoffs in FDE engagements, with decomposition framework."
-    },
     {
       "date": "2026-09-18",
       "day_name": "Friday",
@@ -61,6 +55,12 @@
       "day_name": "Thursday",
       "pillar_label": "FDE case study / client scenario",
       "concept_summary": "On-site production incident handling: stabilize, scope, localize, fix, communicate under time pressure."
+    },
+    {
+      "date": "2026-09-25",
+      "day_name": "Friday",
+      "pillar_label": "Martech & AI-in-marketing",
+      "concept_summary": "AI agents in marketing perceive data, reason, and act autonomously beyond fixed automation rules."
     }
   ]
 }
