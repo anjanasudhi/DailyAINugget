@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 2,
+    "interview_category": 3,
     "swe": 5,
-    "fde_snippet": 0,
+    "fde_snippet": 1,
     "fde_case": 5,
     "martech": 5,
-    "leadership": 4,
+    "leadership": 5,
     "ai_ml": 4,
     "math_stats": 4
   },
   "pending_interview": {
-    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
-    "question": "You are designing a notification delivery system for a large consumer platform. The system needs to send notifications across multiple channels \u2014 push, SMS, and email \u2014 to hundreds of millions of users. Notifications vary widely in urgency: some are time-critical (like a one-time login code), others are low-priority (like a weekly digest). Walk through your high-level architecture. How do you ensure high-priority messages are never delayed by a backlog of low-priority ones? How do you handle retries when a downstream channel (e.g., an SMS provider) is temporarily down? And how does the system scale to handle a sudden spike \u2014 say, a major platform event that triggers notifications to 50 million users within 60 seconds?"
+    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
+    "question": "You are asked to design a feature store for a large e-commerce company. A feature store is a centralized system that computes, stores, and serves input signals \u2014 called features \u2014 that machine learning models need to make predictions (for example, \"how many times has this user purchased in the last 7 days\"). The company runs dozens of ML models: real-time product recommendation, fraud detection, churn prediction, and search ranking. Each model has different latency requirements: fraud detection must respond in under 20 milliseconds, while churn prediction runs in overnight batch jobs. Walk through your high-level design. How do you handle the fact that some features need to be served in real time and others are fine computed in batch? How do you prevent the same feature logic from being written differently by different teams (causing training/serving skew \u2014 where a model trained on one version of a feature gets served a different version in production)? And how does your design scale as the number of models and features grows by 10x?"
   },
   "history": [
-    {
-      "date": "2026-09-18",
-      "day_name": "Friday",
-      "pillar_label": "Martech & AI-in-marketing",
-      "concept_summary": "Martech stack: CRM stores contacts, CDP unifies behavioral profiles, orchestration automates cross-channel campaigns."
-    },
     {
       "date": "2026-09-19",
       "day_name": "Saturday",
@@ -61,6 +55,12 @@
       "day_name": "Friday",
       "pillar_label": "Martech & AI-in-marketing",
       "concept_summary": "AI agents in marketing perceive data, reason, and act autonomously beyond fixed automation rules."
+    },
+    {
+      "date": "2026-09-26",
+      "day_name": "Saturday",
+      "pillar_label": "Engineering leadership / EM-for-AI-teams",
+      "concept_summary": "Roadmap planning for AI teams under constant model and tooling churn."
     }
   ]
 }
