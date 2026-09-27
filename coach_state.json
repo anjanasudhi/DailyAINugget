@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 3,
+    "interview_category": 4,
     "swe": 5,
-    "fde_snippet": 1,
+    "fde_snippet": 2,
     "fde_case": 5,
     "martech": 5,
     "leadership": 5,
@@ -10,16 +10,10 @@
     "math_stats": 4
   },
   "pending_interview": {
-    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
-    "question": "You are asked to design a feature store for a large e-commerce company. A feature store is a centralized system that computes, stores, and serves input signals \u2014 called features \u2014 that machine learning models need to make predictions (for example, \"how many times has this user purchased in the last 7 days\"). The company runs dozens of ML models: real-time product recommendation, fraud detection, churn prediction, and search ranking. Each model has different latency requirements: fraud detection must respond in under 20 milliseconds, while churn prediction runs in overnight batch jobs. Walk through your high-level design. How do you handle the fact that some features need to be served in real time and others are fine computed in batch? How do you prevent the same feature logic from being written differently by different teams (causing training/serving skew \u2014 where a model trained on one version of a feature gets served a different version in production)? And how does your design scale as the number of models and features grows by 10x?"
+    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
+    "question": "You inherited a senior engineering team that has been running autonomously for two years under a manager who never pushed back on scope. You need to introduce a proper prioritization process \u2014 which will require the team to say no to some requests they've historically always said yes to. Two of your strongest engineers are openly skeptical, and a key internal stakeholder has already gone around you to escalate a project you deprioritized. Walk me through exactly how you would handle the next 30 days."
   },
   "history": [
-    {
-      "date": "2026-09-19",
-      "day_name": "Saturday",
-      "pillar_label": "Engineering leadership / EM-for-AI-teams",
-      "concept_summary": "Communicating AI risk and limitations clearly to non-technical stakeholders builds calibrated trust."
-    },
     {
       "date": "2026-09-20",
       "day_name": "Sunday",
@@ -61,6 +55,12 @@
       "day_name": "Saturday",
       "pillar_label": "Engineering leadership / EM-for-AI-teams",
       "concept_summary": "Roadmap planning for AI teams under constant model and tooling churn."
+    },
+    {
+      "date": "2026-09-27",
+      "day_name": "Sunday",
+      "pillar_label": "Review & spaced-repetition quiz",
+      "concept_summary": "Weekly spaced-repetition recap and quiz across Monday\u2013Saturday AI/engineering topics."
     }
   ]
 }
