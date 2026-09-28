@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 4,
+    "interview_category": 5,
     "swe": 5,
-    "fde_snippet": 2,
+    "fde_snippet": 3,
     "fde_case": 5,
     "martech": 5,
     "leadership": 5,
-    "ai_ml": 4,
-    "math_stats": 4
+    "ai_ml": 5,
+    "math_stats": 5
   },
   "pending_interview": {
-    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
-    "question": "You inherited a senior engineering team that has been running autonomously for two years under a manager who never pushed back on scope. You need to introduce a proper prioritization process \u2014 which will require the team to say no to some requests they've historically always said yes to. Two of your strongest engineers are openly skeptical, and a key internal stakeholder has already gone around you to escalate a project you deprioritized. Walk me through exactly how you would handle the next 30 days."
+    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "question": "\"A mid-market e-commerce company comes to you. They have about 2 million customers and a reasonable data engineering team, but no dedicated ML (machine learning) platform. They want a product recommendation engine \u2014 the kind that shows 'customers like you also bought X.' Their CTO says they want it live in 90 days and is leaning toward building it in-house because they feel it will be 'more customizable.' Walk me through how you would scope this engagement, what questions you would ask in the first meeting, and what recommendation you would make on build versus buy \u2014 and why.\""
   },
   "history": [
-    {
-      "date": "2026-09-20",
-      "day_name": "Sunday",
-      "pillar_label": "Review & spaced-repetition quiz",
-      "concept_summary": "Sunday spaced-repetition review of Monday\u2013Saturday AI, systems, FDE, martech, and leadership concepts."
-    },
     {
       "date": "2026-09-21",
       "day_name": "Monday",
@@ -61,6 +55,12 @@
       "day_name": "Sunday",
       "pillar_label": "Review & spaced-repetition quiz",
       "concept_summary": "Weekly spaced-repetition recap and quiz across Monday\u2013Saturday AI/engineering topics."
+    },
+    {
+      "date": "2026-09-28",
+      "day_name": "Monday",
+      "pillar_label": "AI/ML core concepts",
+      "concept_summary": "SVD decomposes matrices to find key patterns; k-means clusters unlabeled data by proximity to centroids."
     }
   ]
 }
