@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 5,
-    "swe": 5,
-    "fde_snippet": 3,
+    "interview_category": 0,
+    "swe": 6,
+    "fde_snippet": 4,
     "fde_case": 5,
     "martech": 5,
     "leadership": 5,
@@ -10,16 +10,10 @@
     "math_stats": 5
   },
   "pending_interview": {
-    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
-    "question": "\"A mid-market e-commerce company comes to you. They have about 2 million customers and a reasonable data engineering team, but no dedicated ML (machine learning) platform. They want a product recommendation engine \u2014 the kind that shows 'customers like you also bought X.' Their CTO says they want it live in 90 days and is leaning toward building it in-house because they feel it will be 'more customizable.' Walk me through how you would scope this engagement, what questions you would ask in the first meeting, and what recommendation you would make on build versus buy \u2014 and why.\""
+    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
+    "question": "You are advising a large retail brand that runs a personalization engine for email, on-site recommendations, and paid retargeting \u2014 all fed by a shared user data platform. New privacy regulations in their top three markets are going to restrict third-party cookie tracking and limit the granularity of behavioral data they can collect without explicit consent. Walk me through how you would redesign their personalization architecture to maintain meaningful personalization performance under these constraints, and how you would reframe how the business measures the effectiveness of personalization when individual-level attribution is no longer reliable."
   },
   "history": [
-    {
-      "date": "2026-09-21",
-      "day_name": "Monday",
-      "pillar_label": "AI/ML core concepts",
-      "concept_summary": "Eigenvalues/eigenvectors as linear algebra foundation; SVMs find maximum-margin decision boundaries using support vectors and kernels."
-    },
     {
       "date": "2026-09-22",
       "day_name": "Tuesday",
@@ -61,6 +55,12 @@
       "day_name": "Monday",
       "pillar_label": "AI/ML core concepts",
       "concept_summary": "SVD decomposes matrices to find key patterns; k-means clusters unlabeled data by proximity to centroids."
+    },
+    {
+      "date": "2026-09-29",
+      "day_name": "Tuesday",
+      "pillar_label": "Software & systems engineering",
+      "concept_summary": "REST, GraphQL, and gRPC are three API styles with different tradeoffs for flexibility, performance, and compatibility."
     }
   ]
 }
