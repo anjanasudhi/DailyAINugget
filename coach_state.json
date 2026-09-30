@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 0,
+    "interview_category": 1,
     "swe": 6,
-    "fde_snippet": 4,
+    "fde_snippet": 5,
     "fde_case": 5,
     "martech": 5,
     "leadership": 5,
@@ -10,16 +10,10 @@
     "math_stats": 5
   },
   "pending_interview": {
-    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
-    "question": "You are advising a large retail brand that runs a personalization engine for email, on-site recommendations, and paid retargeting \u2014 all fed by a shared user data platform. New privacy regulations in their top three markets are going to restrict third-party cookie tracking and limit the granularity of behavioral data they can collect without explicit consent. Walk me through how you would redesign their personalization architecture to maintain meaningful personalization performance under these constraints, and how you would reframe how the business measures the effectiveness of personalization when individual-level attribution is no longer reliable."
+    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "question": "You have a list of log entries, each containing a user ID and a timestamp (as an integer). Write a function that finds all users who appear more than once within any 60-second window in the log. Describe your approach and analyze its time and space complexity \u2014 what data structures would you reach for, and why? What changes if the log is too large to fit in memory?"
   },
   "history": [
-    {
-      "date": "2026-09-22",
-      "day_name": "Tuesday",
-      "pillar_label": "Software & systems engineering",
-      "concept_summary": "Strong consistency guarantees instant data agreement; eventual consistency trades freshness for speed and availability."
-    },
     {
       "date": "2026-09-23",
       "day_name": "Wednesday",
@@ -61,6 +55,12 @@
       "day_name": "Tuesday",
       "pillar_label": "Software & systems engineering",
       "concept_summary": "REST, GraphQL, and gRPC are three API styles with different tradeoffs for flexibility, performance, and compatibility."
+    },
+    {
+      "date": "2026-09-30",
+      "day_name": "Wednesday",
+      "pillar_label": "AI + engineering news roundup",
+      "concept_summary": "Key AI/eng news: OpenAI Dots agents, AMD acquires World Labs, Salesforce AIforce, MCP OAuth flaw."
     }
   ]
 }
