@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 1,
+    "interview_category": 2,
     "swe": 6,
     "fde_snippet": 5,
-    "fde_case": 5,
+    "fde_case": 6,
     "martech": 5,
     "leadership": 5,
     "ai_ml": 5,
     "math_stats": 5
   },
   "pending_interview": {
-    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
-    "question": "You have a list of log entries, each containing a user ID and a timestamp (as an integer). Write a function that finds all users who appear more than once within any 60-second window in the log. Describe your approach and analyze its time and space complexity \u2014 what data structures would you reach for, and why? What changes if the log is too large to fit in memory?"
+    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
+    "question": "You are designing a rate limiter \u2014 a system that controls how many requests a user or service can make to an API within a given time window (for example, no more than 1,000 requests per minute per user). Walk through how you would design this at scale. What algorithm would you use to enforce the limits, where would you store the state, and how would you handle the case where your service runs on hundreds of servers simultaneously? What tradeoffs does your design involve?"
   },
   "history": [
-    {
-      "date": "2026-09-23",
-      "day_name": "Wednesday",
-      "pillar_label": "AI + engineering news roundup",
-      "concept_summary": "AI agent safety incidents, frontier slowdown calls, self-improving AI funding, and edge AI trends."
-    },
     {
       "date": "2026-09-24",
       "day_name": "Thursday",
@@ -61,6 +55,12 @@
       "day_name": "Wednesday",
       "pillar_label": "AI + engineering news roundup",
       "concept_summary": "Key AI/eng news: OpenAI Dots agents, AMD acquires World Labs, Salesforce AIforce, MCP OAuth flaw."
+    },
+    {
+      "date": "2026-10-01",
+      "day_name": "Thursday",
+      "pillar_label": "FDE case study / client scenario",
+      "concept_summary": "FDE case study: navigating compliance and data privacy constraints in client environments."
     }
   ]
 }
