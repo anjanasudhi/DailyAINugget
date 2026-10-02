@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 2,
+    "interview_category": 3,
     "swe": 6,
-    "fde_snippet": 5,
+    "fde_snippet": 6,
     "fde_case": 6,
-    "martech": 5,
+    "martech": 6,
     "leadership": 5,
     "ai_ml": 5,
     "math_stats": 5
   },
   "pending_interview": {
-    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
-    "question": "You are designing a rate limiter \u2014 a system that controls how many requests a user or service can make to an API within a given time window (for example, no more than 1,000 requests per minute per user). Walk through how you would design this at scale. What algorithm would you use to enforce the limits, where would you store the state, and how would you handle the case where your service runs on hundreds of servers simultaneously? What tradeoffs does your design involve?"
+    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
+    "question": "You are designing a feature store for a large e-commerce company. A \"feature store\" is a centralized system that computes, stores, and serves pre-calculated inputs (called \"features\") to machine learning models \u2014 for example, \"average purchase value for this user in the last 30 days.\" The company has hundreds of ML models in production, covering recommendations, fraud detection, and dynamic pricing, and teams need to reuse features across models without recomputing them from scratch each time. Walk through how you would design this system. How would you handle the difference between features that need to be computed in real time (for example, the user's last 5 clicks in the current session) versus features that can be computed in batch ahead of time (for example, a user's 90-day purchase history)? How would you ensure consistency \u2014 meaning the feature values a model sees during training are the same ones it sees when serving live predictions? What are the main failure modes?"
   },
   "history": [
-    {
-      "date": "2026-09-24",
-      "day_name": "Thursday",
-      "pillar_label": "FDE case study / client scenario",
-      "concept_summary": "On-site production incident handling: stabilize, scope, localize, fix, communicate under time pressure."
-    },
     {
       "date": "2026-09-25",
       "day_name": "Friday",
@@ -61,6 +55,12 @@
       "day_name": "Thursday",
       "pillar_label": "FDE case study / client scenario",
       "concept_summary": "FDE case study: navigating compliance and data privacy constraints in client environments."
+    },
+    {
+      "date": "2026-10-02",
+      "day_name": "Friday",
+      "pillar_label": "Martech & AI-in-marketing",
+      "concept_summary": "Data clean rooms enable privacy-safe cross-company data collaboration; first-party data is the foundation."
     }
   ]
 }
