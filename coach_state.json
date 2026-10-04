@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 4,
+    "interview_category": 5,
     "swe": 6,
-    "fde_snippet": 7,
+    "fde_snippet": 8,
     "fde_case": 6,
     "martech": 6,
     "leadership": 6,
@@ -10,16 +10,10 @@
     "math_stats": 5
   },
   "pending_interview": {
-    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
-    "question": "Tell me about a time you had to push back on a direction set by a senior stakeholder \u2014 someone above you \u2014 because you believed it was the wrong call for your team or the product. How did you handle it, what was the outcome, and what would you do differently?"
+    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "question": "You are in the first meeting with a new enterprise client. They tell you they want to \"add AI\" to their customer support operation. They have a team of 40 agents, a legacy ticketing system that is 12 years old, no API access to that system, and a rough budget of $500K for the year. Walk me through how you would scope this engagement: what questions do you ask first, what early tradeoffs do you surface, and how do you decide what to actually recommend building versus buying off the shelf?"
   },
   "history": [
-    {
-      "date": "2026-09-26",
-      "day_name": "Saturday",
-      "pillar_label": "Engineering leadership / EM-for-AI-teams",
-      "concept_summary": "Roadmap planning for AI teams under constant model and tooling churn."
-    },
     {
       "date": "2026-09-27",
       "day_name": "Sunday",
@@ -61,6 +55,12 @@
       "day_name": "Saturday",
       "pillar_label": "Engineering leadership / EM-for-AI-teams",
       "concept_summary": "Build vs. buy AI infrastructure: own what differentiates you, rent what doesn't."
+    },
+    {
+      "date": "2026-10-04",
+      "day_name": "Sunday",
+      "pillar_label": "Review & spaced-repetition quiz",
+      "concept_summary": "Weekly recap and spaced-repetition quiz across Monday\u2013Saturday AI/engineering topics."
     }
   ]
 }
