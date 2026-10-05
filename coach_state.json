@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 5,
+    "interview_category": 0,
     "swe": 6,
-    "fde_snippet": 8,
+    "fde_snippet": 0,
     "fde_case": 6,
     "martech": 6,
     "leadership": 6,
-    "ai_ml": 5,
-    "math_stats": 5
+    "ai_ml": 6,
+    "math_stats": 6
   },
   "pending_interview": {
-    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
-    "question": "You are in the first meeting with a new enterprise client. They tell you they want to \"add AI\" to their customer support operation. They have a team of 40 agents, a legacy ticketing system that is 12 years old, no API access to that system, and a rough budget of $500K for the year. Walk me through how you would scope this engagement: what questions do you ask first, what early tradeoffs do you surface, and how do you decide what to actually recommend building versus buying off the shelf?"
+    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
+    "question": "You are advising a retail brand that runs a loyalty program with 8 million members. They have strong first-party purchase data, a CDP (Customer Data Platform) collecting real-time behavioral signals on their website and app, and a marketing team that wants to use a generative AI model to produce personalized email content at scale. The legal team has flagged that they cannot use any individual-level behavioral data to generate content without explicit opt-in, which only 40% of members have provided. Walk me through how you would design a personalization architecture that maximizes content relevance across all 8 million members while respecting that constraint \u2014 and how you would measure whether it's working."
   },
   "history": [
-    {
-      "date": "2026-09-27",
-      "day_name": "Sunday",
-      "pillar_label": "Review & spaced-repetition quiz",
-      "concept_summary": "Weekly spaced-repetition recap and quiz across Monday\u2013Saturday AI/engineering topics."
-    },
     {
       "date": "2026-09-28",
       "day_name": "Monday",
@@ -61,6 +55,12 @@
       "day_name": "Sunday",
       "pillar_label": "Review & spaced-repetition quiz",
       "concept_summary": "Weekly recap and spaced-repetition quiz across Monday\u2013Saturday AI/engineering topics."
+    },
+    {
+      "date": "2026-10-05",
+      "day_name": "Monday",
+      "pillar_label": "AI/ML core concepts",
+      "concept_summary": "Norms (L1/L2) measure distance; PCA, t-SNE, and UMAP reduce high-dimensional data."
     }
   ]
 }
