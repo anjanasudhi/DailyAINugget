@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 0,
-    "swe": 6,
-    "fde_snippet": 0,
+    "interview_category": 1,
+    "swe": 7,
+    "fde_snippet": 1,
     "fde_case": 6,
     "martech": 6,
     "leadership": 6,
@@ -10,16 +10,10 @@
     "math_stats": 6
   },
   "pending_interview": {
-    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
-    "question": "You are advising a retail brand that runs a loyalty program with 8 million members. They have strong first-party purchase data, a CDP (Customer Data Platform) collecting real-time behavioral signals on their website and app, and a marketing team that wants to use a generative AI model to produce personalized email content at scale. The legal team has flagged that they cannot use any individual-level behavioral data to generate content without explicit opt-in, which only 40% of members have provided. Walk me through how you would design a personalization architecture that maximizes content relevance across all 8 million members while respecting that constraint \u2014 and how you would measure whether it's working."
+    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "question": "You are given a list of integers representing the daily prices of a stock. You want to find the maximum profit you can make by making at most two non-overlapping buy-sell transactions (you must sell before you buy again, and you cannot hold more than one share at a time). Walk me through your approach \u2014 including how you'd think about the time and space complexity of your solution \u2014 and explain why a simple single-pass greedy approach (like the one that works for one transaction) breaks down here."
   },
   "history": [
-    {
-      "date": "2026-09-28",
-      "day_name": "Monday",
-      "pillar_label": "AI/ML core concepts",
-      "concept_summary": "SVD decomposes matrices to find key patterns; k-means clusters unlabeled data by proximity to centroids."
-    },
     {
       "date": "2026-09-29",
       "day_name": "Tuesday",
@@ -61,6 +55,12 @@
       "day_name": "Monday",
       "pillar_label": "AI/ML core concepts",
       "concept_summary": "Norms (L1/L2) measure distance; PCA, t-SNE, and UMAP reduce high-dimensional data."
+    },
+    {
+      "date": "2026-10-06",
+      "day_name": "Tuesday",
+      "pillar_label": "Software & systems engineering",
+      "concept_summary": "API versioning: managing breaking changes so old clients keep working while new ones use updated APIs."
     }
   ]
 }
