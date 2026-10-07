@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 1,
+    "interview_category": 2,
     "swe": 7,
-    "fde_snippet": 1,
+    "fde_snippet": 2,
     "fde_case": 6,
     "martech": 6,
     "leadership": 6,
@@ -10,16 +10,10 @@
     "math_stats": 6
   },
   "pending_interview": {
-    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
-    "question": "You are given a list of integers representing the daily prices of a stock. You want to find the maximum profit you can make by making at most two non-overlapping buy-sell transactions (you must sell before you buy again, and you cannot hold more than one share at a time). Walk me through your approach \u2014 including how you'd think about the time and space complexity of your solution \u2014 and explain why a simple single-pass greedy approach (like the one that works for one transaction) breaks down here."
+    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
+    "question": "You are asked to design a rate limiter \u2014 a system that controls how many requests a client can make to an API within a given time window, rejecting or throttling requests that exceed the limit. Walk through your design end-to-end: what data you need to store, where and how you store it, which rate-limiting algorithm you would choose and why, how you handle the system at scale across multiple servers, and what tradeoffs you are accepting. Assume the system needs to handle millions of API clients with very low added latency."
   },
   "history": [
-    {
-      "date": "2026-09-29",
-      "day_name": "Tuesday",
-      "pillar_label": "Software & systems engineering",
-      "concept_summary": "REST, GraphQL, and gRPC are three API styles with different tradeoffs for flexibility, performance, and compatibility."
-    },
     {
       "date": "2026-09-30",
       "day_name": "Wednesday",
@@ -61,6 +55,12 @@
       "day_name": "Tuesday",
       "pillar_label": "Software & systems engineering",
       "concept_summary": "API versioning: managing breaking changes so old clients keep working while new ones use updated APIs."
+    },
+    {
+      "date": "2026-10-07",
+      "day_name": "Wednesday",
+      "pillar_label": "AI + engineering news roundup",
+      "concept_summary": "AI agent safety, FTC probe, open-weight models, and agent observability dominate October 2026 news."
     }
   ]
 }
