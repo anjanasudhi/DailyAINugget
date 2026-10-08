@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 2,
+    "interview_category": 3,
     "swe": 7,
     "fde_snippet": 2,
-    "fde_case": 6,
+    "fde_case": 7,
     "martech": 6,
     "leadership": 6,
     "ai_ml": 6,
     "math_stats": 6
   },
   "pending_interview": {
-    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
-    "question": "You are asked to design a rate limiter \u2014 a system that controls how many requests a client can make to an API within a given time window, rejecting or throttling requests that exceed the limit. Walk through your design end-to-end: what data you need to store, where and how you store it, which rate-limiting algorithm you would choose and why, how you handle the system at scale across multiple servers, and what tradeoffs you are accepting. Assume the system needs to handle millions of API clients with very low added latency."
+    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
+    "question": "You are designing a real-time personalized recommendation system for a large e-commerce platform with 50 million active users and a catalog of 10 million products. The system must return ranked recommendations in under 100 milliseconds. Walk through your end-to-end architecture: how you generate candidate items, how you rank them, what data you store and where, how you keep recommendations fresh as user behavior and inventory change, and what tradeoffs you are making at each stage."
   },
   "history": [
-    {
-      "date": "2026-09-30",
-      "day_name": "Wednesday",
-      "pillar_label": "AI + engineering news roundup",
-      "concept_summary": "Key AI/eng news: OpenAI Dots agents, AMD acquires World Labs, Salesforce AIforce, MCP OAuth flaw."
-    },
     {
       "date": "2026-10-01",
       "day_name": "Thursday",
@@ -61,6 +55,12 @@
       "day_name": "Wednesday",
       "pillar_label": "AI + engineering news roundup",
       "concept_summary": "AI agent safety, FTC probe, open-weight models, and agent observability dominate October 2026 news."
+    },
+    {
+      "date": "2026-10-08",
+      "day_name": "Thursday",
+      "pillar_label": "FDE case study / client scenario",
+      "concept_summary": "FDE framework: translate business KPI into diagnosis, proxy metric, and targeted technical fix."
     }
   ]
 }
