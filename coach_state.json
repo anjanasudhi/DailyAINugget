@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 3,
+    "interview_category": 4,
     "swe": 7,
-    "fde_snippet": 2,
+    "fde_snippet": 3,
     "fde_case": 7,
-    "martech": 6,
+    "martech": 7,
     "leadership": 6,
     "ai_ml": 6,
     "math_stats": 6
   },
   "pending_interview": {
-    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
-    "question": "You are designing a real-time personalized recommendation system for a large e-commerce platform with 50 million active users and a catalog of 10 million products. The system must return ranked recommendations in under 100 milliseconds. Walk through your end-to-end architecture: how you generate candidate items, how you rank them, what data you store and where, how you keep recommendations fresh as user behavior and inventory change, and what tradeoffs you are making at each stage."
+    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
+    "question": "You are leading an AI engineering team embedded in a client organization. Six months into the engagement, a senior client stakeholder \u2014 someone whose buy-in is essential for the project's success \u2014 tells you privately that they have lost confidence in your team's technical direction, but they have not raised this concern through any official channel and have asked you to keep it between you. How do you handle it, and what do you do next?"
   },
   "history": [
-    {
-      "date": "2026-10-01",
-      "day_name": "Thursday",
-      "pillar_label": "FDE case study / client scenario",
-      "concept_summary": "FDE case study: navigating compliance and data privacy constraints in client environments."
-    },
     {
       "date": "2026-10-02",
       "day_name": "Friday",
@@ -61,6 +55,12 @@
       "day_name": "Thursday",
       "pillar_label": "FDE case study / client scenario",
       "concept_summary": "FDE framework: translate business KPI into diagnosis, proxy metric, and targeted technical fix."
+    },
+    {
+      "date": "2026-10-09",
+      "day_name": "Friday",
+      "pillar_label": "Martech & AI-in-marketing",
+      "concept_summary": "Marketing Mix Modeling vs Multi-Touch Attribution: two complementary approaches to measuring marketing ROI."
     }
   ]
 }
