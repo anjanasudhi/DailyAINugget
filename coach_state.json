@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 4,
+    "interview_category": 5,
     "swe": 7,
-    "fde_snippet": 3,
+    "fde_snippet": 4,
     "fde_case": 7,
     "martech": 7,
-    "leadership": 6,
+    "leadership": 7,
     "ai_ml": 6,
     "math_stats": 6
   },
   "pending_interview": {
-    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
-    "question": "You are leading an AI engineering team embedded in a client organization. Six months into the engagement, a senior client stakeholder \u2014 someone whose buy-in is essential for the project's success \u2014 tells you privately that they have lost confidence in your team's technical direction, but they have not raised this concern through any official channel and have asked you to keep it between you. How do you handle it, and what do you do next?"
+    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "question": "You are in an early scoping conversation with a new enterprise client. They tell you they want to build an internal AI assistant that can answer questions about their company's own documents \u2014 contracts, policies, product specs. They have a budget, a rough timeline, and a strong preference to \"build it themselves\" using open-source tools so they own the system fully. Before you engage further, what questions do you ask, and how do you think through whether \"build it ourselves\" is actually the right call for them?"
   },
   "history": [
-    {
-      "date": "2026-10-02",
-      "day_name": "Friday",
-      "pillar_label": "Martech & AI-in-marketing",
-      "concept_summary": "Data clean rooms enable privacy-safe cross-company data collaboration; first-party data is the foundation."
-    },
     {
       "date": "2026-10-03",
       "day_name": "Saturday",
@@ -61,6 +55,12 @@
       "day_name": "Friday",
       "pillar_label": "Martech & AI-in-marketing",
       "concept_summary": "Marketing Mix Modeling vs Multi-Touch Attribution: two complementary approaches to measuring marketing ROI."
+    },
+    {
+      "date": "2026-10-10",
+      "day_name": "Saturday",
+      "pillar_label": "Engineering leadership / EM-for-AI-teams",
+      "concept_summary": "Org design for FDE teams: centralized pool vs embedded pods vs Echo/Delta structure and tradeoffs."
     }
   ]
 }
