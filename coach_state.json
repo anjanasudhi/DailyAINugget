@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 5,
+    "interview_category": 0,
     "swe": 7,
-    "fde_snippet": 4,
+    "fde_snippet": 5,
     "fde_case": 7,
     "martech": 7,
     "leadership": 7,
@@ -10,16 +10,10 @@
     "math_stats": 6
   },
   "pending_interview": {
-    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
-    "question": "You are in an early scoping conversation with a new enterprise client. They tell you they want to build an internal AI assistant that can answer questions about their company's own documents \u2014 contracts, policies, product specs. They have a budget, a rough timeline, and a strong preference to \"build it themselves\" using open-source tools so they own the system fully. Before you engage further, what questions do you ask, and how do you think through whether \"build it ourselves\" is actually the right call for them?"
+    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
+    "question": "A large retail brand runs a personalization engine that serves product recommendations to users across its website, email, and mobile app. They want to use a generative AI layer \u2014 meaning an AI that produces new text or content rather than just retrieving pre-written options \u2014 to create individualized marketing messages at scale. They're also operating under tightening data privacy regulations that limit how long they can retain individual-level behavioral data. How would you design the measurement framework to evaluate whether the generative personalization layer is actually driving incremental revenue \u2014 and how does your approach change when you can't rely on persistent user-level tracking?"
   },
   "history": [
-    {
-      "date": "2026-10-03",
-      "day_name": "Saturday",
-      "pillar_label": "Engineering leadership / EM-for-AI-teams",
-      "concept_summary": "Build vs. buy AI infrastructure: own what differentiates you, rent what doesn't."
-    },
     {
       "date": "2026-10-04",
       "day_name": "Sunday",
@@ -61,6 +55,12 @@
       "day_name": "Saturday",
       "pillar_label": "Engineering leadership / EM-for-AI-teams",
       "concept_summary": "Org design for FDE teams: centralized pool vs embedded pods vs Echo/Delta structure and tradeoffs."
+    },
+    {
+      "date": "2026-10-11",
+      "day_name": "Sunday",
+      "pillar_label": "Review & spaced-repetition quiz",
+      "concept_summary": "Weekly spaced-repetition recap and quiz across Monday\u2013Saturday concepts."
     }
   ]
 }
