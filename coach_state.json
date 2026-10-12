@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 0,
+    "interview_category": 1,
     "swe": 7,
-    "fde_snippet": 5,
+    "fde_snippet": 6,
     "fde_case": 7,
     "martech": 7,
     "leadership": 7,
-    "ai_ml": 6,
-    "math_stats": 6
+    "ai_ml": 7,
+    "math_stats": 7
   },
   "pending_interview": {
-    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
-    "question": "A large retail brand runs a personalization engine that serves product recommendations to users across its website, email, and mobile app. They want to use a generative AI layer \u2014 meaning an AI that produces new text or content rather than just retrieving pre-written options \u2014 to create individualized marketing messages at scale. They're also operating under tightening data privacy regulations that limit how long they can retain individual-level behavioral data. How would you design the measurement framework to evaluate whether the generative personalization layer is actually driving incremental revenue \u2014 and how does your approach change when you can't rely on persistent user-level tracking?"
+    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "question": "You are given a list of log entries. Each entry is a string in the format \"timestamp user_id page_id\", where timestamp is an integer representing seconds since epoch. A \"session\" is defined as a sequence of page visits by the same user where no two consecutive visits are more than 30 minutes apart. Write a function that, given the list of log entries, returns the user_id with the longest single session (by total time: last visit minus first visit in that session). Describe your approach, its time complexity (a measure of how the runtime grows as input size grows), and the space complexity (a measure of how much memory it uses). What edge cases would you handle?"
   },
   "history": [
-    {
-      "date": "2026-10-04",
-      "day_name": "Sunday",
-      "pillar_label": "Review & spaced-repetition quiz",
-      "concept_summary": "Weekly recap and spaced-repetition quiz across Monday\u2013Saturday AI/engineering topics."
-    },
     {
       "date": "2026-10-05",
       "day_name": "Monday",
@@ -61,6 +55,12 @@
       "day_name": "Sunday",
       "pillar_label": "Review & spaced-repetition quiz",
       "concept_summary": "Weekly spaced-repetition recap and quiz across Monday\u2013Saturday concepts."
+    },
+    {
+      "date": "2026-10-12",
+      "day_name": "Monday",
+      "pillar_label": "AI/ML core concepts",
+      "concept_summary": "Derivatives as rate of change; ensemble methods (bagging, boosting, stacking) combine weak learners for stronger predictions."
     }
   ]
 }
