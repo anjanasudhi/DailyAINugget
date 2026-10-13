@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 1,
-    "swe": 7,
-    "fde_snippet": 6,
+    "interview_category": 2,
+    "swe": 8,
+    "fde_snippet": 7,
     "fde_case": 7,
     "martech": 7,
     "leadership": 7,
@@ -10,16 +10,10 @@
     "math_stats": 7
   },
   "pending_interview": {
-    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
-    "question": "You are given a list of log entries. Each entry is a string in the format \"timestamp user_id page_id\", where timestamp is an integer representing seconds since epoch. A \"session\" is defined as a sequence of page visits by the same user where no two consecutive visits are more than 30 minutes apart. Write a function that, given the list of log entries, returns the user_id with the longest single session (by total time: last visit minus first visit in that session). Describe your approach, its time complexity (a measure of how the runtime grows as input size grows), and the space complexity (a measure of how much memory it uses). What edge cases would you handle?"
+    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
+    "question": "Design a rate limiter \u2014 that is, a system that limits how many requests a single user or API client can make within a given time window (for example, no more than 1,000 requests per minute per user). Walk through the high-level components, your choice of where to store state, how you handle a distributed environment where multiple servers are processing requests simultaneously, and what tradeoffs you'd accept. What failure modes does your design have, and how would you mitigate them?"
   },
   "history": [
-    {
-      "date": "2026-10-05",
-      "day_name": "Monday",
-      "pillar_label": "AI/ML core concepts",
-      "concept_summary": "Norms (L1/L2) measure distance; PCA, t-SNE, and UMAP reduce high-dimensional data."
-    },
     {
       "date": "2026-10-06",
       "day_name": "Tuesday",
@@ -61,6 +55,12 @@
       "day_name": "Monday",
       "pillar_label": "AI/ML core concepts",
       "concept_summary": "Derivatives as rate of change; ensemble methods (bagging, boosting, stacking) combine weak learners for stronger predictions."
+    },
+    {
+      "date": "2026-10-13",
+      "day_name": "Tuesday",
+      "pillar_label": "Software & systems engineering",
+      "concept_summary": "Idempotency: repeating an operation produces the same result; critical for safe retries in APIs and distributed systems."
     }
   ]
 }
