@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 2,
+    "interview_category": 3,
     "swe": 8,
-    "fde_snippet": 7,
+    "fde_snippet": 8,
     "fde_case": 7,
     "martech": 7,
     "leadership": 7,
@@ -10,16 +10,10 @@
     "math_stats": 7
   },
   "pending_interview": {
-    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
-    "question": "Design a rate limiter \u2014 that is, a system that limits how many requests a single user or API client can make within a given time window (for example, no more than 1,000 requests per minute per user). Walk through the high-level components, your choice of where to store state, how you handle a distributed environment where multiple servers are processing requests simultaneously, and what tradeoffs you'd accept. What failure modes does your design have, and how would you mitigate them?"
+    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
+    "question": "You're designing a feature store for a large e-commerce company. A \"feature store\" is a centralized system that computes, stores, and serves the input signals (called \"features\") that machine learning models need to make predictions \u2014 for example, \"how many times has this user clicked on a product in the last 7 days.\" The company has dozens of ML models in production, including a real-time product recommendation model that needs features with under 10 milliseconds of latency, and a weekly batch fraud-scoring model that processes hundreds of millions of transactions. Walk through how you would design this feature store to serve both use cases. How do you handle the fact that the same feature (say, \"user purchase count in the last 30 days\") might be needed in real time by one model and in batch by another? What does your storage layer look like, how do you avoid \"training-serving skew\" (where the data a model trained on differs from the data it sees in production), and what tradeoffs does your design introduce?"
   },
   "history": [
-    {
-      "date": "2026-10-06",
-      "day_name": "Tuesday",
-      "pillar_label": "Software & systems engineering",
-      "concept_summary": "API versioning: managing breaking changes so old clients keep working while new ones use updated APIs."
-    },
     {
       "date": "2026-10-07",
       "day_name": "Wednesday",
@@ -61,6 +55,12 @@
       "day_name": "Tuesday",
       "pillar_label": "Software & systems engineering",
       "concept_summary": "Idempotency: repeating an operation produces the same result; critical for safe retries in APIs and distributed systems."
+    },
+    {
+      "date": "2026-10-14",
+      "day_name": "Wednesday",
+      "pillar_label": "AI + engineering news roundup",
+      "concept_summary": "Weekly AI/eng news roundup: AI code outages, Microsoft Decision-1, DigitalOcean agent learning, Atlassian-OpenAI expansion."
     }
   ]
 }
