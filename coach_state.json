@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 3,
+    "interview_category": 4,
     "swe": 8,
     "fde_snippet": 8,
-    "fde_case": 7,
+    "fde_case": 8,
     "martech": 7,
     "leadership": 7,
     "ai_ml": 7,
     "math_stats": 7
   },
   "pending_interview": {
-    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
-    "question": "You're designing a feature store for a large e-commerce company. A \"feature store\" is a centralized system that computes, stores, and serves the input signals (called \"features\") that machine learning models need to make predictions \u2014 for example, \"how many times has this user clicked on a product in the last 7 days.\" The company has dozens of ML models in production, including a real-time product recommendation model that needs features with under 10 milliseconds of latency, and a weekly batch fraud-scoring model that processes hundreds of millions of transactions. Walk through how you would design this feature store to serve both use cases. How do you handle the fact that the same feature (say, \"user purchase count in the last 30 days\") might be needed in real time by one model and in batch by another? What does your storage layer look like, how do you avoid \"training-serving skew\" (where the data a model trained on differs from the data it sees in production), and what tradeoffs does your design introduce?"
+    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
+    "question": "You're leading an AI engineering team through a significant platform migration \u2014 moving from a legacy system to a new one that your engineers are excited about, but that your key internal client (a product team you serve) is skeptical of. Three months into the migration, the product team's lead comes to you and says the new platform is slowing down their feature velocity and they want to pause the migration and go back to the old system. You believe the migration is the right long-term decision and that the short-term slowdown is expected and temporary. How do you handle this conversation, and what do you do in the following two weeks?"
   },
   "history": [
-    {
-      "date": "2026-10-07",
-      "day_name": "Wednesday",
-      "pillar_label": "AI + engineering news roundup",
-      "concept_summary": "AI agent safety, FTC probe, open-weight models, and agent observability dominate October 2026 news."
-    },
     {
       "date": "2026-10-08",
       "day_name": "Thursday",
@@ -61,6 +55,12 @@
       "day_name": "Wednesday",
       "pillar_label": "AI + engineering news roundup",
       "concept_summary": "Weekly AI/eng news roundup: AI code outages, Microsoft Decision-1, DigitalOcean agent learning, Atlassian-OpenAI expansion."
+    },
+    {
+      "date": "2026-10-15",
+      "day_name": "Thursday",
+      "pillar_label": "FDE case study / client scenario",
+      "concept_summary": "FDE case study: managing scope creep while shipping under deadline pressure"
     }
   ]
 }
