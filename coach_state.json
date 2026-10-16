@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 4,
+    "interview_category": 5,
     "swe": 8,
-    "fde_snippet": 8,
+    "fde_snippet": 0,
     "fde_case": 8,
-    "martech": 7,
+    "martech": 0,
     "leadership": 7,
     "ai_ml": 7,
     "math_stats": 7
   },
   "pending_interview": {
-    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
-    "question": "You're leading an AI engineering team through a significant platform migration \u2014 moving from a legacy system to a new one that your engineers are excited about, but that your key internal client (a product team you serve) is skeptical of. Three months into the migration, the product team's lead comes to you and says the new platform is slowing down their feature velocity and they want to pause the migration and go back to the old system. You believe the migration is the right long-term decision and that the short-term slowdown is expected and temporary. How do you handle this conversation, and what do you do in the following two weeks?"
+    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "question": "A regional retail bank comes to you asking for help. They want to use AI to personalize which loan products are shown to customers who log into their mobile app. Their team has heard competitors are doing this and they don't want to fall behind. They have two years of transaction history, basic demographic data collected at account opening, and a small internal data team with no ML experience. They're asking you whether they should build this system themselves, buy a vendor solution, or work with your team to build it. Walk me through how you would scope this conversation with them and what you would want to know before giving a recommendation."
   },
   "history": [
-    {
-      "date": "2026-10-08",
-      "day_name": "Thursday",
-      "pillar_label": "FDE case study / client scenario",
-      "concept_summary": "FDE framework: translate business KPI into diagnosis, proxy metric, and targeted technical fix."
-    },
     {
       "date": "2026-10-09",
       "day_name": "Friday",
@@ -61,6 +55,12 @@
       "day_name": "Thursday",
       "pillar_label": "FDE case study / client scenario",
       "concept_summary": "FDE case study: managing scope creep while shipping under deadline pressure"
+    },
+    {
+      "date": "2026-10-16",
+      "day_name": "Friday",
+      "pillar_label": "Martech & AI-in-marketing",
+      "concept_summary": "AI marketing ethics: consent, disclosure rules (EU AI Act, FTC), and algorithmic bias in targeting."
     }
   ]
 }
