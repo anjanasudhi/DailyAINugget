@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 5,
+    "interview_category": 0,
     "swe": 8,
-    "fde_snippet": 0,
+    "fde_snippet": 1,
     "fde_case": 8,
     "martech": 0,
-    "leadership": 7,
+    "leadership": 0,
     "ai_ml": 7,
     "math_stats": 7
   },
   "pending_interview": {
-    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
-    "question": "A regional retail bank comes to you asking for help. They want to use AI to personalize which loan products are shown to customers who log into their mobile app. Their team has heard competitors are doing this and they don't want to fall behind. They have two years of transaction history, basic demographic data collected at account opening, and a small internal data team with no ML experience. They're asking you whether they should build this system themselves, buy a vendor solution, or work with your team to build it. Walk me through how you would scope this conversation with them and what you would want to know before giving a recommendation."
+    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
+    "question": "You are advising a D2C (direct-to-consumer) e-commerce brand that wants to build a personalization engine to serve individualized product recommendations across email, on-site, and paid retargeting channels. Their current stack has no unified customer identifier \u2014 email behavior, website sessions, and ad click data all sit in separate systems with no shared ID. They've heard that third-party cookie deprecation has made this problem worse, not better. They want to use a large language model to improve recommendation quality and also want to be able to measure the incremental revenue impact of personalization specifically, not just overall channel revenue. Walk me through how you would architect a solution to this, what you would recommend they build versus buy, and how you would design measurement that actually isolates the effect of personalization."
   },
   "history": [
-    {
-      "date": "2026-10-09",
-      "day_name": "Friday",
-      "pillar_label": "Martech & AI-in-marketing",
-      "concept_summary": "Marketing Mix Modeling vs Multi-Touch Attribution: two complementary approaches to measuring marketing ROI."
-    },
     {
       "date": "2026-10-10",
       "day_name": "Saturday",
@@ -61,6 +55,12 @@
       "day_name": "Friday",
       "pillar_label": "Martech & AI-in-marketing",
       "concept_summary": "AI marketing ethics: consent, disclosure rules (EU AI Act, FTC), and algorithmic bias in targeting."
+    },
+    {
+      "date": "2026-10-17",
+      "day_name": "Saturday",
+      "pillar_label": "Engineering leadership / EM-for-AI-teams",
+      "concept_summary": "Change management for AI workflow shifts: ADKAR model, adoption vs transformation, human resistance patterns"
     }
   ]
 }
