@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 0,
+    "interview_category": 1,
     "swe": 8,
-    "fde_snippet": 1,
+    "fde_snippet": 2,
     "fde_case": 8,
     "martech": 0,
     "leadership": 0,
@@ -10,16 +10,10 @@
     "math_stats": 7
   },
   "pending_interview": {
-    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
-    "question": "You are advising a D2C (direct-to-consumer) e-commerce brand that wants to build a personalization engine to serve individualized product recommendations across email, on-site, and paid retargeting channels. Their current stack has no unified customer identifier \u2014 email behavior, website sessions, and ad click data all sit in separate systems with no shared ID. They've heard that third-party cookie deprecation has made this problem worse, not better. They want to use a large language model to improve recommendation quality and also want to be able to measure the incremental revenue impact of personalization specifically, not just overall channel revenue. Walk me through how you would architect a solution to this, what you would recommend they build versus buy, and how you would design measurement that actually isolates the effect of personalization."
+    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "question": "You have a list of log entries, each containing a user ID and a timestamp. Users can appear multiple times. You need to find all pairs of users who visited within 5 minutes of each other at least twice on the same day \u2014 meaning there are at least two separate time windows on that day where both users were active within 5 minutes of each other simultaneously. Walk me through your approach: how you would structure the data, what data structures you would use, and what the time and space complexity of your solution would be. You do not need to write runnable code \u2014 reasoning through the algorithm clearly is the goal."
   },
   "history": [
-    {
-      "date": "2026-10-10",
-      "day_name": "Saturday",
-      "pillar_label": "Engineering leadership / EM-for-AI-teams",
-      "concept_summary": "Org design for FDE teams: centralized pool vs embedded pods vs Echo/Delta structure and tradeoffs."
-    },
     {
       "date": "2026-10-11",
       "day_name": "Sunday",
@@ -61,6 +55,12 @@
       "day_name": "Saturday",
       "pillar_label": "Engineering leadership / EM-for-AI-teams",
       "concept_summary": "Change management for AI workflow shifts: ADKAR model, adoption vs transformation, human resistance patterns"
+    },
+    {
+      "date": "2026-10-18",
+      "day_name": "Sunday",
+      "pillar_label": "Review & spaced-repetition quiz",
+      "concept_summary": "Sunday spaced-repetition recap of week's AI/ML, systems, ethics, FDE, and leadership topics."
     }
   ]
 }
