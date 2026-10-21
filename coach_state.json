@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 3,
+    "interview_category": 4,
     "swe": 9,
-    "fde_snippet": 4,
+    "fde_snippet": 5,
     "fde_case": 8,
     "martech": 0,
     "leadership": 0,
@@ -10,16 +10,10 @@
     "math_stats": 8
   },
   "pending_interview": {
-    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
-    "question": "You are building a feature store for a large recommendation system at a consumer platform. The feature store needs to serve precomputed features \u2014 things like \"user's average session length over the last 7 days\" or \"item click-through rate in the last hour\" \u2014 to a model at inference time, with latency requirements under 20 milliseconds per request. The system must also support batch feature computation for model training, where freshness matters less than correctness and consistency. Walk through how you would design this feature store: the major components, how you would handle the difference between real-time (online) serving and batch (offline) training needs, how you would ensure that the features used at training time match those seen at inference time, and what happens when an upstream data pipeline is delayed or produces bad data."
+    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
+    "question": "You've just joined a large cross-functional program as the engineering lead. Three weeks in, you realize that the product manager you depend on most is consistently making scope commitments to senior stakeholders without consulting you first \u2014 promises that affect your team's capacity and timeline. You've raised it once informally and nothing changed. Describe specifically how you handle it from here."
   },
   "history": [
-    {
-      "date": "2026-10-13",
-      "day_name": "Tuesday",
-      "pillar_label": "Software & systems engineering",
-      "concept_summary": "Idempotency: repeating an operation produces the same result; critical for safe retries in APIs and distributed systems."
-    },
     {
       "date": "2026-10-14",
       "day_name": "Wednesday",
@@ -61,6 +55,12 @@
       "day_name": "Tuesday",
       "pillar_label": "Software & systems engineering",
       "concept_summary": "Webhooks: event-driven HTTP callbacks that push data instead of polling for it."
+    },
+    {
+      "date": "2026-10-21",
+      "day_name": "Wednesday",
+      "pillar_label": "AI + engineering news roundup",
+      "concept_summary": "AI/engineering news roundup: safety regulation, mega-clusters, legacy code AI, and chip ecosystem shifts."
     }
   ]
 }
