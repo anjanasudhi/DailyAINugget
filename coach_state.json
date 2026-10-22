@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 4,
+    "interview_category": 5,
     "swe": 9,
     "fde_snippet": 5,
-    "fde_case": 8,
+    "fde_case": 0,
     "martech": 0,
     "leadership": 0,
     "ai_ml": 8,
     "math_stats": 8
   },
   "pending_interview": {
-    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
-    "question": "You've just joined a large cross-functional program as the engineering lead. Three weeks in, you realize that the product manager you depend on most is consistently making scope commitments to senior stakeholders without consulting you first \u2014 promises that affect your team's capacity and timeline. You've raised it once informally and nothing changed. Describe specifically how you handle it from here."
+    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "question": "A regional hospital network approaches you to evaluate whether to build a custom AI model for prioritizing inbound patient referrals, or to buy and integrate an existing third-party solution. They have a data science team of four people, a legacy electronic health records system that has no modern API (an API is a standard way for software systems to talk to each other), and a compliance team that has never reviewed an AI vendor contract before. Walk me through how you would structure that decision \u2014 what questions do you ask first, what tradeoffs are you weighing, and how do you know when you have enough information to make a recommendation?"
   },
   "history": [
-    {
-      "date": "2026-10-14",
-      "day_name": "Wednesday",
-      "pillar_label": "AI + engineering news roundup",
-      "concept_summary": "Weekly AI/eng news roundup: AI code outages, Microsoft Decision-1, DigitalOcean agent learning, Atlassian-OpenAI expansion."
-    },
     {
       "date": "2026-10-15",
       "day_name": "Thursday",
@@ -61,6 +55,12 @@
       "day_name": "Wednesday",
       "pillar_label": "AI + engineering news roundup",
       "concept_summary": "AI/engineering news roundup: safety regulation, mega-clusters, legacy code AI, and chip ecosystem shifts."
+    },
+    {
+      "date": "2026-10-22",
+      "day_name": "Thursday",
+      "pillar_label": "FDE case study / client scenario",
+      "concept_summary": "FDE post-deployment handoff: people, process, and documentation layers for clean client transitions."
     }
   ]
 }
