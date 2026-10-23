@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 5,
+    "interview_category": 0,
     "swe": 9,
-    "fde_snippet": 5,
+    "fde_snippet": 6,
     "fde_case": 0,
-    "martech": 0,
+    "martech": 1,
     "leadership": 0,
     "ai_ml": 8,
     "math_stats": 8
   },
   "pending_interview": {
-    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
-    "question": "A regional hospital network approaches you to evaluate whether to build a custom AI model for prioritizing inbound patient referrals, or to buy and integrate an existing third-party solution. They have a data science team of four people, a legacy electronic health records system that has no modern API (an API is a standard way for software systems to talk to each other), and a compliance team that has never reviewed an AI vendor contract before. Walk me through how you would structure that decision \u2014 what questions do you ask first, what tradeoffs are you weighing, and how do you know when you have enough information to make a recommendation?"
+    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
+    "question": "A B2B software company has a marketing team that runs email campaigns, paid ads, and a content hub. They want to use AI to personalize content recommendations on their content hub and attribute pipeline influence \u2014 meaning, understand which pieces of content actually moved a prospect closer to buying \u2014 across a buying cycle that often takes six to nine months. Their CRM (customer relationship management system \u2014 the database that tracks leads and customers) has good deal-stage data but spotty engagement data, and third-party cookies (small tracking files that let advertisers follow users across websites \u2014 these are being phased out by browsers) are no longer reliably available. How would you design a measurement and personalization architecture for this team, what data foundations would you prioritize building first, and what are the biggest risks to getting this wrong?"
   },
   "history": [
-    {
-      "date": "2026-10-15",
-      "day_name": "Thursday",
-      "pillar_label": "FDE case study / client scenario",
-      "concept_summary": "FDE case study: managing scope creep while shipping under deadline pressure"
-    },
     {
       "date": "2026-10-16",
       "day_name": "Friday",
@@ -61,6 +55,12 @@
       "day_name": "Thursday",
       "pillar_label": "FDE case study / client scenario",
       "concept_summary": "FDE post-deployment handoff: people, process, and documentation layers for clean client transitions."
+    },
+    {
+      "date": "2026-10-23",
+      "day_name": "Friday",
+      "pillar_label": "Martech & AI-in-marketing",
+      "concept_summary": "Personalization engines use content-based, collaborative filtering, and hybrid approaches to recommend items."
     }
   ]
 }
