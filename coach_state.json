@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 0,
+    "interview_category": 1,
     "swe": 9,
-    "fde_snippet": 6,
+    "fde_snippet": 7,
     "fde_case": 0,
     "martech": 1,
-    "leadership": 0,
+    "leadership": 1,
     "ai_ml": 8,
     "math_stats": 8
   },
   "pending_interview": {
-    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
-    "question": "A B2B software company has a marketing team that runs email campaigns, paid ads, and a content hub. They want to use AI to personalize content recommendations on their content hub and attribute pipeline influence \u2014 meaning, understand which pieces of content actually moved a prospect closer to buying \u2014 across a buying cycle that often takes six to nine months. Their CRM (customer relationship management system \u2014 the database that tracks leads and customers) has good deal-stage data but spotty engagement data, and third-party cookies (small tracking files that let advertisers follow users across websites \u2014 these are being phased out by browsers) are no longer reliably available. How would you design a measurement and personalization architecture for this team, what data foundations would you prioritize building first, and what are the biggest risks to getting this wrong?"
+    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "question": "You are given a list of log entries, where each entry is a string in the format \"user_id page_id timestamp\" (for example: \"u1 home 1\", \"u1 checkout 3\", \"u2 home 2\"). A \"session funnel\" is defined as a user visiting a specific ordered sequence of pages \u2014 for example, the sequence [home, product, checkout] \u2014 where the page visits happen in that exact order (not necessarily consecutively) and all within the same user's history. Given a list of log entries and a target funnel sequence, write a function that returns the number of distinct users who completed the funnel in order. What is the time complexity of your solution, and what would change if the logs were arriving as a stream rather than a complete list?"
   },
   "history": [
-    {
-      "date": "2026-10-16",
-      "day_name": "Friday",
-      "pillar_label": "Martech & AI-in-marketing",
-      "concept_summary": "AI marketing ethics: consent, disclosure rules (EU AI Act, FTC), and algorithmic bias in targeting."
-    },
     {
       "date": "2026-10-17",
       "day_name": "Saturday",
@@ -61,6 +55,12 @@
       "day_name": "Friday",
       "pillar_label": "Martech & AI-in-marketing",
       "concept_summary": "Personalization engines use content-based, collaborative filtering, and hybrid approaches to recommend items."
+    },
+    {
+      "date": "2026-10-24",
+      "day_name": "Saturday",
+      "pillar_label": "Engineering leadership / EM-for-AI-teams",
+      "concept_summary": "Hiring AI/ML engineers: four skill layers, structured interview loops, and production judgment signals."
     }
   ]
 }
