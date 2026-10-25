@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 1,
+    "interview_category": 2,
     "swe": 9,
-    "fde_snippet": 7,
+    "fde_snippet": 8,
     "fde_case": 0,
     "martech": 1,
     "leadership": 1,
@@ -10,16 +10,10 @@
     "math_stats": 8
   },
   "pending_interview": {
-    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
-    "question": "You are given a list of log entries, where each entry is a string in the format \"user_id page_id timestamp\" (for example: \"u1 home 1\", \"u1 checkout 3\", \"u2 home 2\"). A \"session funnel\" is defined as a user visiting a specific ordered sequence of pages \u2014 for example, the sequence [home, product, checkout] \u2014 where the page visits happen in that exact order (not necessarily consecutively) and all within the same user's history. Given a list of log entries and a target funnel sequence, write a function that returns the number of distinct users who completed the funnel in order. What is the time complexity of your solution, and what would change if the logs were arriving as a stream rather than a complete list?"
+    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
+    "question": "You are asked to design a rate limiter \u2014 a system that prevents any single user or API client from making more requests than an allowed limit within a given time window (for example, no more than 1,000 requests per minute per user). Walk through how you would design this system to work reliably at scale, where \"scale\" means thousands of users making requests simultaneously across multiple servers. What data store would you use and why? What algorithm would you use to track and enforce the limit? What tradeoffs does your approach involve, and what breaks if a server goes down or a new server is added?"
   },
   "history": [
-    {
-      "date": "2026-10-17",
-      "day_name": "Saturday",
-      "pillar_label": "Engineering leadership / EM-for-AI-teams",
-      "concept_summary": "Change management for AI workflow shifts: ADKAR model, adoption vs transformation, human resistance patterns"
-    },
     {
       "date": "2026-10-18",
       "day_name": "Sunday",
@@ -61,6 +55,12 @@
       "day_name": "Saturday",
       "pillar_label": "Engineering leadership / EM-for-AI-teams",
       "concept_summary": "Hiring AI/ML engineers: four skill layers, structured interview loops, and production judgment signals."
+    },
+    {
+      "date": "2026-10-25",
+      "day_name": "Sunday",
+      "pillar_label": "Review & spaced-repetition quiz",
+      "concept_summary": "Weekly spaced-repetition recap across ML, webhooks, news, FDE handoff, personalization, and hiring."
     }
   ]
 }
