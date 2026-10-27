@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 3,
-    "swe": 9,
-    "fde_snippet": 0,
+    "interview_category": 4,
+    "swe": 10,
+    "fde_snippet": 1,
     "fde_case": 0,
     "martech": 1,
     "leadership": 1,
@@ -10,16 +10,10 @@
     "math_stats": 9
   },
   "pending_interview": {
-    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
-    "question": "You are building a recommendation system for a large e-commerce platform that serves 50 million active users. The system needs to generate personalized product rankings in under 100 milliseconds at request time. Walk through your end-to-end architecture: how do you generate candidate items, how do you rank them, where do you store and serve user and item features, and how do you handle the cold-start problem for new users and new products? What are the biggest bottlenecks in your design and how do you address them?"
+    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
+    "question": "Tell me about a time you had to push back on a decision made by someone above you in the organization \u2014 a decision you believed would cause meaningful harm to your team or to the outcome. How did you approach it, what happened, and looking back, what would you do differently?"
   },
   "history": [
-    {
-      "date": "2026-10-19",
-      "day_name": "Monday",
-      "pillar_label": "AI/ML core concepts",
-      "concept_summary": "Partial derivatives and gradients as foundation; perceptrons and MLPs as the core neural network building blocks."
-    },
     {
       "date": "2026-10-20",
       "day_name": "Tuesday",
@@ -61,6 +55,12 @@
       "day_name": "Monday",
       "pillar_label": "AI/ML core concepts",
       "concept_summary": "Chain rule enables backprop; activation functions add non-linearity to neural networks."
+    },
+    {
+      "date": "2026-10-27",
+      "day_name": "Tuesday",
+      "pillar_label": "Software & systems engineering",
+      "concept_summary": "Relational databases use tables and ACID transactions; NoSQL trades structure for scale and flexibility."
     }
   ]
 }
