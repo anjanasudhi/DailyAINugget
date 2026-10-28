@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 4,
+    "interview_category": 5,
     "swe": 10,
-    "fde_snippet": 1,
+    "fde_snippet": 2,
     "fde_case": 0,
     "martech": 1,
     "leadership": 1,
@@ -10,16 +10,10 @@
     "math_stats": 9
   },
   "pending_interview": {
-    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
-    "question": "Tell me about a time you had to push back on a decision made by someone above you in the organization \u2014 a decision you believed would cause meaningful harm to your team or to the outcome. How did you approach it, what happened, and looking back, what would you do differently?"
+    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "question": "A mid-sized logistics company comes to you early in an FDE engagement. They want to add AI-powered demand forecasting to their operations \u2014 predicting how much inventory to stock at each warehouse location in advance. They currently use a spreadsheet-based process owned by one analyst. Their data lives in three separate systems that have never been connected: an ERP (enterprise resource planning) system for orders, a warehouse management system for inventory, and a TMS (transportation management system) for shipments. They have 18 months of clean historical data. Walk me through how you would scope this engagement, what tradeoffs you'd surface for the client in the first two weeks, and how you'd reason through whether to build a custom forecasting model versus buying an existing solution."
   },
   "history": [
-    {
-      "date": "2026-10-20",
-      "day_name": "Tuesday",
-      "pillar_label": "Software & systems engineering",
-      "concept_summary": "Webhooks: event-driven HTTP callbacks that push data instead of polling for it."
-    },
     {
       "date": "2026-10-21",
       "day_name": "Wednesday",
@@ -61,6 +55,12 @@
       "day_name": "Tuesday",
       "pillar_label": "Software & systems engineering",
       "concept_summary": "Relational databases use tables and ACID transactions; NoSQL trades structure for scale and flexibility."
+    },
+    {
+      "date": "2026-10-28",
+      "day_name": "Wednesday",
+      "pillar_label": "AI + engineering news roundup",
+      "concept_summary": "AI news roundup: OpenAI/Google chips, Anthropic GSA deal, Microsoft medical AI, Mistral Large 4"
     }
   ]
 }
