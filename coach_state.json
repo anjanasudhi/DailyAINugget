@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 5,
+    "interview_category": 0,
     "swe": 10,
     "fde_snippet": 2,
-    "fde_case": 0,
+    "fde_case": 1,
     "martech": 1,
     "leadership": 1,
     "ai_ml": 9,
     "math_stats": 9
   },
   "pending_interview": {
-    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
-    "question": "A mid-sized logistics company comes to you early in an FDE engagement. They want to add AI-powered demand forecasting to their operations \u2014 predicting how much inventory to stock at each warehouse location in advance. They currently use a spreadsheet-based process owned by one analyst. Their data lives in three separate systems that have never been connected: an ERP (enterprise resource planning) system for orders, a warehouse management system for inventory, and a TMS (transportation management system) for shipments. They have 18 months of clean historical data. Walk me through how you would scope this engagement, what tradeoffs you'd surface for the client in the first two weeks, and how you'd reason through whether to build a custom forecasting model versus buying an existing solution."
+    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
+    "question": "You're advising a large e-commerce company that runs a personalized email marketing program. They use a third-party email platform that generates product recommendations using a collaborative filtering model \u2014 that is, a model that recommends items based on what similar users have purchased. Their analytics team attributes revenue to email sends using a last-touch model, meaning all revenue credit goes to the last marketing touchpoint before a purchase. Their CMO now wants to layer in GenAI-generated subject lines and body copy, personalized per segment, and wants to prove that both the recommendation engine and the GenAI copy are independently contributing to revenue lift. A new privacy regulation has also just gone into effect that prevents them from using individual-level click data for attribution without explicit opt-in, and their opt-in rate is 12%. Walk me through how you would redesign their measurement approach to evaluate the contribution of each component under these constraints, and what architectural changes, if any, you'd recommend to support it."
   },
   "history": [
-    {
-      "date": "2026-10-21",
-      "day_name": "Wednesday",
-      "pillar_label": "AI + engineering news roundup",
-      "concept_summary": "AI/engineering news roundup: safety regulation, mega-clusters, legacy code AI, and chip ecosystem shifts."
-    },
     {
       "date": "2026-10-22",
       "day_name": "Thursday",
@@ -61,6 +55,12 @@
       "day_name": "Wednesday",
       "pillar_label": "AI + engineering news roundup",
       "concept_summary": "AI news roundup: OpenAI/Google chips, Anthropic GSA deal, Microsoft medical AI, Mistral Large 4"
+    },
+    {
+      "date": "2026-10-29",
+      "day_name": "Thursday",
+      "pillar_label": "FDE case study / client scenario",
+      "concept_summary": "FDE discovery framework: separating ambiguous client asks into scoped, phased, data-grounded proposals."
     }
   ]
 }
