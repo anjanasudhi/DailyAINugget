@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 0,
+    "interview_category": 1,
     "swe": 10,
-    "fde_snippet": 2,
+    "fde_snippet": 3,
     "fde_case": 1,
-    "martech": 1,
+    "martech": 2,
     "leadership": 1,
     "ai_ml": 9,
     "math_stats": 9
   },
   "pending_interview": {
-    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
-    "question": "You're advising a large e-commerce company that runs a personalized email marketing program. They use a third-party email platform that generates product recommendations using a collaborative filtering model \u2014 that is, a model that recommends items based on what similar users have purchased. Their analytics team attributes revenue to email sends using a last-touch model, meaning all revenue credit goes to the last marketing touchpoint before a purchase. Their CMO now wants to layer in GenAI-generated subject lines and body copy, personalized per segment, and wants to prove that both the recommendation engine and the GenAI copy are independently contributing to revenue lift. A new privacy regulation has also just gone into effect that prevents them from using individual-level click data for attribution without explicit opt-in, and their opt-in rate is 12%. Walk me through how you would redesign their measurement approach to evaluate the contribution of each component under these constraints, and what architectural changes, if any, you'd recommend to support it."
+    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "question": "You have a list of log entries, where each entry is a string in the format \"user_id:timestamp:action\" (for example, \"u42:1000:login\"). Given this list, write a function that finds every user who performed the same action more than once within any 5-minute window (where timestamps are integers representing seconds). Return a list of (user_id, action) pairs. Walk through your approach, including your choice of data structure and the time complexity of your solution."
   },
   "history": [
-    {
-      "date": "2026-10-22",
-      "day_name": "Thursday",
-      "pillar_label": "FDE case study / client scenario",
-      "concept_summary": "FDE post-deployment handoff: people, process, and documentation layers for clean client transitions."
-    },
     {
       "date": "2026-10-23",
       "day_name": "Friday",
@@ -61,6 +55,12 @@
       "day_name": "Thursday",
       "pillar_label": "FDE case study / client scenario",
       "concept_summary": "FDE discovery framework: separating ambiguous client asks into scoped, phased, data-grounded proposals."
+    },
+    {
+      "date": "2026-10-30",
+      "day_name": "Friday",
+      "pillar_label": "Martech & AI-in-marketing",
+      "concept_summary": "Attribution modeling basics: last-touch, MTA, MMM, incrementality testing, cookieless privacy-first measurement."
     }
   ]
 }
