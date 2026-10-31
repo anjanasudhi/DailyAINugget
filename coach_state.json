@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 1,
+    "interview_category": 2,
     "swe": 10,
-    "fde_snippet": 3,
+    "fde_snippet": 4,
     "fde_case": 1,
     "martech": 2,
-    "leadership": 1,
+    "leadership": 2,
     "ai_ml": 9,
     "math_stats": 9
   },
   "pending_interview": {
-    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
-    "question": "You have a list of log entries, where each entry is a string in the format \"user_id:timestamp:action\" (for example, \"u42:1000:login\"). Given this list, write a function that finds every user who performed the same action more than once within any 5-minute window (where timestamps are integers representing seconds). Return a list of (user_id, action) pairs. Walk through your approach, including your choice of data structure and the time complexity of your solution."
+    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
+    "question": "You're asked to design a rate limiter \u2014 a system that enforces a rule like \"no more than 100 API requests per user per minute.\" Walk through your design: what data you store, where you store it, how you check and update the limit on each incoming request, and how your design behaves when you need to handle millions of users simultaneously. What tradeoffs exist in your approach?"
   },
   "history": [
-    {
-      "date": "2026-10-23",
-      "day_name": "Friday",
-      "pillar_label": "Martech & AI-in-marketing",
-      "concept_summary": "Personalization engines use content-based, collaborative filtering, and hybrid approaches to recommend items."
-    },
     {
       "date": "2026-10-24",
       "day_name": "Saturday",
@@ -61,6 +55,12 @@
       "day_name": "Friday",
       "pillar_label": "Martech & AI-in-marketing",
       "concept_summary": "Attribution modeling basics: last-touch, MTA, MMM, incrementality testing, cookieless privacy-first measurement."
+    },
+    {
+      "date": "2026-10-31",
+      "day_name": "Saturday",
+      "pillar_label": "Engineering leadership / EM-for-AI-teams",
+      "concept_summary": "Research vs. applied AI team split: exploration vs. shipping, roles, tradeoffs, and failure modes."
     }
   ]
 }
