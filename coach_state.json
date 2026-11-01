@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 2,
+    "interview_category": 3,
     "swe": 10,
-    "fde_snippet": 4,
+    "fde_snippet": 5,
     "fde_case": 1,
     "martech": 2,
     "leadership": 2,
@@ -10,16 +10,10 @@
     "math_stats": 9
   },
   "pending_interview": {
-    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
-    "question": "You're asked to design a rate limiter \u2014 a system that enforces a rule like \"no more than 100 API requests per user per minute.\" Walk through your design: what data you store, where you store it, how you check and update the limit on each incoming request, and how your design behaves when you need to handle millions of users simultaneously. What tradeoffs exist in your approach?"
+    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
+    "question": "Your company is building a RAG system \u2014 Retrieval-Augmented Generation, where a language model answers questions by first searching a knowledge base for relevant documents and then generating a response based on what it finds. The system needs to serve 50,000 queries per day across a knowledge base of 10 million documents, and answer quality is business-critical. Walk through how you would design the end-to-end system: what components you need, how retrieval actually works at this scale, how you would measure whether answers are good, and what you would do when answer quality degrades in production. What are the key tradeoffs in your design?"
   },
   "history": [
-    {
-      "date": "2026-10-24",
-      "day_name": "Saturday",
-      "pillar_label": "Engineering leadership / EM-for-AI-teams",
-      "concept_summary": "Hiring AI/ML engineers: four skill layers, structured interview loops, and production judgment signals."
-    },
     {
       "date": "2026-10-25",
       "day_name": "Sunday",
@@ -61,6 +55,12 @@
       "day_name": "Saturday",
       "pillar_label": "Engineering leadership / EM-for-AI-teams",
       "concept_summary": "Research vs. applied AI team split: exploration vs. shipping, roles, tradeoffs, and failure modes."
+    },
+    {
+      "date": "2026-11-01",
+      "day_name": "Sunday",
+      "pillar_label": "Review & spaced-repetition quiz",
+      "concept_summary": "Weekly spaced-repetition recap and quiz across Monday-Saturday concepts."
     }
   ]
 }
