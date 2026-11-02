@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 3,
+    "interview_category": 4,
     "swe": 10,
-    "fde_snippet": 5,
+    "fde_snippet": 6,
     "fde_case": 1,
     "martech": 2,
     "leadership": 2,
-    "ai_ml": 9,
-    "math_stats": 9
+    "ai_ml": 10,
+    "math_stats": 10
   },
   "pending_interview": {
-    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
-    "question": "Your company is building a RAG system \u2014 Retrieval-Augmented Generation, where a language model answers questions by first searching a knowledge base for relevant documents and then generating a response based on what it finds. The system needs to serve 50,000 queries per day across a knowledge base of 10 million documents, and answer quality is business-critical. Walk through how you would design the end-to-end system: what components you need, how retrieval actually works at this scale, how you would measure whether answers are good, and what you would do when answer quality degrades in production. What are the key tradeoffs in your design?"
+    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
+    "question": "You joined a company six months ago to lead an AI engineering team. You've identified that a senior engineer on the team \u2014 one who has been there for five years, is well-liked, and is seen as a technical authority \u2014 consistently resists adopting the new development practices you're trying to establish, and their resistance is visibly influencing other team members to slow-walk the changes. Your manager has told you the transformation is a top priority for the business. How do you handle it?"
   },
   "history": [
-    {
-      "date": "2026-10-25",
-      "day_name": "Sunday",
-      "pillar_label": "Review & spaced-repetition quiz",
-      "concept_summary": "Weekly spaced-repetition recap across ML, webhooks, news, FDE handoff, personalization, and hiring."
-    },
     {
       "date": "2026-10-26",
       "day_name": "Monday",
@@ -61,6 +55,12 @@
       "day_name": "Sunday",
       "pillar_label": "Review & spaced-repetition quiz",
       "concept_summary": "Weekly spaced-repetition recap and quiz across Monday-Saturday concepts."
+    },
+    {
+      "date": "2026-11-02",
+      "day_name": "Monday",
+      "pillar_label": "AI/ML core concepts",
+      "concept_summary": "Jacobians and Hessians as slope/curvature intuition; backpropagation as gradient attribution via chain rule."
     }
   ]
 }
