@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 4,
-    "swe": 10,
-    "fde_snippet": 6,
+    "interview_category": 5,
+    "swe": 11,
+    "fde_snippet": 7,
     "fde_case": 1,
     "martech": 2,
     "leadership": 2,
@@ -10,16 +10,10 @@
     "math_stats": 10
   },
   "pending_interview": {
-    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
-    "question": "You joined a company six months ago to lead an AI engineering team. You've identified that a senior engineer on the team \u2014 one who has been there for five years, is well-liked, and is seen as a technical authority \u2014 consistently resists adopting the new development practices you're trying to establish, and their resistance is visibly influencing other team members to slow-walk the changes. Your manager has told you the transformation is a top priority for the business. How do you handle it?"
+    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "question": "A mid-sized logistics company comes to you. They want to build an internal tool that lets operations managers query shipment data in plain English \u2014 type a question like \"which routes had the most delays last month?\" and get an answer back without writing SQL. They have a team of 3 engineers and want something running in 90 days. Walk me through how you'd scope this engagement: what would you need to learn in the first conversation, what are the key build-vs-buy decisions you'd surface, and what would make you tell them 90 days is or isn't realistic?"
   },
   "history": [
-    {
-      "date": "2026-10-26",
-      "day_name": "Monday",
-      "pillar_label": "AI/ML core concepts",
-      "concept_summary": "Chain rule enables backprop; activation functions add non-linearity to neural networks."
-    },
     {
       "date": "2026-10-27",
       "day_name": "Tuesday",
@@ -61,6 +55,12 @@
       "day_name": "Monday",
       "pillar_label": "AI/ML core concepts",
       "concept_summary": "Jacobians and Hessians as slope/curvature intuition; backpropagation as gradient attribution via chain rule."
+    },
+    {
+      "date": "2026-11-03",
+      "day_name": "Tuesday",
+      "pillar_label": "Software & systems engineering",
+      "concept_summary": "Database indexing strategies: B-tree, hash, composite, full-text, clustered vs non-clustered"
     }
   ]
 }
