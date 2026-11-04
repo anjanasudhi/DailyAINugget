@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 5,
+    "interview_category": 0,
     "swe": 11,
-    "fde_snippet": 7,
+    "fde_snippet": 8,
     "fde_case": 1,
     "martech": 2,
     "leadership": 2,
@@ -10,16 +10,10 @@
     "math_stats": 10
   },
   "pending_interview": {
-    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
-    "question": "A mid-sized logistics company comes to you. They want to build an internal tool that lets operations managers query shipment data in plain English \u2014 type a question like \"which routes had the most delays last month?\" and get an answer back without writing SQL. They have a team of 3 engineers and want something running in 90 days. Walk me through how you'd scope this engagement: what would you need to learn in the first conversation, what are the key build-vs-buy decisions you'd surface, and what would make you tell them 90 days is or isn't realistic?"
+    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
+    "question": "A direct-to-consumer brand runs a weekly email newsletter and a paid social ad program. They use a third-party customer data platform \u2014 a tool that centralizes customer data from multiple sources \u2014 to manage audience segments. They want to implement AI-driven personalization so that each customer receives email content and ad creative tailored to their individual predicted behavior. Walk me through how you would architect this personalization system: what data inputs you'd use, how you'd handle the fact that many customers interact across both email and paid social but can't always be matched to a single identity, and how you'd measure whether the personalization is actually working given that cookies are increasingly unreliable for tracking."
   },
   "history": [
-    {
-      "date": "2026-10-27",
-      "day_name": "Tuesday",
-      "pillar_label": "Software & systems engineering",
-      "concept_summary": "Relational databases use tables and ACID transactions; NoSQL trades structure for scale and flexibility."
-    },
     {
       "date": "2026-10-28",
       "day_name": "Wednesday",
@@ -61,6 +55,12 @@
       "day_name": "Tuesday",
       "pillar_label": "Software & systems engineering",
       "concept_summary": "Database indexing strategies: B-tree, hash, composite, full-text, clustered vs non-clustered"
+    },
+    {
+      "date": "2026-11-04",
+      "day_name": "Wednesday",
+      "pillar_label": "AI + engineering news roundup",
+      "concept_summary": "AI/engineering news roundup: hardware design AI, Anthropic IPO safety disclosures, China AI regulation, OpenAI enterprise partnerships."
     }
   ]
 }
