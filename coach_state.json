@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 0,
+    "interview_category": 1,
     "swe": 11,
     "fde_snippet": 8,
-    "fde_case": 1,
+    "fde_case": 2,
     "martech": 2,
     "leadership": 2,
     "ai_ml": 10,
     "math_stats": 10
   },
   "pending_interview": {
-    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
-    "question": "A direct-to-consumer brand runs a weekly email newsletter and a paid social ad program. They use a third-party customer data platform \u2014 a tool that centralizes customer data from multiple sources \u2014 to manage audience segments. They want to implement AI-driven personalization so that each customer receives email content and ad creative tailored to their individual predicted behavior. Walk me through how you would architect this personalization system: what data inputs you'd use, how you'd handle the fact that many customers interact across both email and paid social but can't always be matched to a single identity, and how you'd measure whether the personalization is actually working given that cookies are increasingly unreliable for tracking."
+    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "question": "You have a list of log entries, each represented as a pair: a user ID (a string) and a timestamp (an integer representing seconds since some epoch). The list is not sorted. You want to find all users who have at least one pair of log entries where the two entries are no more than K seconds apart. Write a function that returns a list of those user IDs. Walk me through your approach, the data structure you would use, the time and space complexity of your solution, and whether there is a more efficient approach if the input list is very large."
   },
   "history": [
-    {
-      "date": "2026-10-28",
-      "day_name": "Wednesday",
-      "pillar_label": "AI + engineering news roundup",
-      "concept_summary": "AI news roundup: OpenAI/Google chips, Anthropic GSA deal, Microsoft medical AI, Mistral Large 4"
-    },
     {
       "date": "2026-10-29",
       "day_name": "Thursday",
@@ -61,6 +55,12 @@
       "day_name": "Wednesday",
       "pillar_label": "AI + engineering news roundup",
       "concept_summary": "AI/engineering news roundup: hardware design AI, Anthropic IPO safety disclosures, China AI regulation, OpenAI enterprise partnerships."
+    },
+    {
+      "date": "2026-11-05",
+      "day_name": "Thursday",
+      "pillar_label": "FDE case study / client scenario",
+      "concept_summary": "FDE case study on legacy system integration and data migration at a bank."
     }
   ]
 }
