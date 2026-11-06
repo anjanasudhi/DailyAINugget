@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 1,
+    "interview_category": 2,
     "swe": 11,
-    "fde_snippet": 8,
+    "fde_snippet": 0,
     "fde_case": 2,
-    "martech": 2,
+    "martech": 3,
     "leadership": 2,
     "ai_ml": 10,
     "math_stats": 10
   },
   "pending_interview": {
-    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
-    "question": "You have a list of log entries, each represented as a pair: a user ID (a string) and a timestamp (an integer representing seconds since some epoch). The list is not sorted. You want to find all users who have at least one pair of log entries where the two entries are no more than K seconds apart. Write a function that returns a list of those user IDs. Walk me through your approach, the data structure you would use, the time and space complexity of your solution, and whether there is a more efficient approach if the input list is very large."
+    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
+    "question": "You are designing a notification delivery system for a large consumer app with 50 million users. The system needs to send notifications across multiple channels \u2014 push notifications, email, and SMS \u2014 with support for different priority levels (for example, a security alert should always go through immediately, while a weekly digest can be batched). Walk me through how you would design this system: the high-level architecture, how you would handle scale, how you would ensure high-priority messages are not delayed by high-volume low-priority traffic, and what happens when a downstream channel (like an email provider) is slow or temporarily unavailable."
   },
   "history": [
-    {
-      "date": "2026-10-29",
-      "day_name": "Thursday",
-      "pillar_label": "FDE case study / client scenario",
-      "concept_summary": "FDE discovery framework: separating ambiguous client asks into scoped, phased, data-grounded proposals."
-    },
     {
       "date": "2026-10-30",
       "day_name": "Friday",
@@ -61,6 +55,12 @@
       "day_name": "Thursday",
       "pillar_label": "FDE case study / client scenario",
       "concept_summary": "FDE case study on legacy system integration and data migration at a bank."
+    },
+    {
+      "date": "2026-11-06",
+      "day_name": "Friday",
+      "pillar_label": "Martech & AI-in-marketing",
+      "concept_summary": "Generative AI in marketing content: LLMs, diffusion models, personalization, hallucination, brand drift risks."
     }
   ]
 }
