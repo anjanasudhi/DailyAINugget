@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 4,
+    "interview_category": 5,
     "swe": 11,
-    "fde_snippet": 2,
+    "fde_snippet": 3,
     "fde_case": 2,
     "martech": 3,
     "leadership": 3,
-    "ai_ml": 10,
-    "math_stats": 10
+    "ai_ml": 11,
+    "math_stats": 11
   },
   "pending_interview": {
-    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
-    "question": "You joined a cross-functional initiative six months ago \u2014 your engineering team is one of three teams contributing \u2014 and you've come to believe the technical approach the group agreed on at the start is fundamentally flawed and will create serious problems at launch. The other two team leads are invested in the current approach, the executive sponsor considers it settled, and the timeline is tight. How do you handle it?"
+    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "question": "A mid-sized logistics company approaches you. They want to add AI-powered document processing to their operations \u2014 specifically, automatically extracting key fields from freight invoices and customs declarations (which currently requires a team of 12 people doing manual data entry). They have no internal ML team, a two-year-old ERP system (enterprise resource planning \u2014 the core business operations software), and a hard requirement that the solution be live within six months. Walk me through how you would scope this engagement, what you'd need to know before recommending an approach, and how you'd think through whether to build a custom model, use an off-the-shelf AI document processing service, or some combination of both."
   },
   "history": [
-    {
-      "date": "2026-11-01",
-      "day_name": "Sunday",
-      "pillar_label": "Review & spaced-repetition quiz",
-      "concept_summary": "Weekly spaced-repetition recap and quiz across Monday-Saturday concepts."
-    },
     {
       "date": "2026-11-02",
       "day_name": "Monday",
@@ -61,6 +55,12 @@
       "day_name": "Sunday",
       "pillar_label": "Review & spaced-repetition quiz",
       "concept_summary": "Weekly spaced-repetition recap and quiz across Monday-Saturday concepts."
+    },
+    {
+      "date": "2026-11-09",
+      "day_name": "Monday",
+      "pillar_label": "AI/ML core concepts",
+      "concept_summary": "Taylor series local approximation intuition and CNN architecture for image pattern recognition."
     }
   ]
 }
