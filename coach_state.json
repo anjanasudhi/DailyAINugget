@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 5,
-    "swe": 11,
-    "fde_snippet": 3,
+    "interview_category": 0,
+    "swe": 12,
+    "fde_snippet": 4,
     "fde_case": 2,
     "martech": 3,
     "leadership": 3,
@@ -10,16 +10,10 @@
     "math_stats": 11
   },
   "pending_interview": {
-    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
-    "question": "A mid-sized logistics company approaches you. They want to add AI-powered document processing to their operations \u2014 specifically, automatically extracting key fields from freight invoices and customs declarations (which currently requires a team of 12 people doing manual data entry). They have no internal ML team, a two-year-old ERP system (enterprise resource planning \u2014 the core business operations software), and a hard requirement that the solution be live within six months. Walk me through how you would scope this engagement, what you'd need to know before recommending an approach, and how you'd think through whether to build a custom model, use an off-the-shelf AI document processing service, or some combination of both."
+    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
+    "question": "You're working with a large retail brand that runs personalized email and paid social campaigns. They've recently built a generative AI content pipeline \u2014 meaning an automated system that uses a large language model to draft and vary ad copy at scale \u2014 and they want to tie it into their attribution model (the system that tracks which marketing touchpoints led to a purchase). Their problem: browser privacy changes and the deprecation of third-party cookies (small tracking files that used to let advertisers follow users across websites) have degraded the accuracy of their multi-touch attribution data by roughly 40%. The CMO wants to know which AI-generated content variants are actually driving revenue, not just clicks, in this privacy-constrained environment. How would you redesign their measurement approach, and what tradeoffs would you flag to the CMO between accuracy, scalability, and privacy compliance?"
   },
   "history": [
-    {
-      "date": "2026-11-02",
-      "day_name": "Monday",
-      "pillar_label": "AI/ML core concepts",
-      "concept_summary": "Jacobians and Hessians as slope/curvature intuition; backpropagation as gradient attribution via chain rule."
-    },
     {
       "date": "2026-11-03",
       "day_name": "Tuesday",
@@ -61,6 +55,12 @@
       "day_name": "Monday",
       "pillar_label": "AI/ML core concepts",
       "concept_summary": "Taylor series local approximation intuition and CNN architecture for image pattern recognition."
+    },
+    {
+      "date": "2026-11-10",
+      "day_name": "Tuesday",
+      "pillar_label": "Software & systems engineering",
+      "concept_summary": "ACID transactions: Atomicity, Consistency, Isolation, Durability guarantee database reliability."
     }
   ]
 }
