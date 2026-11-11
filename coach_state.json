@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 0,
+    "interview_category": 1,
     "swe": 12,
-    "fde_snippet": 4,
+    "fde_snippet": 5,
     "fde_case": 2,
     "martech": 3,
     "leadership": 3,
@@ -10,16 +10,10 @@
     "math_stats": 11
   },
   "pending_interview": {
-    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
-    "question": "You're working with a large retail brand that runs personalized email and paid social campaigns. They've recently built a generative AI content pipeline \u2014 meaning an automated system that uses a large language model to draft and vary ad copy at scale \u2014 and they want to tie it into their attribution model (the system that tracks which marketing touchpoints led to a purchase). Their problem: browser privacy changes and the deprecation of third-party cookies (small tracking files that used to let advertisers follow users across websites) have degraded the accuracy of their multi-touch attribution data by roughly 40%. The CMO wants to know which AI-generated content variants are actually driving revenue, not just clicks, in this privacy-constrained environment. How would you redesign their measurement approach, and what tradeoffs would you flag to the CMO between accuracy, scalability, and privacy compliance?"
+    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "question": "You have a list of log entries, each containing a user ID (a string) and a timestamp (an integer representing seconds). Write a function that finds the user who appears most frequently within any sliding 10-minute window across the entire log. Describe your approach, explain the data structures you'd choose and why, and analyze the time and space complexity (that is, how runtime and memory use grow as the input size grows) of your solution."
   },
   "history": [
-    {
-      "date": "2026-11-03",
-      "day_name": "Tuesday",
-      "pillar_label": "Software & systems engineering",
-      "concept_summary": "Database indexing strategies: B-tree, hash, composite, full-text, clustered vs non-clustered"
-    },
     {
       "date": "2026-11-04",
       "day_name": "Wednesday",
@@ -61,6 +55,12 @@
       "day_name": "Tuesday",
       "pillar_label": "Software & systems engineering",
       "concept_summary": "ACID transactions: Atomicity, Consistency, Isolation, Durability guarantee database reliability."
+    },
+    {
+      "date": "2026-11-11",
+      "day_name": "Wednesday",
+      "pillar_label": "AI + engineering news roundup",
+      "concept_summary": "AI/engineering news roundup: agents, security flaws, Anthropic IPO, FDE demand surge."
     }
   ]
 }
