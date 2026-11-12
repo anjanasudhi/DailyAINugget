@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 1,
+    "interview_category": 2,
     "swe": 12,
     "fde_snippet": 5,
-    "fde_case": 2,
+    "fde_case": 3,
     "martech": 3,
     "leadership": 3,
     "ai_ml": 11,
     "math_stats": 11
   },
   "pending_interview": {
-    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
-    "question": "You have a list of log entries, each containing a user ID (a string) and a timestamp (an integer representing seconds). Write a function that finds the user who appears most frequently within any sliding 10-minute window across the entire log. Describe your approach, explain the data structures you'd choose and why, and analyze the time and space complexity (that is, how runtime and memory use grow as the input size grows) of your solution."
+    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
+    "question": "You are designing a notification delivery system for a large consumer app with 50 million active users. The system needs to send push notifications, emails, and in-app alerts \u2014 sometimes all three for the same event. Notifications can be triggered by user actions, scheduled campaigns, and automated backend events. Walk through how you would design this system: what are the main components, how do you handle reliability (making sure notifications actually get delivered), how do you avoid sending duplicate notifications, and how would you scale the system to handle a sudden 10x spike in notification volume?"
   },
   "history": [
-    {
-      "date": "2026-11-04",
-      "day_name": "Wednesday",
-      "pillar_label": "AI + engineering news roundup",
-      "concept_summary": "AI/engineering news roundup: hardware design AI, Anthropic IPO safety disclosures, China AI regulation, OpenAI enterprise partnerships."
-    },
     {
       "date": "2026-11-05",
       "day_name": "Thursday",
@@ -61,6 +55,12 @@
       "day_name": "Wednesday",
       "pillar_label": "AI + engineering news roundup",
       "concept_summary": "AI/engineering news roundup: agents, security flaws, Anthropic IPO, FDE demand surge."
+    },
+    {
+      "date": "2026-11-12",
+      "day_name": "Thursday",
+      "pillar_label": "FDE case study / client scenario",
+      "concept_summary": "FDE client stakeholder trust-building: diagnosing silence, layered trust, and co-owned proof of concept."
     }
   ]
 }
