@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 3,
+    "interview_category": 4,
     "swe": 12,
-    "fde_snippet": 6,
+    "fde_snippet": 7,
     "fde_case": 3,
     "martech": 4,
-    "leadership": 3,
+    "leadership": 4,
     "ai_ml": 11,
     "math_stats": 11
   },
   "pending_interview": {
-    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
-    "question": "You are designing a real-time recommendation system for a large e-commerce platform with 200 million users and a catalog of 50 million products. The system must serve personalized product recommendations with low latency (under 100 milliseconds) at the point of purchase. Walk through your architecture: how do you generate, store, and serve recommendations at this scale? Where does a feature store fit in, what goes in it, and how do you keep features fresh? How would you design the offline training pipeline alongside the online serving path, and what are the main failure modes you need to plan for?"
+    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
+    "question": "You are leading an AI deployment for a large client. Your engineering team has flagged that the model the client's internal data science team built has significant reliability problems that will likely surface in production within weeks of go-live. The client's internal team is defensive about the feedback and has escalating influence with the executive sponsor. You don't have direct authority over the client's team. How do you handle this situation, and how do you decide how hard to push?"
   },
   "history": [
-    {
-      "date": "2026-11-06",
-      "day_name": "Friday",
-      "pillar_label": "Martech & AI-in-marketing",
-      "concept_summary": "Generative AI in marketing content: LLMs, diffusion models, personalization, hallucination, brand drift risks."
-    },
     {
       "date": "2026-11-07",
       "day_name": "Saturday",
@@ -61,6 +55,12 @@
       "day_name": "Friday",
       "pillar_label": "Martech & AI-in-marketing",
       "concept_summary": "Martech stack: CRM tracks relationships, CDP unifies behavioral data, orchestration layer executes campaigns."
+    },
+    {
+      "date": "2026-11-14",
+      "day_name": "Saturday",
+      "pillar_label": "Engineering leadership / EM-for-AI-teams",
+      "concept_summary": "Communicating AI risk and limitations clearly to non-technical stakeholders using segmentation, analogy, and calibrated framing."
     }
   ]
 }
