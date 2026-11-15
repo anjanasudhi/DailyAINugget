@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 4,
+    "interview_category": 5,
     "swe": 12,
-    "fde_snippet": 7,
+    "fde_snippet": 8,
     "fde_case": 3,
     "martech": 4,
     "leadership": 4,
@@ -10,16 +10,10 @@
     "math_stats": 11
   },
   "pending_interview": {
-    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
-    "question": "You are leading an AI deployment for a large client. Your engineering team has flagged that the model the client's internal data science team built has significant reliability problems that will likely surface in production within weeks of go-live. The client's internal team is defensive about the feedback and has escalating influence with the executive sponsor. You don't have direct authority over the client's team. How do you handle this situation, and how do you decide how hard to push?"
+    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "question": "A large regional bank approaches you to build an AI-powered document review tool for their loan underwriting process. They have a 20-person internal data team, a substantial amount of historical loan data, and existing vendor contracts with two major cloud providers. Leadership wants to know whether they should build a custom model in-house, fine-tune an existing foundation model (a large pre-trained AI model that can be adapted to specific tasks), or license a ready-made third-party solution. Walk me through how you would scope this decision with the client, what questions you would ask first, and what your recommendation framework looks like."
   },
   "history": [
-    {
-      "date": "2026-11-07",
-      "day_name": "Saturday",
-      "pillar_label": "Engineering leadership / EM-for-AI-teams",
-      "concept_summary": "Technical debt in AI codebases: code, ML-specific, and AI-generated debt types and management tactics."
-    },
     {
       "date": "2026-11-08",
       "day_name": "Sunday",
@@ -61,6 +55,12 @@
       "day_name": "Saturday",
       "pillar_label": "Engineering leadership / EM-for-AI-teams",
       "concept_summary": "Communicating AI risk and limitations clearly to non-technical stakeholders using segmentation, analogy, and calibrated framing."
+    },
+    {
+      "date": "2026-11-15",
+      "day_name": "Sunday",
+      "pillar_label": "Review & spaced-repetition quiz",
+      "concept_summary": "Weekly spaced-repetition recap and quiz across Monday\u2013Saturday AI/engineering topics."
     }
   ]
 }
