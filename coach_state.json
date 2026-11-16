@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 5,
+    "interview_category": 0,
     "swe": 12,
-    "fde_snippet": 8,
+    "fde_snippet": 0,
     "fde_case": 3,
     "martech": 4,
     "leadership": 4,
-    "ai_ml": 11,
-    "math_stats": 11
+    "ai_ml": 12,
+    "math_stats": 12
   },
   "pending_interview": {
-    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
-    "question": "A large regional bank approaches you to build an AI-powered document review tool for their loan underwriting process. They have a 20-person internal data team, a substantial amount of historical loan data, and existing vendor contracts with two major cloud providers. Leadership wants to know whether they should build a custom model in-house, fine-tune an existing foundation model (a large pre-trained AI model that can be adapted to specific tasks), or license a ready-made third-party solution. Walk me through how you would scope this decision with the client, what questions you would ask first, and what your recommendation framework looks like."
+    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
+    "question": "You are advising a large e-commerce brand that wants to build a real-time personalization engine \u2014 one that surfaces different product recommendations and homepage content to each user based on their behavior. Their data team has strong first-party behavioral data, but new privacy regulations in their primary markets have eliminated third-party cookie tracking and significantly restricted cross-site identity resolution. Their current attribution model (the method they use to figure out which marketing touchpoints actually caused a purchase) relies heavily on multi-touch attribution using that now-restricted data. Walk me through how you would redesign their personalization and attribution architecture under these constraints \u2014 what data sources and modeling approaches would you lean on, what would you deprioritize, and what tradeoffs would you make explicit to leadership?"
   },
   "history": [
-    {
-      "date": "2026-11-08",
-      "day_name": "Sunday",
-      "pillar_label": "Review & spaced-repetition quiz",
-      "concept_summary": "Weekly spaced-repetition recap and quiz across Monday-Saturday concepts."
-    },
     {
       "date": "2026-11-09",
       "day_name": "Monday",
@@ -61,6 +55,12 @@
       "day_name": "Sunday",
       "pillar_label": "Review & spaced-repetition quiz",
       "concept_summary": "Weekly spaced-repetition recap and quiz across Monday\u2013Saturday AI/engineering topics."
+    },
+    {
+      "date": "2026-11-16",
+      "day_name": "Monday",
+      "pillar_label": "AI/ML core concepts",
+      "concept_summary": "Gaussian/Bernoulli/Poisson distributions; RNNs and LSTMs for sequence modeling"
     }
   ]
 }
