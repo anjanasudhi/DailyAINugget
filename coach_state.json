@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 0,
-    "swe": 12,
-    "fde_snippet": 0,
+    "interview_category": 1,
+    "swe": 13,
+    "fde_snippet": 1,
     "fde_case": 3,
     "martech": 4,
     "leadership": 4,
@@ -10,16 +10,10 @@
     "math_stats": 12
   },
   "pending_interview": {
-    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
-    "question": "You are advising a large e-commerce brand that wants to build a real-time personalization engine \u2014 one that surfaces different product recommendations and homepage content to each user based on their behavior. Their data team has strong first-party behavioral data, but new privacy regulations in their primary markets have eliminated third-party cookie tracking and significantly restricted cross-site identity resolution. Their current attribution model (the method they use to figure out which marketing touchpoints actually caused a purchase) relies heavily on multi-touch attribution using that now-restricted data. Walk me through how you would redesign their personalization and attribution architecture under these constraints \u2014 what data sources and modeling approaches would you lean on, what would you deprioritize, and what tradeoffs would you make explicit to leadership?"
+    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "question": "You are given a list of integers and asked to find all pairs of elements whose values sum to a specific target number. Your solution should not return duplicate pairs, and it should run as efficiently as possible. Walk through your approach, state its time and space complexity (time complexity meaning how the runtime scales as the input grows; space complexity meaning how much extra memory your solution uses), and explain what data structure you'd reach for and why."
   },
   "history": [
-    {
-      "date": "2026-11-09",
-      "day_name": "Monday",
-      "pillar_label": "AI/ML core concepts",
-      "concept_summary": "Taylor series local approximation intuition and CNN architecture for image pattern recognition."
-    },
     {
       "date": "2026-11-10",
       "day_name": "Tuesday",
@@ -61,6 +55,12 @@
       "day_name": "Monday",
       "pillar_label": "AI/ML core concepts",
       "concept_summary": "Gaussian/Bernoulli/Poisson distributions; RNNs and LSTMs for sequence modeling"
+    },
+    {
+      "date": "2026-11-17",
+      "day_name": "Tuesday",
+      "pillar_label": "Software & systems engineering",
+      "concept_summary": "Data warehouse stores structured clean data; data lake stores raw flexible data cheaply."
     }
   ]
 }
