@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 1,
+    "interview_category": 2,
     "swe": 13,
-    "fde_snippet": 1,
+    "fde_snippet": 2,
     "fde_case": 3,
     "martech": 4,
     "leadership": 4,
@@ -10,16 +10,10 @@
     "math_stats": 12
   },
   "pending_interview": {
-    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
-    "question": "You are given a list of integers and asked to find all pairs of elements whose values sum to a specific target number. Your solution should not return duplicate pairs, and it should run as efficiently as possible. Walk through your approach, state its time and space complexity (time complexity meaning how the runtime scales as the input grows; space complexity meaning how much extra memory your solution uses), and explain what data structure you'd reach for and why."
+    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
+    "question": "You are asked to design a URL shortener service \u2014 a system where users submit a long URL and get back a short one (like bit.ly/abc123), and anyone who visits the short URL gets redirected to the original. The system needs to handle hundreds of millions of short URLs and tens of thousands of redirect requests per second globally. Walk through your high-level design: what components would you include, how would you handle the scale, and what tradeoffs would you make?"
   },
   "history": [
-    {
-      "date": "2026-11-10",
-      "day_name": "Tuesday",
-      "pillar_label": "Software & systems engineering",
-      "concept_summary": "ACID transactions: Atomicity, Consistency, Isolation, Durability guarantee database reliability."
-    },
     {
       "date": "2026-11-11",
       "day_name": "Wednesday",
@@ -61,6 +55,12 @@
       "day_name": "Tuesday",
       "pillar_label": "Software & systems engineering",
       "concept_summary": "Data warehouse stores structured clean data; data lake stores raw flexible data cheaply."
+    },
+    {
+      "date": "2026-11-18",
+      "day_name": "Wednesday",
+      "pillar_label": "AI + engineering news roundup",
+      "concept_summary": "AI news roundup: Anthropic IPO, OpenAI GPT-6.2, rogue agent lawsuit, AWS FDE expansion"
     }
   ]
 }
