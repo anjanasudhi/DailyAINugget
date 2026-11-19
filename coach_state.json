@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 2,
+    "interview_category": 3,
     "swe": 13,
     "fde_snippet": 2,
-    "fde_case": 3,
+    "fde_case": 4,
     "martech": 4,
     "leadership": 4,
     "ai_ml": 12,
     "math_stats": 12
   },
   "pending_interview": {
-    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
-    "question": "You are asked to design a URL shortener service \u2014 a system where users submit a long URL and get back a short one (like bit.ly/abc123), and anyone who visits the short URL gets redirected to the original. The system needs to handle hundreds of millions of short URLs and tens of thousands of redirect requests per second globally. Walk through your high-level design: what components would you include, how would you handle the scale, and what tradeoffs would you make?"
+    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
+    "question": "You are designing a recommendation system for a streaming video platform with 50 million active users. The system needs to serve personalized recommendations in under 100 milliseconds, update user preference signals in near-real-time as they watch, and support rapid experimentation (A/B tests across different recommendation models). Walk through your high-level architecture: what components would you include, how would you handle the latency and freshness requirements, and what tradeoffs would you make between model complexity and serving speed?"
   },
   "history": [
-    {
-      "date": "2026-11-11",
-      "day_name": "Wednesday",
-      "pillar_label": "AI + engineering news roundup",
-      "concept_summary": "AI/engineering news roundup: agents, security flaws, Anthropic IPO, FDE demand surge."
-    },
     {
       "date": "2026-11-12",
       "day_name": "Thursday",
@@ -61,6 +55,12 @@
       "day_name": "Wednesday",
       "pillar_label": "AI + engineering news roundup",
       "concept_summary": "AI news roundup: Anthropic IPO, OpenAI GPT-6.2, rogue agent lawsuit, AWS FDE expansion"
+    },
+    {
+      "date": "2026-11-19",
+      "day_name": "Thursday",
+      "pillar_label": "FDE case study / client scenario",
+      "concept_summary": "Custom-vs-reusable FDE tradeoff framework using a healthcare insurer client scenario."
     }
   ]
 }
