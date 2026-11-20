@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 3,
+    "interview_category": 4,
     "swe": 13,
-    "fde_snippet": 2,
+    "fde_snippet": 3,
     "fde_case": 4,
-    "martech": 4,
+    "martech": 5,
     "leadership": 4,
     "ai_ml": 12,
     "math_stats": 12
   },
   "pending_interview": {
-    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
-    "question": "You are designing a recommendation system for a streaming video platform with 50 million active users. The system needs to serve personalized recommendations in under 100 milliseconds, update user preference signals in near-real-time as they watch, and support rapid experimentation (A/B tests across different recommendation models). Walk through your high-level architecture: what components would you include, how would you handle the latency and freshness requirements, and what tradeoffs would you make between model complexity and serving speed?"
+    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
+    "question": "You joined a team six months ago and inherited a senior engineer who had been informally promised a promotion by the previous manager \u2014 a promise that was never documented and that you believe, based on your own assessment, the engineer has not yet earned. The engineer brings it up in your next 1:1 and expects you to follow through. How do you handle it?"
   },
   "history": [
-    {
-      "date": "2026-11-12",
-      "day_name": "Thursday",
-      "pillar_label": "FDE case study / client scenario",
-      "concept_summary": "FDE client stakeholder trust-building: diagnosing silence, layered trust, and co-owned proof of concept."
-    },
     {
       "date": "2026-11-13",
       "day_name": "Friday",
@@ -61,6 +55,12 @@
       "day_name": "Thursday",
       "pillar_label": "FDE case study / client scenario",
       "concept_summary": "Custom-vs-reusable FDE tradeoff framework using a healthcare insurer client scenario."
+    },
+    {
+      "date": "2026-11-20",
+      "day_name": "Friday",
+      "pillar_label": "Martech & AI-in-marketing",
+      "concept_summary": "AI agents for marketing ops: autonomous systems that pursue goals, not just follow rules."
     }
   ]
 }
