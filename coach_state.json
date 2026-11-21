@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 4,
+    "interview_category": 5,
     "swe": 13,
-    "fde_snippet": 3,
+    "fde_snippet": 4,
     "fde_case": 4,
     "martech": 5,
-    "leadership": 4,
+    "leadership": 5,
     "ai_ml": 12,
     "math_stats": 12
   },
   "pending_interview": {
-    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
-    "question": "You joined a team six months ago and inherited a senior engineer who had been informally promised a promotion by the previous manager \u2014 a promise that was never documented and that you believe, based on your own assessment, the engineer has not yet earned. The engineer brings it up in your next 1:1 and expects you to follow through. How do you handle it?"
+    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "question": "A large regional hospital network approaches your team. They want to use AI to automatically generate first-draft clinical documentation \u2014 essentially, have an AI listen to a doctor's patient visit and produce a structured note that the doctor then reviews and signs off on. They have a six-month timeline, an internal IT team of twelve engineers, and have already been approached by two vendors with off-the-shelf products. Walk me through how you would scope this engagement, what your first thirty days would look like, and how you would advise them on whether to buy a vendor solution, build in-house, or take a hybrid approach."
   },
   "history": [
-    {
-      "date": "2026-11-13",
-      "day_name": "Friday",
-      "pillar_label": "Martech & AI-in-marketing",
-      "concept_summary": "Martech stack: CRM tracks relationships, CDP unifies behavioral data, orchestration layer executes campaigns."
-    },
     {
       "date": "2026-11-14",
       "day_name": "Saturday",
@@ -61,6 +55,12 @@
       "day_name": "Friday",
       "pillar_label": "Martech & AI-in-marketing",
       "concept_summary": "AI agents for marketing ops: autonomous systems that pursue goals, not just follow rules."
+    },
+    {
+      "date": "2026-11-21",
+      "day_name": "Saturday",
+      "pillar_label": "Engineering leadership / EM-for-AI-teams",
+      "concept_summary": "Roadmap planning under AI tooling churn: anchor on outcomes, tier horizons, abstract vendor dependencies."
     }
   ]
 }
