@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 5,
+    "interview_category": 0,
     "swe": 13,
-    "fde_snippet": 4,
+    "fde_snippet": 5,
     "fde_case": 4,
     "martech": 5,
     "leadership": 5,
@@ -10,16 +10,10 @@
     "math_stats": 12
   },
   "pending_interview": {
-    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
-    "question": "A large regional hospital network approaches your team. They want to use AI to automatically generate first-draft clinical documentation \u2014 essentially, have an AI listen to a doctor's patient visit and produce a structured note that the doctor then reviews and signs off on. They have a six-month timeline, an internal IT team of twelve engineers, and have already been approached by two vendors with off-the-shelf products. Walk me through how you would scope this engagement, what your first thirty days would look like, and how you would advise them on whether to buy a vendor solution, build in-house, or take a hybrid approach."
+    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
+    "question": "You are advising a large e-commerce retailer that wants to build a personalization engine \u2014 a system that shows each shopper different product recommendations, emails, and homepage content based on their behavior. Their data science team is strong, but they are facing two hard constraints: a significant portion of their users have opted out of cross-site tracking under new privacy regulations, and their marketing team wants to use a generative AI model to produce personalized email copy at scale. How would you design the personalization architecture to remain effective under the tracking opt-out constraint, and what measurement approach would you use to prove the system is driving incremental revenue rather than just reaching users who would have bought anyway?"
   },
   "history": [
-    {
-      "date": "2026-11-14",
-      "day_name": "Saturday",
-      "pillar_label": "Engineering leadership / EM-for-AI-teams",
-      "concept_summary": "Communicating AI risk and limitations clearly to non-technical stakeholders using segmentation, analogy, and calibrated framing."
-    },
     {
       "date": "2026-11-15",
       "day_name": "Sunday",
@@ -61,6 +55,12 @@
       "day_name": "Saturday",
       "pillar_label": "Engineering leadership / EM-for-AI-teams",
       "concept_summary": "Roadmap planning under AI tooling churn: anchor on outcomes, tier horizons, abstract vendor dependencies."
+    },
+    {
+      "date": "2026-11-22",
+      "day_name": "Sunday",
+      "pillar_label": "Review & spaced-repetition quiz",
+      "concept_summary": "Weekly spaced-repetition recap and quiz across Monday-Saturday AI/engineering concepts."
     }
   ]
 }
