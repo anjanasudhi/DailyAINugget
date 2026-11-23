@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 0,
+    "interview_category": 1,
     "swe": 13,
-    "fde_snippet": 5,
+    "fde_snippet": 6,
     "fde_case": 4,
     "martech": 5,
     "leadership": 5,
-    "ai_ml": 12,
-    "math_stats": 12
+    "ai_ml": 13,
+    "math_stats": 13
   },
   "pending_interview": {
-    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
-    "question": "You are advising a large e-commerce retailer that wants to build a personalization engine \u2014 a system that shows each shopper different product recommendations, emails, and homepage content based on their behavior. Their data science team is strong, but they are facing two hard constraints: a significant portion of their users have opted out of cross-site tracking under new privacy regulations, and their marketing team wants to use a generative AI model to produce personalized email copy at scale. How would you design the personalization architecture to remain effective under the tracking opt-out constraint, and what measurement approach would you use to prove the system is driving incremental revenue rather than just reaching users who would have bought anyway?"
+    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
+    "question": "You are given a list of software packages, where each package may depend on one or more other packages in the list (and those packages may have further dependencies). Write a function that takes this dependency list as input and returns a valid installation order \u2014 that is, an order in which every package appears only after all of its dependencies have already appeared. If no valid order exists, the function should indicate that. Walk through the time and space complexity of your solution, and describe what graph property causes the \"no valid order exists\" case."
   },
   "history": [
-    {
-      "date": "2026-11-15",
-      "day_name": "Sunday",
-      "pillar_label": "Review & spaced-repetition quiz",
-      "concept_summary": "Weekly spaced-repetition recap and quiz across Monday\u2013Saturday AI/engineering topics."
-    },
     {
       "date": "2026-11-16",
       "day_name": "Monday",
@@ -61,6 +55,12 @@
       "day_name": "Sunday",
       "pillar_label": "Review & spaced-repetition quiz",
       "concept_summary": "Weekly spaced-repetition recap and quiz across Monday-Saturday AI/engineering concepts."
+    },
+    {
+      "date": "2026-11-23",
+      "day_name": "Monday",
+      "pillar_label": "AI/ML core concepts",
+      "concept_summary": "Conditional probability and Bayes' theorem; regularization techniques (L1, L2, dropout, early stopping) for deep nets."
     }
   ]
 }
