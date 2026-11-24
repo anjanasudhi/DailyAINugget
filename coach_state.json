@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 1,
-    "swe": 13,
-    "fde_snippet": 6,
+    "interview_category": 2,
+    "swe": 14,
+    "fde_snippet": 7,
     "fde_case": 4,
     "martech": 5,
     "leadership": 5,
@@ -10,16 +10,10 @@
     "math_stats": 13
   },
   "pending_interview": {
-    "category": "Coding/DS&A \u2014 arrays & strings, hashing, trees & graphs, recursion & dynamic programming, complexity analysis (senior-level: reasoning about it, not grinding it)",
-    "question": "You are given a list of software packages, where each package may depend on one or more other packages in the list (and those packages may have further dependencies). Write a function that takes this dependency list as input and returns a valid installation order \u2014 that is, an order in which every package appears only after all of its dependencies have already appeared. If no valid order exists, the function should indicate that. Walk through the time and space complexity of your solution, and describe what graph property causes the \"no valid order exists\" case."
+    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
+    "question": "Design a rate limiter that can be used as a shared service across multiple API servers (not running on a single machine). Walk through the components, the data store you would use and why, and how you would handle the edge cases around concurrent requests hitting the limit at exactly the same moment from different servers."
   },
   "history": [
-    {
-      "date": "2026-11-16",
-      "day_name": "Monday",
-      "pillar_label": "AI/ML core concepts",
-      "concept_summary": "Gaussian/Bernoulli/Poisson distributions; RNNs and LSTMs for sequence modeling"
-    },
     {
       "date": "2026-11-17",
       "day_name": "Tuesday",
@@ -61,6 +55,12 @@
       "day_name": "Monday",
       "pillar_label": "AI/ML core concepts",
       "concept_summary": "Conditional probability and Bayes' theorem; regularization techniques (L1, L2, dropout, early stopping) for deep nets."
+    },
+    {
+      "date": "2026-11-24",
+      "day_name": "Tuesday",
+      "pillar_label": "Software & systems engineering",
+      "concept_summary": "Kafka streaming fundamentals: events, topics, partitions, producers, consumers, offsets, brokers."
     }
   ]
 }
