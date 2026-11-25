@@ -1,8 +1,8 @@
 {
   "cursors": {
-    "interview_category": 2,
+    "interview_category": 3,
     "swe": 14,
-    "fde_snippet": 7,
+    "fde_snippet": 8,
     "fde_case": 4,
     "martech": 5,
     "leadership": 5,
@@ -10,16 +10,10 @@
     "math_stats": 13
   },
   "pending_interview": {
-    "category": "System design (general) \u2014 scalability patterns; designing common systems like a URL shortener, rate limiter, chat system, notification system",
-    "question": "Design a rate limiter that can be used as a shared service across multiple API servers (not running on a single machine). Walk through the components, the data store you would use and why, and how you would handle the edge cases around concurrent requests hitting the limit at exactly the same moment from different servers."
+    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
+    "question": "You are designing a retrieval-augmented generation system \u2014 that is, a system where a language model answers questions by first searching a large document store and pulling in relevant chunks of text before generating its response \u2014 for a company with 10 million internal documents that are updated daily. Walk through the full architecture: how you index the documents, how you handle updates so the index stays fresh, how you retrieve the right chunks at query time, and how you would evaluate whether the system is actually returning good answers. What breaks first at this scale, and how do you design around it?"
   },
   "history": [
-    {
-      "date": "2026-11-17",
-      "day_name": "Tuesday",
-      "pillar_label": "Software & systems engineering",
-      "concept_summary": "Data warehouse stores structured clean data; data lake stores raw flexible data cheaply."
-    },
     {
       "date": "2026-11-18",
       "day_name": "Wednesday",
@@ -61,6 +55,12 @@
       "day_name": "Tuesday",
       "pillar_label": "Software & systems engineering",
       "concept_summary": "Kafka streaming fundamentals: events, topics, partitions, producers, consumers, offsets, brokers."
+    },
+    {
+      "date": "2026-11-25",
+      "day_name": "Wednesday",
+      "pillar_label": "AI + engineering news roundup",
+      "concept_summary": "Weekly AI/eng news roundup: inference infra, agent code review, safety caps, protein design"
     }
   ]
 }
