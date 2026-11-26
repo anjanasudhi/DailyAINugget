@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 3,
+    "interview_category": 4,
     "swe": 14,
     "fde_snippet": 8,
-    "fde_case": 4,
+    "fde_case": 5,
     "martech": 5,
     "leadership": 5,
     "ai_ml": 13,
     "math_stats": 13
   },
   "pending_interview": {
-    "category": "System design (ML/AI-specific) \u2014 RAG at scale, eval pipeline design, recommendation systems, agent platforms, feature store design",
-    "question": "You are designing a retrieval-augmented generation system \u2014 that is, a system where a language model answers questions by first searching a large document store and pulling in relevant chunks of text before generating its response \u2014 for a company with 10 million internal documents that are updated daily. Walk through the full architecture: how you index the documents, how you handle updates so the index stays fresh, how you retrieve the right chunks at query time, and how you would evaluate whether the system is actually returning good answers. What breaks first at this scale, and how do you design around it?"
+    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
+    "question": "You are overseeing two senior engineers who each believe their approach to a critical architectural decision is correct. The disagreement has been going on for three weeks, is blocking a key deliverable, and has begun to affect the team's morale. Neither person will back down, and both have legitimate technical points. How do you resolve it, and what do you do if one of them is still unhappy with the outcome?"
   },
   "history": [
-    {
-      "date": "2026-11-18",
-      "day_name": "Wednesday",
-      "pillar_label": "AI + engineering news roundup",
-      "concept_summary": "AI news roundup: Anthropic IPO, OpenAI GPT-6.2, rogue agent lawsuit, AWS FDE expansion"
-    },
     {
       "date": "2026-11-19",
       "day_name": "Thursday",
@@ -61,6 +55,12 @@
       "day_name": "Wednesday",
       "pillar_label": "AI + engineering news roundup",
       "concept_summary": "Weekly AI/eng news roundup: inference infra, agent code review, safety caps, protein design"
+    },
+    {
+      "date": "2026-11-26",
+      "day_name": "Thursday",
+      "pillar_label": "FDE case study / client scenario",
+      "concept_summary": "FDE on-site debugging: stabilize, locate, communicate, fix under time pressure."
     }
   ]
 }
