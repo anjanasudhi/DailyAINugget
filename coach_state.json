@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 4,
+    "interview_category": 5,
     "swe": 14,
-    "fde_snippet": 8,
+    "fde_snippet": 0,
     "fde_case": 5,
-    "martech": 5,
+    "martech": 6,
     "leadership": 5,
     "ai_ml": 13,
     "math_stats": 13
   },
   "pending_interview": {
-    "category": "Behavioral/leadership \u2014 conflict resolution, prioritization under ambiguity, influence without authority, giving hard feedback, scaling a team through change",
-    "question": "You are overseeing two senior engineers who each believe their approach to a critical architectural decision is correct. The disagreement has been going on for three weeks, is blocking a key deliverable, and has begun to affect the team's morale. Neither person will back down, and both have legitimate technical points. How do you resolve it, and what do you do if one of them is still unhappy with the outcome?"
+    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
+    "question": "A large consumer packaged goods (CPG) company \u2014 think a brand that sells household products through major retailers \u2014 comes to you saying they want to build a \"first-party data strategy.\" They currently have no CRM, their customer data lives in three disconnected point-of-sale systems run by different retail partners, and they have a loyalty app with about 200,000 monthly active users. Their VP of Marketing wants to be using a data clean room within six months to do campaign measurement with a major streaming platform. How do you scope this engagement, what do you tell them about sequencing, and where would you push back on their stated timeline or approach?"
   },
   "history": [
-    {
-      "date": "2026-11-19",
-      "day_name": "Thursday",
-      "pillar_label": "FDE case study / client scenario",
-      "concept_summary": "Custom-vs-reusable FDE tradeoff framework using a healthcare insurer client scenario."
-    },
     {
       "date": "2026-11-20",
       "day_name": "Friday",
@@ -61,6 +55,12 @@
       "day_name": "Thursday",
       "pillar_label": "FDE case study / client scenario",
       "concept_summary": "FDE on-site debugging: stabilize, locate, communicate, fix under time pressure."
+    },
+    {
+      "date": "2026-11-27",
+      "day_name": "Friday",
+      "pillar_label": "Martech & AI-in-marketing",
+      "concept_summary": "Data clean rooms enable privacy-safe first-party data collaboration between companies without sharing raw customer data."
     }
   ]
 }
