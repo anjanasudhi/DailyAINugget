@@ -1,25 +1,19 @@
 {
   "cursors": {
-    "interview_category": 5,
+    "interview_category": 0,
     "swe": 14,
-    "fde_snippet": 0,
+    "fde_snippet": 1,
     "fde_case": 5,
     "martech": 6,
-    "leadership": 5,
+    "leadership": 6,
     "ai_ml": 13,
     "math_stats": 13
   },
   "pending_interview": {
-    "category": "Case/product sense \u2014 client scoping walkthroughs, articulating tradeoffs out loud, build-vs-buy reasoning",
-    "question": "A large consumer packaged goods (CPG) company \u2014 think a brand that sells household products through major retailers \u2014 comes to you saying they want to build a \"first-party data strategy.\" They currently have no CRM, their customer data lives in three disconnected point-of-sale systems run by different retail partners, and they have a loyalty app with about 200,000 monthly active users. Their VP of Marketing wants to be using a data clean room within six months to do campaign measurement with a major streaming platform. How do you scope this engagement, what do you tell them about sequencing, and where would you push back on their stated timeline or approach?"
+    "category": "Martech/AI-product \u2014 personalization architecture, attribution modeling, GenAI content pipelines, measurement under privacy constraints",
+    "question": "You're advising a retail brand that runs a loyalty program with 2 million members. They want to build a personalization engine that serves product recommendations in real time \u2014 both on their website and inside a weekly email digest. They currently use a third-party CDP (Customer Data Platform) for segmentation and a separate email service provider for sends. Their data science team is small (three people). Walk me through how you would design the architecture for this personalization system, what you would buy versus build, and how you would measure whether the personalization is actually working \u2014 keeping in mind that email open and click tracking is increasingly unreliable due to privacy changes like Apple Mail Privacy Protection."
   },
   "history": [
-    {
-      "date": "2026-11-20",
-      "day_name": "Friday",
-      "pillar_label": "Martech & AI-in-marketing",
-      "concept_summary": "AI agents for marketing ops: autonomous systems that pursue goals, not just follow rules."
-    },
     {
       "date": "2026-11-21",
       "day_name": "Saturday",
@@ -61,6 +55,12 @@
       "day_name": "Friday",
       "pillar_label": "Martech & AI-in-marketing",
       "concept_summary": "Data clean rooms enable privacy-safe first-party data collaboration between companies without sharing raw customer data."
+    },
+    {
+      "date": "2026-11-28",
+      "day_name": "Saturday",
+      "pillar_label": "Engineering leadership / EM-for-AI-teams",
+      "concept_summary": "Build vs buy AI infrastructure: buy commodity layers, build differentiated workflows and data logic."
     }
   ]
 }
